@@ -1,5 +1,4 @@
 # La Prairie
-![Image de la prairie](/banniere.jpg)
 
 ## Markdown
 
