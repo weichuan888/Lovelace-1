@@ -1,0 +1,13 @@
+## Objectif de la séquence
+
+- Explorer le language HTML
+- Comprendre le lien entre le markdown et le HTML
+
+## Instructions de cet exercice
+
+- Rends toi dans ton projet "Learning Environment" 
+- Crée un fichier `index.html`
+- Convertir le markdown réalisé précédemment dans le fichier `index.html`
+- Publie sur ton repo le fichier HTML
+
+
