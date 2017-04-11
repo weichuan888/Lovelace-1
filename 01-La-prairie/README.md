@@ -7,9 +7,9 @@
 
 ## Base HTML
 
-- [Exercice : Bases de HTML](/exercice-html-basic.md)
+- [Exercice : Bases de HTML](exercice-html-basic.md)
 - Faire un nouveau groupe 
-- [Exercice : De Markdown à HTML](/exercice-markdown-to-html.md)
+- [Exercice : De Markdown à HTML](exercice-markdown-to-html.md)
 - Repartir dans son premier groupe pour comparer le code réalisé 
 
 
