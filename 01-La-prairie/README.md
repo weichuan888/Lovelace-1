@@ -12,5 +12,11 @@
 - [Exercice : De Markdown à HTML](exercice-markdown-to-html.md)
 - Repartir dans son premier groupe pour comparer le code réalisé 
 
+## Base CSS
 
+- [Lire le guide css : ](http://guidecss.fr)
+- Joue avec [CSS Diner](http://flukeout.github.io/)
+- Améliorer l'exercice [De Markdown à HTML](exercice-markdown-to-html.md) en y ajoutant un fichier "style.css"
+- [Exercice : Créer un CV personnalisé et interactif en HTML et en CSS](http://pierre-giraud.fr/creer-un-cv-personnalise-et-interactif-en-html-et-en-css/)
+- [Faire un repository avec votre CV et le mettre en ligne](https://pages.github.com/)
 
