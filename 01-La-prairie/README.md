@@ -21,6 +21,7 @@
 - Faire un repository avec votre CV et le mettre en ligne grâce à [GitHub Pages](https://pages.github.com/)
 - Lire cet [article](https://www.alsacreations.com/article/lire/1196-grilles-framework-css-webdesign.html) sur les grilles dans le design
 - Apprends à [faire des grilles en CSS](https://www.alsacreations.com/article/lire/1388-css3-grid-layout.html)
-- Améliore ton CV précédement réalisé
+- Améliore ton CV précédement réalisé avec tes nouvelles conaissances ([inspiration](https://www.visualcv.com/images/visualcv-resume-templates.jpg))
+- Joue avec [css grid garden](http://cssgridgarden.com/)
 
 
