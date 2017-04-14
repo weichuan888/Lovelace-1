@@ -46,6 +46,6 @@ Réaliser un [Cadavre exquis](https://fr.wikipedia.org/wiki/Cadavre_exquis_(jeu)
 ## Ressources
 
 ![Git workflow](http://blog.launchdarkly.com/wp-content/uploads/2016/07/Slide2.jpg)
-[Git Basics](https://rogerdudler.github.io/git-guide/index.fr.html)
-[Git Cheat Sheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+- [Git Basics](https://rogerdudler.github.io/git-guide/index.fr.html)
+- [Git Cheat Sheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 
