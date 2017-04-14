@@ -1,9 +1,9 @@
-## Objectif de la séquence
+## Objectifs
 
 - Explorer le language HTML
 - Comprendre le lien entre le markdown et le HTML
 
-## Instructions de cet exercice
+## Instructions 
 
 - Rends toi dans ton projet "Learning Environment" 
 - Crée un fichier `index.html`
