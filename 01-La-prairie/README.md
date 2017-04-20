@@ -27,10 +27,6 @@
 
 - [Exercice : VCard](exercice-vcard-html.md)
 - [Exercice : 404](exercice-404-html.md)
-
-
-
-
-
+- [Exercice : Star Wars](exercice-star-wars.md)
 
 
