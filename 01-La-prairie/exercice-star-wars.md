@@ -3,7 +3,7 @@
 ## Objectifs
 
 - Connaître plus de propriété CSS
-- Améliorer ses compétences en positionement CSS
+- Améliorer ses compétences en positionnement CSS
 - Apprendre les bases de l'animation en CSS
 
 ## Instructions 
@@ -22,7 +22,7 @@ Dans un premier temps on va juste faire défiler le texte.
 - Personnaliser le texte pour raconter ton aventure chez BeCode ou mettre le texte du [cadavre exquis](exercice-cadavre-exquis.md)
 - Mettre en ligne grâce à [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
-## Bonus
+## Objectifs Bonus (aka À Devenir CSS Jedi tu chercheras)
 
 - Ajouter un fond étoilé
 - Ajouter le texte bleu d'introduction "A long time ago.."
