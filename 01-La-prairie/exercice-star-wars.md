@@ -2,7 +2,7 @@
 
 ## Objectifs
 
-- Connaître plus de propriété CSS
+- Connaître plus de propriétés CSS
 - Améliorer ses compétences en positionnement CSS
 - Apprendre les bases de l'animation en CSS
 
@@ -13,13 +13,13 @@ Voici une [vidéo d'exemple](https://www.youtube.com/watch?v=C587lNBQXAw)
 Dans un premier temps on va juste faire défiler le texte.
 
 - Faire un nouveau projet sur GitHub nomé "Star Wars Crawl"
-- Crée un fichier `index.html`
-- Crée un fichier `style.css`
+- Créer un fichier `index.html`
+- Créer un fichier `style.css`
 - Utiliser un '[lorem ipsum](http://fr.lipsum.com/)' pour avoir du faux texte *([astuce](http://www.macdrifter.com/2012/09/lorem-ipsum-shortcut-in-sublime-text.html))*
-- Positioner le conteneur du texte au center de la page
+- Positioner le conteneur du texte au centre de la page
 - Faire incliner le conteneur en perspective *(astuce: rotation 3D)*
 - Le faire défiler vers l'infini et au delà *(astuce: animation, @keyframe)*
-- Personnaliser le texte pour raconter ton aventure chez BeCode ou mettre le texte du [cadavre exquis](exercice-cadavre-exquis.md)
+- Personnaliser le texte pour raconter ton aventure chez BeCode ou, si tu préfères, mettre le texte du [cadavre exquis](exercice-cadavre-exquis.md)
 - Mettre en ligne grâce à [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 ## Objectifs Bonus (aka À Devenir CSS Jedi tu chercheras)
