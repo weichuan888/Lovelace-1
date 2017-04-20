@@ -25,7 +25,8 @@ Dans un premier temps on va juste faire défiler le texte.
 ## Bonus
 
 - Ajouter un fond étoilé
-- Ajouter le texte bleu d'introduction A long time ago.."
+- Ajouter le texte bleu d'introduction "A long time ago.."
+- Ajouter le logo BeCode à la place de celui de Star Wars
 - Ajouter de la musique grâce au tag `<audio>`
 
 ## Ressources 
