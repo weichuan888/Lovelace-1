@@ -1,4 +1,4 @@
-![Generiue de star wars](../images/star-wars.jpg)
+![Generiue de star wars](images/star-wars.jpg)
 
 ## Objectifs
 
