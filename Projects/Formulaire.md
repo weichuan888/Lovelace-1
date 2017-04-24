@@ -22,7 +22,7 @@ Ta mission: développer un script en php, permettant d'afficher un formulaire de
 
 ## Découpage de la difficulté en séquences pédagogiques
 ### Séquence 0: Planifier le travail à effectuer
-Etude de la demande, UML, prototypage
+Etude de la demande, UML, prototypage, Git.
 ### Séquence 1: le formulaire de contact (html)
 objectif 1: html sémantique, préparer l' **amélioration progressive**  
 objectif 2: html accessible aux non-voyants
