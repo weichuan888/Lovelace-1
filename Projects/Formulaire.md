@@ -7,6 +7,7 @@ De une à deux semaines selon la vitesse des octocats.
 - Méthodo: expression d'une solution en chemin logique, via UML (initiation)
 - frontend: html sémantique (renforcement)
 - frontend: html accessibilité (initiation)
+- frontend: Amélioration progressive (initiation)
 
 ## Situation-problème
 La société *Poulette Hackers* ™ vend des kits d'accessoires pour Rasperri Pi à monter soi-même. Elle souhaite permettre à ses utilisateurs de contacter son support technique.
