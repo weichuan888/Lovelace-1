@@ -2,8 +2,8 @@
 Becode / BXL Central Main Repository
 
 ## Programme
-- [La-prairie](/La-prairie)
-- [Projetcs](/projetcs)
+- [La-prairie](/La-prairie/)
+- [Projetcs](/Projects)
 
 ## Challenges
 - [Missions](/Missions)
