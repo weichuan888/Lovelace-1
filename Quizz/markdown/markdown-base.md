@@ -1,12 +1,12 @@
-- Comment faire un Headers ?
-- Comment faire un Emphasis ?
-- Comment faire un Lists ?
-- Comment faire un Links ?
-- Comment faire un Images ?
-- Comment faire un Code and Syntax Highlighting ?
-- Comment faire un Tables ?
-- Comment faire un Blockquotes ?
-- Comment faire un Inline HTML ?
+- Comment faire un Header ?
+- Comment faire une Emphase ?
+- Comment faire une Liste ?
+- Comment faire un Link ?
+- Comment faire une Image ?
+- Comment faire un block de Code + Syntax Highlighting ?
+- Comment faire une Table ?
+- Comment faire une Citation (Blockquote) ?
+- Comment faire un bloc d' Inline HTML ?
 - Comment faire un Horizontal Rule ?
 - Comment faire un Line Breaks ?
-- Comment faire un Youtube videos ?
+- Comment intégrer une vidéo de Youtube ?
