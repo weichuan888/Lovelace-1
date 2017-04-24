@@ -10,10 +10,14 @@ De une à deux semaines selon la vitesse des octocats.
 - frontend: Amélioration progressive (initiation)
 
 ## Situation-problème
-La société *Poulette Hackers* ™ vend des kits d'accessoires pour Rasperri Pi à monter soi-même. Elle souhaite permettre à ses utilisateurs de contacter son support technique.
-Ta mission: développer un script en php, permettant d'afficher un formulaire de contact et de traiter sa réponse: sanitisation, validation, puis envoi et feedback à l'utilisateur. 
+La société *Hackers Poulette* ™ vend des kits et accessoires pour Rasperri Pi à monter soi-même. Elle souhaite permettre à ses utilisateurs de contacter son support technique.
+Ta mission: développer un script en php, permettant d'afficher un formulaire de contact et de traiter sa réponse: sanitisation, validation, puis envoi et feedback à l'utilisateur.
+
+![Hackers Poulette Logo](./hackers-poulette-logo.png "Logo Hackers Poulette")
+
+
 ## Critères de performance
-- Le formulaire sera du html sémantique, accessible aux non-voyants.
+- Le formulaire sera du html sémantique, validé par le W3C, et accessible aux non-voyants.
 - Le formulaire effectuera un nettoyage (*sanitization*) et une validation *serverside*
 - Si la validation est ok, il enverra le contenu du message par email à une adresse spécifiée.
 - implémentation de la technique antispam du *honeypot*
@@ -22,6 +26,7 @@ Ta mission: développer un script en php, permettant d'afficher un formulaire de
 - validation côté client en javascript (via jquery)
 - soumission et feedback via Ajax (via jquery)
 - exploiter ce projet dans le cadre des 4 ans de Simplon ? ("un formulaire qui envoie du Love à Simplon! sur tw, fb, ..." ??)
+- Expérience-utilisateur (UX) soignée (clarté, pertinence, correction (pas de bugs, orthographe correcte...)).
 
 ## Découpage de la difficulté en séquences pédagogiques
 ### Séquence 0: Planifier le travail à effectuer
