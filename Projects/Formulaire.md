@@ -1,4 +1,5 @@
 # Projet: Formulaire
+De une à deux semaines selon la vitesse du plus lent des octocats.
 ## Compétences travaillées
 - groupe: Maitriser Git (renforcement)
 - frontend: css frameworks (initiation & maîtrise)
@@ -20,9 +21,9 @@ Ta mission: développer un script en php, permettant d'afficher un formulaire de
 - exploiter ce projet dans le cadre des 4 ans de Simplon ? ("un formulaire qui envoie du Love à Simplon! sur tw, fb, ..." ??)
 
 ## Découpage de la difficulté
-### Séquence 1: le formulaire de contact (html): 
+### Séquence 1: le formulaire de contact (html)
 Les questions à poser:
-- prénom + nom + message + sujet (3 sujets possibles, plusieurs choix possibles)
+- prénom + nom + email + message + sujet (3 sujets possibles, plusieurs choix possibles)
 - tous les champs sont obligatoires, sauf le sujet (dans ce cas, valeur = "Autre")
 
 
@@ -32,15 +33,16 @@ Les questions à poser:
 ### Séquence 2: formulaire de contact (css, via framework css)
 Utilise un framework CSS pour améliorer rapidement le rendu visuel et l'ergonomie de ton formulaire: Zurb Foundation, boostrap, purecss.io ...
 ### Séquence 3: formulaire de contact (php)
+- présentation: architecture serveur/client (transmissif, 10")
 - tester un script PHP en local
 - **afficher les données brut** reçues du formulaire (utiliser la fonction php `print_r();` ([voir la doc php](http://php.net/manual/en/function.print-r.php) )
 ### Séquence 4: traiter les données du formulaire (php)
-- transmissif (alex, vendredi?): 
-	- introduction à la programmation:
+- Présentation (alex, vendredi?): "structures logiques de la programmation"
+
 		- variables
 		- manipulation: concaténation, addition, quelques exemples de fonctions utiles...
 		- conditions
 		- Boucles
-- sanitisation: retirer tout html,
-- validation
+- sanitisation: retirer tout html nocif (`<script>`)
+- validation: champs obligatoires + Email valide
 - Envoi + Feedback
