@@ -2,9 +2,11 @@
 De une à deux semaines selon la vitesse des octocats.
 ## Compétences travaillées
 - groupe: Maitriser Git (renforcement)
-- frontend: css frameworks (initiation & maîtrise)
+- frontend: css frameworks (initiation)
 - backend: PHP programming (initiation aux structures logiques)
-- Méthodo: expression d'une solution en chemin logique, via UML
+- Méthodo: expression d'une solution en chemin logique, via UML (initiation)
+- frontend: html sémantique (renforcement)
+- frontend: html accessibilité (initiation)
 
 ## Situation-problème
 La société *Poulette Hackers* ™ vend des kits d'accessoires pour Rasperri Pi à monter soi-même. Elle souhaite permettre à ses utilisateurs de contacter son support technique.
