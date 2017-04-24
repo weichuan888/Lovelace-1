@@ -13,7 +13,7 @@ De une à deux semaines selon la vitesse des octocats.
 La société *Hackers Poulette* ™ vend des kits et accessoires pour Rasperri Pi à monter soi-même. Elle souhaite permettre à ses utilisateurs de contacter son support technique.
 Ta mission: développer un script en php, permettant d'afficher un formulaire de contact et de traiter sa réponse: sanitisation, validation, puis envoi et feedback à l'utilisateur.
 
-![Hackers Poulette Logo](./hackers-poulette-logo.png "Logo Hackers Poulette")
+![Hackers Poulette Logo](./hackers-poulette-logo.png "Logo Hackers Poulette (via Hipster Logo Generator")
 
 
 ## Critères de performance
