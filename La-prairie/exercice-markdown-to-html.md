@@ -7,7 +7,5 @@
 
 - Rends toi dans ton projet "Learning Environment" 
 - Crée un fichier `index.html`
-- Convertir le markdown réalisé précédemment dans le fichier `index.html`
+- Convertis le markdown réalisé précédemment dans le fichier `index.html`
 - Publie sur ton repo le fichier HTML
-
-
