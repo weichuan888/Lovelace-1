@@ -43,6 +43,7 @@ objectif 2: html accessible aux non-voyants
 Utiliser un framework CSS pour améliorer rapidement le rendu visuel et l'ergonomie de ton formulaire: Zurb Foundation, boostrap, purecss.io ...
 
 **Charte Graphique du client**
+
 font: https://www.fontsquirrel.com/fonts/bellota 
 couleurs: #15c5bd + #FFF + #303030
 
