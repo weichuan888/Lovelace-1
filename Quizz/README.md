@@ -1,10 +1,10 @@
 # Quizz
 
-- [markdown](/markdown)
-- [HTML](/HTML)
-- [CSS](/CSS)
-- [PHP](/PHP)
-- [JavaScript](/JavaScript)
+- [markdown](markdown)
+- [HTML](HTML)
+- [CSS](CSS)
+- [PHP](PHP)
+- [JavaScript](JavaScript)
 
 
 
