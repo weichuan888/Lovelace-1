@@ -7,9 +7,9 @@
 ## Instructions 
 
 - Voici quelques [inspirations](https://www.google.be/search?q=vcard&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjIqtvku6zTAhVmIJoKHQDZD4wQ_AUIBigB&biw=1250&bih=703#tbm=isch&q=vcard+template)
-- Regrouper les information dont vous aurez besoin pour votre VCard
-- Faire un nouveau projet sur GitHub nomé "VCard"
-- Réliser votre VCard en HTML et CSS
+- Regrouper les informations dont vous aurez besoin pour votre VCard
+- Faire un nouveau projet sur GitHub nommé "VCard"
+- Réaliser votre VCard en HTML et CSS
 - Mettre en ligne grâce à [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 ## Bonus
