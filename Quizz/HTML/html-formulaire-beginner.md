@@ -1,6 +1,6 @@
 # Formulaire HTML (base)
 
-1. Dans quel balise sont inséré les éléments de formulaire ?
+1. Dans quel balise sont insérés les éléments de formulaire ?
 ```
 <form>
 <formulaire>
