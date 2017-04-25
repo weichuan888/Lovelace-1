@@ -1,5 +1,5 @@
 ## Objectifs
-- Améliorer ses compétence en HTML et CSS
+- Améliorer ses compétences en HTML et CSS
 
 ## Instructions 
 
