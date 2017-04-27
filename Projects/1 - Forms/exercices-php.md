@@ -31,7 +31,7 @@ L'adresse url deviendrait, par exemple,  http://citizens.net/humans/index.php?na
 </html>
 ```
 
-Il suffirait alors que chacun reçoive son URL personnalisé et voilà! Un monde un peu plus doux, un peu plus accueillant! 
+Il suffirait alors que chacun reçoive son URL personnalisé et voilà! Un monde un peu plus doux, un peu plus accueillant!
 
 > In Code We Trust!
 – Cedric S.
@@ -55,7 +55,7 @@ Il y a énormément de manière de faire cela, mais pour ces premiers exercices,
 Cela tombe bien, PHP inclut un petit serveur de développement local. Il te suffit donc d'installer PHP sur ta machine et c'est fait!
 
 Allons chez nous, dans le terminal.
-1. vérifie que tu n'as pas déjà PHP installé en demandant la version de php (`-v`):
+#### 1. vérifie que tu n'as pas déjà PHP installé en demandant la version de php (`-v`):
 
 ` php -v `
 
@@ -68,7 +68,7 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 
 C'est que php est déjà installé. Rendez-vous au point 3.
 
-1. Sinon, installe-le: ` sudo apt-get install php7.0 ` et puis réessaye `php -v`
+#### 2. Sinon, installe-le: ` sudo apt-get install php7.0 ` et puis réessaye `php -v`
 
 1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: ``` php -S localhost:8000 -t /chemin/vers/le/dossier/a/servir ```
 
@@ -77,16 +77,21 @@ C'est que php est déjà installé. Rendez-vous au point 3.
 cd /chemin/vers/le/dossier/a/servir
 echo "<h1>hello!</h2>" > index.php
 ```
-1. A présent, ouvre ton navigateur à l'adresse [http://localhost:8000](http://localhost:8000)
+
+#### 3. A présent, ouvre ton navigateur à l'adresse [http://localhost:8000](http://localhost:8000)
 
 Tu devrais voir le sympathique message "Hello!" que tu t'es adressé. Tu viens de créer ton premier script en PHP. Fais-toi un gros câlin, tu l'as bien mérité.
 
 ![Giphy](http://media1.giphy.com/media/35gNg6o2HYjSg/giphy.gif)
 
-## exercices
+### Exercices
+
 - Prends quelques minutes et joue avec ton fichier index.php. Mets-y une image.
 - Crée une deuxième page dans le même dossier (`cats.php`) et ajoute un peu de contenu et surtout un lien sur chacune des deux pages permettant de passer de l'une à l'autre.
 - Fait? Bravo, tu viens de créer ton premier site internet!
 Voici un chaton pour fêter cela.
 
 ![Giphy](http://media0.giphy.com/media/nsMPhWK6bfxHq/giphy.gif)
+
+
+Rendez-vous à la prochaine leçon: [Variables et Conditions]().
