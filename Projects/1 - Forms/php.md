@@ -6,9 +6,9 @@ Logiciel qui tourne du côté **Backend**, càd. au niveau du _serveur web_. (Le
 PHP permet au Serveur Web de "réfléchir avant de parler" et en informatique, "réfléchir" c'est calculer, càd, manipuler des informations et les retourner au Client (le navigateur) dans n'importe quel format (très souvent: du HTML, du XML, du JSON, voir du texte simple, du CSS, du javascript...).
 
 ## Pourquoi utiliser du php si cela retourne autre chose ?
-Parce que cela vous permet de créer des pages de manière **dynamique** plutôt que **statique**.
+Parce que cela te permet de créer des pages de manière **dynamique** plutôt que **statique**.
 
-Par exemple, imagine que tu doives créer une page web permettant de dire "Bonjour!" à chacun des quelque 7 milliards d'habitants vivant actuellement sur la planète.
+Par exemple, imagine que tu souhaites créer une page web permettant de dire "Bonjour!" de manière personnalisée à chacun des quelque 7 milliards d'habitants vivant actuellement sur la planète.
 Cela signifie que tu dois créer 7 milliards de pages html telles que celle-ci, accessibles à une adresse url du style: http://citizens.net/humans/jose-garcia.html
 
 ```HTML
@@ -38,7 +38,7 @@ Il suffirait alors que chacun reçoive son URL personnalisé et voilà! Un monde
 
 
 ## Mise en pratique
-1. Repère quelques URL trahissant une page web dynamique. En voici une :  `https://github.com/becodeorg/BXLCentral/issues/2`
+1. Repère quelques URL trahissant selon toi une page web dynamique. En voici une :  `https://github.com/becodeorg/BXLCentral/issues/2`
 
 1. À ton avis, quelle est la partie "importante" de l' URL pour le script PHP ? Pourrais-tu essayer de deviner comment le serveur va calculer la bonne réponse à retourner à cet URL?
 
@@ -47,14 +47,16 @@ Il suffirait alors que chacun reçoive son URL personnalisé et voilà! Un monde
 ### Serveur de développement / de staging / de production
 Quand on développe, on ne travaille pas directement sur le serveur hébergeant le site ou l'application car la moindre faute de frappe pourrait provoquer une erreur et "casser" le site, incommodant des milliers de personnes. Pas bien...
 
-Pour éviter cela, on travaille sur son propre ordinateur, c'est plus facile et cela permet de tester sans gêner personne. Cela permet aussi de travailler sans connexion internet (dans le train par exemple). C'est ce qu'on appelle un _environnement de développement local_  ou simplement un _serveur de développement_. Le serveur final est appelé lui un _serveur de production_. C'est lui que l'on rend accessible à tout le monde.
-Il t'arrivera aussi de travailler avec un _environnement de staging_ présentant du code à faire valider avant sa mise en production.
+Pour éviter cela, on travaille sur son propre ordinateur, c'est plus facile et cela permet de tester sans gêner personne. Cela permet aussi de travailler sans connexion internet (dans le train par exemple). C'est ce qu'on appelle un _environnement de développement local_  ou un _serveur de développement_, voire un _serveur local_. 
+Le serveur final est appelé lui un _serveur de production_. C'est lui que l'on rend accessible à tout le monde.
+Il t'arrivera aussi de travailler avec un _environnement de staging_ présentant du code à faire valider avant sa mise en production. (Staging signifie "mise en scène").
 
 ### Installer un serveur de développement local
-Il y a énormément de manière de faire cela, mais pour ces premiers exercices, il nous faut juste avoir un serveur permettant de jouer avec du PHP.
+Il y a de nombreuses manières de faire cela, mais pour ces premiers exercices, il nous faut juste avoir un serveur permettant de jouer avec du PHP.
 Cela tombe bien, PHP inclut un petit serveur de développement local. Il te suffit donc d'installer PHP sur ta machine et c'est fait!
 
-Allons chez nous, dans le terminal.
+Allez, hop, lance ton terminal.
+
 #### 1. vérifie que tu n'as pas déjà PHP installé en demandant la version de php (`-v`):
 
 ` php -v `
@@ -86,7 +88,7 @@ Tu devrais voir le sympathique message "Hello!" que tu t'es adressé. Tu viens d
 
 ### Exercices
 
-- Prends quelques minutes et joue avec ton fichier index.php. Mets-y une image.
+- Prends quelques minutes et joue avec ton fichier index.php. Mets-y du html en plus, une vidéo de nyancat... et pourquoi pas une image ? Rafraichis ton navigateur au fur et à mesure pour voir le résultat.
 - Crée une deuxième page dans le même dossier (`cats.php`) et ajoute un peu de contenu et surtout un lien sur chacune des deux pages permettant de passer de l'une à l'autre.
 - Fait? Bravo, tu viens de créer ton premier site internet!
 Voici un chaton pour fêter cela.
@@ -94,4 +96,4 @@ Voici un chaton pour fêter cela.
 ![Giphy](http://media0.giphy.com/media/nsMPhWK6bfxHq/giphy.gif)
 
 
-Rendez-vous à la prochaine leçon: [Variables et Conditions](./php-variables-et-conditions.md).
+Bravo champion(ne). Prêt(e) pour la suite? Rends-toi à la prochaine leçon: [Variables et Conditions](./php-variables-et-conditions.md).
