@@ -17,9 +17,9 @@ Cela signifie que tu dois créer 7 milliards de pages html telles que celle-ci, 
 <body><h1>Bonjour José Garcia!</h1></body>
 </html>
 ```
-...Vous ne seriez pas arrivé à la millième page qu'il vous faudrait déjà en effacer (les décès) et en ajouter (les naissances)... Pas terrible.
+...Cela te prendrait des années, non? Et en plus, tu ne serais pas arrivé(e) à la millième page qu'il te faudrait déjà en effacer (les décès) et en ajouter (les naissances)... Pas terrible.
 
-Et si vous ne créiez qu'un seul fichier (un "script php") à qui on envoie le nom de l'humain via l'adresse url et qui "crée" l' html dynamiquement?
+Et si tu ne créais qu'un seul fichier (un "script php") à qui l'on envoie le nom de l'humain via l'adresse url et qui "crée" l' html dynamiquement?
 
 L'adresse url deviendrait, par exemple,  http://citizens.net/humans/index.php?name=jose-garcia
 
@@ -30,6 +30,12 @@ L'adresse url deviendrait, par exemple,  http://citizens.net/humans/index.php?na
 <body><h1>Bonjour <?php echo $_GET['nom']; ?>!</h1></body>
 </html>
 ```
+
+Il suffirait alors que chacun reçoive son URL personnalisé et voilà! Un monde un peu plus doux, un peu plus accueillant! 
+
+> In Code We Trust!
+– Cedric S.
+
 
 ## Mise en pratique
 1. Repère quelques URL trahissant une page web dynamique. En voici une :  `https://github.com/becodeorg/BXLCentral/issues/2`
