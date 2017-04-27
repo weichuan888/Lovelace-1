@@ -70,12 +70,12 @@ if( condition ) {
 
 Pour exprimer tes conditions, tu as à ta disposition plusieurs types d'opérateur:
 
-`==` : égal à
-`!=` : différent de
-`>` : plus grand que
-`<` : plus petit que
-`>=` : plus grand ou égal à
-`<=` : plus petit ou égal à
+- `==` : égal à
+- `!=` : différent de
+- `>` : plus grand que
+- `<` : plus petit que 
+- `>=` : plus grand ou égal à
+- `<=` : plus petit ou égal à
 
 
 Reprenons notre exemple de la météo. Cela donnerait ceci, en code PHP.
@@ -107,21 +107,20 @@ Voici un petit programme de type "game of life", qui simule des particules qui s
 ## Cas pratique: validation d'un champ de formulaire
 
 Quand on construit un script qui doit traiter un formulaire, on doit effectuer des vérifications, dans l'hypothèse d'une erreur humaine ou d'une tentative de hacking.
-Par exemple, on doit vérifier qu'une variable obligatoire a bien été remplie. On pourrait faire ainsi et dire "Si le nombre de caractères contenus dans l'email est inférieur à 1"
+Par exemple, on doit vérifier qu'une variable obligatoire a bien été remplie. On pourrait exprimer la condition ainsi: 
 
 ```PHP
 $fullname = $_GET['fullname'];
 
-if ( strlen($fullname) == 0 ){
+if ( empty($fullname) == true ){
   echo "Vous avez oublié d'indiquer votre nom.";
 }
 ```
 
-As-tu deviné ce que fait la fonction strlen() ?
-
+As-tu deviné ce que fait la fonction empty() ?
 
 Il existe d'autres manières d'exprimer cette condition "n'est pas vide". Expore les fonctions PHP suivantes:
-- ` empty() `
+- ` strlen() `
 - `filter_var()`
 
 ## Mise en pratique
