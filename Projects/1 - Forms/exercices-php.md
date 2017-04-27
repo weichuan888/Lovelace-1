@@ -30,3 +30,57 @@ L'adresse url deviendrait, par exemple,  http://citizens.net/humans/index.php?na
 <body><h1>Bonjour <?php echo $_GET['nom']; ?>!</h1></body>
 </html>
 ```
+
+## Mise en pratique
+1. Repère quelques URL trahissant une page web dynamique. En voici une :  `https://github.com/becodeorg/BXLCentral/issues/2`
+
+1. À ton avis, quelle est la partie "importante" de l' URL pour le script PHP ? Pourrais-tu essayer de deviner comment le serveur va calculer la bonne réponse à retourner à cet URL?
+
+## Installation
+
+### Serveur de développement / de staging / de production
+Quand on développe, on ne travaille pas directement sur le serveur hébergeant le site ou l'application car la moindre faute de frappe pourrait provoquer une erreur et "casser" le site, incommodant des milliers de personnes. Pas bien...
+
+Pour éviter cela, on travaille sur son propre ordinateur, c'est plus facile et cela permet de tester sans gêner personne. Cela permet aussi de travailler sans connexion internet (dans le train par exemple). C'est ce qu'on appelle un _environnement de développement local_  ou simplement un _serveur de développement_. Le serveur final est appelé lui un _serveur de production_. C'est lui que l'on rend accessible à tout le monde.
+Il t'arrivera aussi de travailler avec un _environnement de staging_ présentant du code à faire valider avant sa mise en production.
+
+### Installer un serveur de développement local
+Il y a énormément de manière de faire cela, mais pour ces premiers exercices, il nous faut juste avoir un serveur permettant de jouer avec du PHP.
+Cela tombe bien, PHP inclut un petit serveur de développement local. Il te suffit donc d'installer PHP sur ta machine et c'est fait!
+
+Allons chez nous, dans le terminal.
+1. vérifie que tu n'as pas déjà PHP installé en demandant la version de php (`-v`):
+
+` php -v `
+
+Si le terminal te retourne quelque chose comme ceci:
+```
+PHP 7.1.1 (cli) (built: Feb  8 2017 00:39:50) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+```
+
+C'est que php est déjà installé. Rendez-vous au point 3.
+
+1. Sinon, installe-le: ` sudo apt-get install php7.0 ` et puis réessaye `php -v`
+
+1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: ``` php -S localhost:8000 -t /chemin/vers/le/dossier/a/servir ```
+
+1. Va dans le dossier que tu viens de spécifier pour y créer un fichier:
+```
+cd /chemin/vers/le/dossier/a/servir
+echo "<h1>hello!</h2>" > index.php
+```
+1. A présent, ouvre ton navigateur à l'adresse [http://localhost:8000](http://localhost:8000)
+
+Tu devrais voir le sympathique message "Hello!" que tu t'es adressé. Tu viens de créer ton premier script en PHP. Fais-toi un gros câlin, tu l'as bien mérité.
+
+![Giphy](http://media1.giphy.com/media/35gNg6o2HYjSg/giphy.gif)
+
+## exercices
+- Prends quelques minutes et joue avec ton fichier index.php. Mets-y une image.
+- Crée une deuxième page dans le même dossier (`cats.php`) et ajoute un peu de contenu et surtout un lien sur chacune des deux pages permettant de passer de l'une à l'autre.
+- Fait? Bravo, tu viens de créer ton premier site internet!
+Voici un chaton pour fêter cela.
+
+![Giphy](http://media0.giphy.com/media/nsMPhWK6bfxHq/giphy.gif)
