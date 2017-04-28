@@ -12,5 +12,11 @@ Il te faut un formulaire avec trois questions:
   
 Pour chaque option, invente une excuse adaptée.
 
-Génère le mot d'excuse utilisant les trois réponses au formulaire. Le parent n'aura plus qu'à copier-coller la réponse pour rédiger sa lettre d'excuses.
+Génère le mot d'excuse utilisant les trois réponses au formulaire. 
 
+Le parent n'aura plus qu'à copier-coller la réponse pour rédiger sa lettre d'excuses.
+
+## Critères de perfectionnement
+- ajoute la date du jour (format "Day, le dd Month YYYY")
+- ajoute la formule de politesse.
+- pas de faute d'orthographe.
