@@ -94,7 +94,7 @@ Tu devrais voir le sympathique message "Hello!" que tu t'es adressé. Tu viens d
 
 ### Exercices
 
-- Prends quelques minutes et joue avec ton fichier index.php. Mets-y du html en plus, une vidéo de nyancat... et pourquoi pas une image ? Rafraichis ton navigateur au fur et à mesure pour voir le résultat.
+- Prends quelques minutes et joue avec ton fichier index.php. Mets-y du html en plus, une vidéo de [nyancat](https://www.youtube.com/watch?v=QH2-TGUlwu4)... et pourquoi pas une image ? Rafraichis ton navigateur au fur et à mesure pour voir le résultat.
 - Crée une deuxième page dans le même dossier (`cats.php`) et ajoute un peu de contenu et surtout un lien sur chacune des deux pages permettant de passer de l'une à l'autre.
 - Fait? Bravo, tu viens de créer ton premier site internet!
 Voici un chaton pour fêter cela.
