@@ -43,7 +43,8 @@ Comme tu vois, ce fichier contient principalement du html, avec un petit bout de
 - En dessous du `h1` à l'aide de la fonction `echo` rajoute une ligne de **php** qui afficherait ceci
 
 ```html
-<p>La devise de Becode est : </p>```
+<p>La devise de Becode est : </p>
+```
 
 
 - Maintenant, crée une variable `$citation` et donne lui comme valeur le texte "In Code We Trust!". Puis, demande à PHP d'afficher le contenu de la variable à l'intérieur d'une balise `<blockquote>`.
