@@ -21,7 +21,9 @@
 
 ## Git
 
+- [Exercice : Configuration Git](exercice-git-configuration.md)
 - [Exercice : Cadavre exquis](exercice-cadavre-exquis.md)
+- [Exercices : Git training](exercice-git-training.md)
 
 ## HTML & CSS Avancé
 
