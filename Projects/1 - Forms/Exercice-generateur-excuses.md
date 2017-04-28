@@ -6,9 +6,9 @@ Il te faut un formulaire avec trois questions:
 1. nom de l'enfant
 1. nom de l'institutrice
 1. une raison de l'absence (input de type "radio"):
-  1. maladie
-  1. décès de l'animal de compagnie (ou d'un membre de la famille)
-  1. activité extra-scolaire
+    1. maladie
+    1. décès de l'animal de compagnie (ou d'un membre de la famille)
+    1. activité extra-scolaire
   
 Pour chaque option, invente une excuse adaptée.
 
