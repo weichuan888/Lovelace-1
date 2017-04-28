@@ -105,7 +105,11 @@ Si le conducteur du train doit aller à Anvers (`if $destination == 'Anvers' `),
 
 Voici un petit programme de type "game of life", qui simule des particules qui s'attirent et se repoussent. X fois par seconde, le script va calculer la nouvelle position de chaque particule rouges en fonction de leur proximité (à une distance inférieure à X pixels) d'une particule verte, elles doivent tendre vers sa position. Cette condition est exécutée X fois par seconde, à une vitesse que notre oeil interprète comme du mouvement.
 
-## Cas pratique: validation d'un champ de formulaire
+## Exercice: générateur d'excuses.
+Réalise un formulaire permettant de [générer des lettres d'excuse pour absence scolaire](https://github.com/becodeorg/BXLCentral/blob/master/Projects/1%20-%20Forms/Exercice-generateur-excuses.md)...
+
+
+## Réinvestissement des acquis: validation d'un champ de formulaire
 
 Quand on construit un script qui doit traiter un formulaire, on doit effectuer des vérifications, dans l'hypothèse d'une erreur humaine ou d'une tentative de hacking.
 Par exemple, on doit vérifier qu'une variable obligatoire a bien été remplie. On pourrait exprimer la condition ainsi: 
@@ -114,7 +118,7 @@ Par exemple, on doit vérifier qu'une variable obligatoire a bien été remplie.
 $fullname = $_GET['fullname'];
 
 if ( empty($fullname) == true ){
-  echo "Vous avez oublié d'indiquer votre nom.";
+  die("Vous avez oublié d'indiquer votre nom.");
 }
 ```
 
