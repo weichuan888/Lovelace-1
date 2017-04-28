@@ -9,7 +9,7 @@ Cela n'a l'air de rien, mais cela change tout: **Tu peux fabriquer ce que tu veu
 
 Imagine ceci: tu es serveur dans un bar. Un client te demande un "Ice-Tea-avec-du-citron-silvousplé". Revenu à la cuisine, tu te rends compte qu'il n'y en a plus. Tu ne peux donc pas le servir! 
 Heureusement, tu trouves vite la recette sur Internet et tu as tous les ingrédients, donc tu peux lui faire un Thé Glacé bien frais avec du citron et de la menthe fraiche.
-Certes, lorsque tu lui apportes sa boisson quelques minutes plus tard, le client se plaint un peu du temps que cela a pris, mais trouve ton Ice-Tea exceptionnel et au final te laisse un bon pourboire. Il est content, tu es content, le monde va un peu mieux, grâce à ta débrouillardise. 
+Certes, lorsque tu lui apportes sa boisson quelques minutes plus tard, le client se plaint un peu du temps que cela a pris, mais trouve ton Ice-Tea exceptionnel et au final te laisse un bon pourboire. Il est content, tu es content, le monde va un peu mieux, grâce à ta débrouillardise, à ta capacité de serveur à répondre de manière dynamique à la demande spécifique du client. 
 
 ## Pourquoi utiliser du php si cela retourne autre chose ?
 Parce que cela te permet de créer des pages de manière **dynamique** plutôt que **statique**.
