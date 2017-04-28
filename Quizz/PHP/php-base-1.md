@@ -118,5 +118,4 @@ if ($hour > 17){
 
  -----=== Fin du quizz ===-----
 
-
-![Giphy](https://media2.giphy.com/media/F6CoHaGTogRTW/giphy.gif)
+![Giphy](http://media0.giphy.com/media/ByJey854EnFZe/giphy.gif)
