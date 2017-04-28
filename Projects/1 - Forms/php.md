@@ -3,7 +3,7 @@
 ## PHP : "Hypertext Preprocessor"
 Logiciel qui tourne du côté **Backend**, càd. au niveau du _serveur web_. (Le **Frontend** désigne à contrario ce qui se passe du côté _Client_ càd. le _navigateur_).
 
-PHP permet au Serveur Web de "réfléchir avant de parler" et en informatique, "réfléchir" c'est calculer, càd, manipuler des informations et les retourner au Client (le navigateur) dans n'importe quel format (très souvent: du HTML, du XML, du JSON, voir du texte simple, du CSS, du javascript...).
+PHP permet au Serveur Web de "réfléchir avant de parler" et en informatique, "réfléchir" c'est calculer, càd, manipuler des informations et les retourner au Client (le navigateur) dans n'importe quel format (très souvent: du HTML, du XML, du JSON, voire du simple texte, du CSS, du javascript...).
 
 ## Pourquoi utiliser du php si cela retourne autre chose ?
 Parce que cela te permet de créer des pages de manière **dynamique** plutôt que **statique**.
