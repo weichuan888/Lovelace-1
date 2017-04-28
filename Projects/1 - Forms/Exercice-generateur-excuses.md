@@ -8,9 +8,9 @@ Il te faut un formulaire avec trois questions:
 1. une raison de l'absence (input de type "radio"):
     1. maladie
     1. décès de l'animal de compagnie (ou d'un membre de la famille)
-    1. activité extra-scolaire
+    1. activité extra-scolaire importante
   
 Pour chaque option, invente une excuse adaptée.
 
-Génère le mot d'excuse utilisant les trois réponses au formulaire.
+Génère le mot d'excuse utilisant les trois réponses au formulaire. Le parent n'aura plus qu'à copier-coller la réponse pour rédiger sa lettre d'excuses.
 
