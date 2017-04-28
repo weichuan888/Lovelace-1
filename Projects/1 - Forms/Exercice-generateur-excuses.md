@@ -22,3 +22,4 @@ Le parent n'aura plus qu'à copier-coller la réponse pour rédiger sa lettre d'
 - ajoute la date du jour (format "Day, le dd Month YYYY")
 - ajoute la formule de politesse.
 - pas de faute d'orthographe.
+- UX soignée: en faire un vrai produit? ( CSS + typographie + logo )
