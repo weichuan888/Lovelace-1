@@ -40,7 +40,14 @@ objectif 1: html sémantique, préparer l' **amélioration progressive**
 objectif 2: html accessible aux non-voyants
 
 ### Séquence 2: formulaire de contact (css, via framework css)
-Utiliser un framework CSS pour améliorer rapidement le rendu visuel et l'ergonomie de ton formulaire: Zurb Foundation, boostrap, purecss.io ...
+Utiliser le framework [CSS Bootstrap](http://getbootstrap.com/) pour améliorer rapidement le rendu visuel et l'ergonomie de ton formulaire.
+
+**Charte Graphique du client**
+
+font: https://www.fontsquirrel.com/fonts/bellota 
+couleurs: #15c5bd + #FFF + #303030
+
+
 ### Séquence 3: formulaire de contact (php)
 - présentation: architecture serveur/client (transmissif, 10")
 - tester un script PHP en local
