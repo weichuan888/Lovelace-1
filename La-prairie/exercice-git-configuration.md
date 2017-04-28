@@ -10,7 +10,28 @@ Inscription sur Github : [https://github.com/join](https://github.com/join)
 
 * Prennez le temps de mettre à jour votre profile GitHub : https://github.com/settings/profile
 
-### Utiliser GitHub avec le terminal
+### Utiliser GitHub avec le terminal pour **Linux**
+
+Pour se logguer à votre compte GitHub vous devez avoir un clé SSH, voici les étapes qui vous permettrons de la crée et de l'envoyer à GitHub
+1. Generating a new SSH key
+1. Open Terminal/cmdr.
+1. Paste the text below, substituting in your GitHub email address.
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+This creates a new ssh key, using the provided email as a label.
+1. Generating public/private rsa key pair.
+When you're prompted to "Enter a file in which to save the key," press `Enter`. This accepts the default file location.
+
+1. Enter a file in which to save the key (/home/user/my-key-name): [Press enter]
+1. Enter passphrase (empty for no passphrase): [Type a passphrase]
+1. Enter same passphrase again: [Type passphrase again]
+1. cat ~/my-key-name/my-key-name.pub
+1. copier la clé ssh ( commence par ssh-rsa ......)
+1. Suivre ce tuto à partir du point 2 : https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+
+### Utiliser GitHub avec le terminal pour **Windows**
 
 Pour se logguer à votre compte GitHub vous devez avoir un clé SSH, voici les étapes qui vous permettrons de la crée et de l'envoyer à GitHub
 1. Generating a new SSH key
@@ -29,6 +50,7 @@ When you're prompted to "Enter a file in which to save the key," press `Enter`. 
 1. cat ~/.ssh/id_rsa.pub
 1. copier la clé ssh ( commence par ssh-rsa ......)
 1. Suivre ce tuto à partir du point 2 : https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
 
 ### Documentation et apprentissage 
 * [Git - petit guide](http://rogerdudler.github.io/git-guide/index.fr.html)
