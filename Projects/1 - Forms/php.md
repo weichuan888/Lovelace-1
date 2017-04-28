@@ -5,7 +5,7 @@ Logiciel qui tourne du côté **Backend**, càd. au niveau du _serveur web_. (Le
 
 PHP est donc un "préprocesseur". Il permet au Serveur Web de "réfléchir avant de parler" et en informatique, "réfléchir" c'est calculer, càd, manipuler des informations et les retourner au Client (le navigateur) dans n'importe quel format (très souvent: du HTML, du XML, du JSON, voire du simple texte, mais également du CSS, du javascript...).
 
-Cela n'a l'air de rien, mais cela change tout. Tu peux fabriquer ce que tu veux.
+Cela n'a l'air de rien, mais cela change tout: **Tu peux fabriquer ce que tu veux**.
 
 Imagine ceci: tu es serveur dans un bar. Un client te demande un "Ice-Tea-avec-du-citron-silvousplé". Revenu à la cuisine, tu te rends compte qu'il n'y en a plus. Tu ne peux donc pas le servir! 
 Heureusement, tu trouves vite la recette sur Internet et tu as tous les ingrédients, donc tu peux lui faire un Thé Glacé bien frais avec du citron et de la menthe fraiche.
