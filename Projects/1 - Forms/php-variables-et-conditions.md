@@ -135,13 +135,14 @@ Il existe d'autres manières d'exprimer cette condition "n'est pas vide". Expore
 - Tout au début de ton script, écris le code faisant ceci (dans l'ordre):
 ```
 Si le formulaire a été soumis:
-  L nettoie chaque champ
-  L vérifie que chacun des champs obligatoires ne sont pas vides (un à la fois)
-  L à la moindre erreur, effectue la fonction `die("Message d'erreur.");`  
-  (va voir la doc pour savoir ce qu'elle fait.)
-Sinon, affiche le formulaire.
+  L nettoie chaque champ.
+  L vérifie que chacun des champs obligatoires n'est pas vide (un à la fois).
+  L à la moindre erreur, provoque un arrêt critique via la fonction die("Message d'erreur.");
+  (va voir la doc pour savoir ce qu'elle fait.)
+Sinon, affiche simplement le formulaire.
 ```
-Accroche-toi, c'est pas évident au début. En même temps, rassure-toi: tu vas faire cela souvent, donc cela va rentrer par la porte arrière, si cela ne rentre pas par la porte avant :D. Evite le copier-coller, cela ralentit l'apprentissage.
+
+Accroche-toi, ce n'est pas évident au début. En même temps, rassure-toi: tu vas faire cela souvent, donc cela va rentrer par la porte arrière, si cela ne rentre pas par la porte avant :D. Evite le copier-coller, cela ralentit l'apprentissage.
 
 Astuce: représente d'abord le flux logique de ton script en UML (Universal Modelling Language: flèches et boites contenant des verbes).
 
