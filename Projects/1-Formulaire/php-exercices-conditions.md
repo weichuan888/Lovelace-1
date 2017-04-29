@@ -150,6 +150,3 @@ Tu as fait tous ces exercices? Bravo, voici un gif!
 
 Fais-toi un petit [quizz](../../Quizz/PHP/php-base-1.md) pour vérifier l'état de tes connaissances.
 
-
-
-![Giphy](http://media1.giphy.com/media/OVtqvymKkkcTu/giphy.gif)
