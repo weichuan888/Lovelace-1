@@ -3,7 +3,6 @@
 - Parmi les variables suivantes, lesquelles ont un nom valide en PHP:  
 `mavar`, `$mavar`, `$var5`, `$_mavar`, `$_5var`, `$__élément1`, `$hotel4*` ?
 
-
 - Le code PHP doit se trouver à l'intérieur de balises spécifiques. Lesquelles?
 	-  `<?php>...</?>`  
 	-  `<script>...</script> ` 
@@ -14,7 +13,7 @@
 - Lorsqu'on soumet un formulaire utilisant la méthode POST, les variables sont affichées dans l'URL. Vrai ou faux?
 
 - Quelle est la différence entre `$a=$b` et `$a==$b` ?
-- Par quel caractère doit se terminer une ligne de php?
+- Par quel caractère doit se terminer chaque ligne de code php?
 - Que donnera cette ligne : `echo "Hello" + " World";` ?
 - Quelle est la bonne syntaxe:  
  		- `<?php echo Hello World; ?>`  
@@ -49,6 +48,7 @@ echo ($hour == $Hour) ? "vrai": "faux";
 ```php  
 echo ( $saison == 'été' ) ? "Aller à la mer.": "Faire de la luge.";
 ```
+- Si la condition de la question précédente est vraie, où ira-t-on en vacances ?
 
 
 - Quelle est la différence entre:  
@@ -105,7 +105,7 @@ if ($hour > 17){
 - Et que va-t-il afficher s'il est 15h02 au moment où on l'exécute?
 
 
-- Sachant que $a = 4. Quelle instruction affichera : `4 = quatre` ?
+- Sachant que `$a = 4`. Quelle instruction affichera : `4 = quatre` ?
 
 	- `echo '$a = quatre';`
 	- `echo '$a = 2+2';`

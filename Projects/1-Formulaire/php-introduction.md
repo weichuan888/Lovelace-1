@@ -1,5 +1,17 @@
 # PHP
 
+## Table des matières
+
+- [Introduction](php-introduction.md)   ←
+- [Variables](php-variables.md)
+- [Conditions](php-conditions.md)
+- Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
+- Drill: [Exercices sur les Conditions](php-exercices-conditions.md)
+- [Tableaux (array)](php-array.md)
+- [Fonctions](php-fonctions.md) (en construction)
+- [Boucles](php-boucles.md) (en construction)
+
+
 ## PHP : "Hypertext Preprocessor"
 Logiciel qui tourne du côté **Backend**, càd. au niveau du _serveur web_. (Le **Frontend** désigne à contrario ce qui se passe du côté _Client_ càd. le _navigateur_).
 
@@ -95,3 +107,5 @@ Voici un chaton pour fêter cela.
 
 
 Rendez-vous à la prochaine leçon: [Variables et Conditions](./php-variables-et-conditions.md).
+
+
