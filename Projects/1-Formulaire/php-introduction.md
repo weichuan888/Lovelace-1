@@ -106,6 +106,6 @@ Voici un chaton pour fêter cela.
 ![Giphy](http://media0.giphy.com/media/nsMPhWK6bfxHq/giphy.gif)
 
 
-Rendez-vous à la prochaine leçon: [Variables et Conditions](./php-variables-et-conditions.md).
+Rendez-vous à la prochaine leçon: [Variables et Conditions](./php-variables.md).
 
 
