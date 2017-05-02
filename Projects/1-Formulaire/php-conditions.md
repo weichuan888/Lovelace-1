@@ -1,8 +1,21 @@
 # PHP: Les conditions
 
+## Table des matières
+
+- [Introduction](php-introduction.md)  
+- [Variables](php-variables.md)  
+- [Conditions](php-conditions.md)  ←  
+- Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
+- Drill: [Exercices sur les Conditions](php-exercices-conditions.md)
+- [Tableaux (array)](php-array.md)
+- [Fonctions](php-fonctions.md) (en construction)
+- [Boucles](php-boucles.md) (en construction)
+
+
+
 ![Rail Switch](https://pmcdn.priceminister.com/photo/Aiguillage-train-miniature-1097270594_L.jpg)
 
-## Introduction
+## Les conditions
 
 Le monde dans lequel nous vivons est un système dynamique, en évolution permanente.  
 Parfois, il fait jour, parfois il fait nuit. Parfois la personne en face de nous est un homme, parfois c'est une femme. Parfois il fait chaud, parfois il fait froid. Etc.  

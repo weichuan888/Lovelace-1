@@ -1,5 +1,17 @@
 # PHP/ Exercices dirigés: les conditions
 
+## Table des matières
+
+- [Introduction](php-introduction.md)  
+- [Variables](php-variables.md)  
+- [Conditions](php-conditions.md) 
+- Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
+- Drill: [Exercices sur les Conditions](php-exercices-conditions.md)  ← 
+- [Tableaux (array)](php-array.md)
+- [Fonctions](php-fonctions.md) (en construction)
+- [Boucles](php-boucles.md) (en construction)
+
+
 Voici une série d'exercices destinés à te driller à l'expression de conditions en programmation.
 
 ## Pour rappel
@@ -93,11 +105,15 @@ Si la note est 19 ou 20, affiche "Police! Arrêtez ce tricheur!".
 
 ### 6. La structure "Switch".
 
-Crée un nouveau fichier `conditions-switch.php`  
+Dans le `switch`, on indique au début sur quelle variable on travaille. On dit à PHP : Je vais analyser la valeur de `$note`. Après, on utilise des `case` pour analyser chaque cas (`case 0`,`case 10`, etc.). Cela signifie  : Dans le cas où la valeur est 0… Dans le cas où la valeur est 10…
+
+Avantage : on n'a plus besoin de mettre le double égal ! Défaut : ça ne marche pas avec les autres symboles (`< > <= >= !=`). En clair, le switch ne peut tester que l'égalité.
+
+![Un Switch](./rail-switch.png)
+
 Lis la documentation sur la structure [switch](http://php.net/manual/fr/control-structures.switch.php).
 
-Refais l'exercice précédent mais en remplaçant ta structure if/else par une structure switch.
-
+Puis, crée un nouveau fichier `conditions-switch.php` et refais l'exercice précédent mais en remplaçant ta structure if/else par une structure switch.
 
 ### 7. Écrire une expression conditionnelle...
 ... utilisant les variables $age et $sexe dans une instruction `if/else` pour sélectionner une personne de sexe féminin dont l’age est compris entre 21 et 40 ans et afficher un message de bienvenue approprié.   

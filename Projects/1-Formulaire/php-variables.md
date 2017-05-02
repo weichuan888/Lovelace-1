@@ -1,8 +1,21 @@
-# PHP:  Introduction, Variables et Conditions
+# PHP
+
+## Table des matières
+
+- [Introduction](php-introduction.md)  
+- [Variables](php-variables.md)  ←  
+- [Conditions](php-conditions.md)
+- Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
+- Drill: [Exercices sur les Conditions](php-exercices-conditions.md)
+- [Tableaux (array)](php-array.md)
+- [Fonctions](php-fonctions.md) (en construction)
+- [Boucles](php-boucles.md) (en construction)
+
+##  Introduction, Variables et Conditions
 
 Programmer = manipuler de l'information
 
-Tu te rappelles ce petit script PHP que tu voulais addresser aux sept milliards d'humains?
+Tu te rappelles [ce petit script PHP](php-introduction.md) que tu voulais addresser aux sept milliards d'humains?
 Et bien, réalisons-le.
 
 1. Lance ton serveur local
