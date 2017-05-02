@@ -59,7 +59,7 @@ $b = 2;
 echo $a * $b;  
 ```
 
-- Et celui-là ? 
+- Et celui-là ?  
 
 ```php  
 $a = 10;  
