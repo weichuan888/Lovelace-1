@@ -98,6 +98,7 @@ Ici, les arguments `'Elvis', 'Johnny'` à l'entrée vont devenir à la sortie (c
 - `die("message")` : sert à arrêter l'exécution du script après avoir affiché le message indiqué en argument de la fonction. 
 - `echo("texte à afficher");` : sert à afficher les arguments. Cette fonction ne nécessite pas les parenthèses. 
 - `phpinfo();` affiche la configuration de PHP sur ton serveur.
+- `date('d M Y')` pour récupérer la date courante.
 
 ### Exemple concret: transformer un bout de texte
 
@@ -161,6 +162,8 @@ if (isset($_POST) && !empty($_POST) ){
 
 ## Exercices
 - Utilise une fonction qui mette la première lettre de l'argument en majuscule.  Par ex: si l'input de la fonction est `"emile"`, l'output sera `"Emile"`.
+- Utilise la fonction fournie par PHP te permettant d'afficher l'année en cours.
+- Affiche à présent la date, l'heure, les minutes et les secondes, en utilisant la même fonction.
 - Crée une fonction prenant deux arguments numériques et qui retourne la somme de ces deux arguments.
 - Améliore la fonction précédente pour que si l'un des (ou les deux) arguments envoyés n'est pas une valeur numérique (int), la fonction retourne le message suivant: *"Erreur, argument non numérique"*.
 - Crée une fonction qui prend en argument une chaîne de caractères (plusieurs mots) et qui retourne les initiales de chaque mot en majuscule. (Exemple: `"In code we trust!"` devient: `ICWT`).
@@ -179,6 +182,22 @@ echo feedback("adresse email incorrecte", "warning");
  
  - Trouve par toi-même dans la [documentation php](http://php.net/manual/fr/functions.arguments.php) comment modifier ta fonction pour que, si le second argument n'est pas spécifié, sa valeur soit égale à `"info"`.
  - Crée un générateur de mots aléatoires, générant deux mots: un allant de 1 à 5 lettres, l'autre allant de 7 à 15 lettres. L'écran ne montrera que ceci: Un titre invitant l'utilisateur à générer un nouveau mot, ensuite: les deux mots générés, ensuite: un bouton permettant de rafraichir la page (et donc de recréer deux mots).
+ - Convertis la chaîne suivante: `"ARRÊTE DE CRIER JE N'ENTENDS PLUS RIEN!!!"` en lettres minuscules.
+ - Dans ton nouveau boulot, tu récupères du code du développeur précédent:  
+
+ ```php  
+// Calcul du volume d'un cône de rayon 5 et de hauteur 2  
+$volume = 5 * 5 * 3.14 * 2 * (1/3);  
+echo 'Le volume du cône de rayon 5 et de hauteur 2 est : ' . $volume . ' cm<sup>3</sup><br />';  
+// Calcul du volume d'un cône de rayon 3 et de hauteur 4  
+$volume = 3 * 3 * 3.14 * 4 * (1/3);  
+echo 'Le volume du cône de rayon 3 et de hauteur 4 est : ' . $volume . ' cm<sup>3</sup><br />';  
+```
+
+WOA! Une répétition! Ton subsconscient aussitôt crie *DRY! DRY! DRY!*  
+Afin qu'il te laisse tranquille, crée une fonction `volume_dun_cone`, qui va calculer le volume du cône en fonction du rayon et de la hauteur. Cette fonction ne va rien afficher, on veut juste qu'elle nous renvoie le volume qu'on cherche.  Voici un schéma, pour bien t'embrouiller (Ben oui, en réalité, les informations utiles à cette mission sont dans le code ci-dessus...)   
+![Cone](https://user.oc-static.com/files/5001_6000/5758.gif)
+
  - Plus d'[exercices sur les fonctions ici](http://www.w3resource.com/php-exercises/php-function-exercises.php).
 
 ## Exercice #godmode #walloniequandtunoustiens
