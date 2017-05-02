@@ -97,6 +97,7 @@ Ici, les arguments `'Elvis', 'Johnny'` à l'entrée vont devenir à la sortie (c
 - `print_r($array)` : sert à afficher le contenu d'un array.  
 - `die("message")` : sert à arrêter l'exécution du script après avoir affiché le message indiqué en argument de la fonction. 
 - `echo("texte à afficher");` : sert à afficher les arguments. Cette fonction ne nécessite pas les parenthèses. 
+- `phpinfo();` affiche la configuration de PHP sur ton serveur.
 
 ### Exemple concret: transformer un bout de texte
 
@@ -178,6 +179,7 @@ echo feedback("adresse email incorrecte", "warning");
  
  - Trouve par toi-même dans la [documentation php](http://php.net/manual/fr/functions.arguments.php) comment modifier ta fonction pour que, si le second argument n'est pas spécifié, sa valeur soit égale à `"info"`.
  - Crée un générateur de mots aléatoires, générant deux mots: un allant de 1 à 5 lettres, l'autre allant de 7 à 15 lettres. L'écran ne montrera que ceci: Un titre invitant l'utilisateur à générer un nouveau mot, ensuite: les deux mots générés, ensuite: un bouton permettant de rafraichir la page (et donc de recréer deux mots).
+ - Plus d'[exercices sur les fonctions ici](http://www.w3resource.com/php-exercises/php-function-exercises.php).
 
 ## Exercice #godmode #walloniequandtunoustiens
 - Invente une fonction reverse_string( $stringToReverse) qui réécrit une chaine de caractères à l'envers.
