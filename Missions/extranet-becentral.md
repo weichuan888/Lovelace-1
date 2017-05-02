@@ -8,7 +8,7 @@
 
 - Technologies: App Web responsive
 Plusieurs écrans:
-
+-
 1. Ecran: Aperçu des salles, avec couleurs différentes si occupé/libre + next meeting/meeting en cours
 
 2. Ecran détail quand on clique sur une salle => détail du planning de la journée de cette salle + info taille de la salle + materiel disponible
