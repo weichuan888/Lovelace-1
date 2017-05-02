@@ -63,6 +63,9 @@ Change la condition pour qu'elle devienne: "si la température est plus grande o
 ### Entraîne-toi
 Familiarise toi à l'écriture de conditions grâce à cette [série d'exercices](php-exercices-conditions.md). Lorsque tu as terminé, examine le cas pratique suivant.
 
+## CAs pratique 1: Générateur d'excuses
+Les parents doivent parfois inventer des excuses pour leurs enfants. [Réalise un petit formulaire](./php-exercice-generateur-excuses.md) qui permette de proposer des excuses pré-définies. 
+
 ## Cas pratique: validation d'un champ de formulaire
 
 Quand on construit un script qui doit traiter un formulaire, on doit effectuer des vérifications, dans l'hypothèse d'une erreur humaine ou d'une tentative de hacking.
