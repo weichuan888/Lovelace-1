@@ -13,7 +13,12 @@
 
 ##  Introduction, Variables et Conditions
 
-Programmer = manipuler de l'information
+Programmer = manipuler de l'information.
+
+```php
+$nom_de_la_variable = 'Valeur de la variable';
+$president_usa = 'Donald Trump';
+```
 
 Tu te rappelles [ce petit script PHP](php-introduction.md) que tu voulais addresser aux sept milliards d'humains?
 Et bien, réalisons-le.
