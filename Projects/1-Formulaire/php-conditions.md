@@ -37,13 +37,12 @@ if( condition ) {
 
 Pour exprimer tes conditions, tu as à ta disposition plusieurs types d'opérateur:
 
-`==` : égal à
-`!=` : différent de
-`>` : plus grand que
-`<` : plus petit que
-`>=` : plus grand ou égal à
-`<=` : plus petit ou égal à
-
+`==` : égal à  
+`!=` : différent de  
+`>` : plus grand que  
+`<` : plus petit que  
+`>=` : plus grand ou égal à  
+`<=` : plus petit ou égal à  
 
 Reprenons notre exemple de la météo. Cela donnerait ceci, en code PHP.
 
@@ -66,7 +65,7 @@ Familiarise toi à l'écriture de conditions grâce à cette [série d'exercices
 ## CAs pratique 1: Générateur d'excuses
 Les parents doivent parfois inventer des excuses pour leurs enfants. [Réalise un petit formulaire](./php-exercice-generateur-excuses.md) qui permette de proposer des excuses pré-définies. 
 
-## Cas pratique: validation d'un champ de formulaire
+## Cas pratique 2: validation d'un champ de formulaire
 
 Quand on construit un script qui doit traiter un formulaire, on doit effectuer des vérifications, dans l'hypothèse d'une erreur humaine ou d'une tentative de hacking.
 Par exemple, on doit vérifier qu'une variable obligatoire a bien été remplie. On pourrait l'exprimer ainsi: "Si le nombre de caractères contenus dans l'email est inférieur à 1"
