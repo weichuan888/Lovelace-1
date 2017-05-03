@@ -83,7 +83,7 @@ $nombre_de_lignes = 1;
 while ($nombre_de_lignes <= 100)
 {
     echo $nombre_de_lignes . ': Je ne dois pas regarder les mouches voler quand j'apprends le PHP.<br />';
-    $nombre_de_lignes++;
+    $nombre_de_lignes++; // équivaut à écrire $nombre_de_lignes = $nombre_de_lignes +1;
 }
 ?>
 ```
