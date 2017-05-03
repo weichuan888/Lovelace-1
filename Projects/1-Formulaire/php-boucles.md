@@ -35,10 +35,9 @@ foreach( $assiettes as $assiette){
 }
 ```
 ## Définition
-Ce `foreach` est une structure logique appelée `une boucle`. Une boucle permet de répéter une (ou plusieurs) opération(s) autant de fois que nécessaire.  
-Entraine-toi à lire ce code ainsi:
-Pour chaque élément de l'array `$assiettes`, appelle-le `$assiette` et opère sur lui ces opérations: `trempe()`, `frotte()`, puis `mets_a_secher()`.
-
+Ce `foreach` est une structure logique appelée `boucle`. Une boucle permet de répéter une (ou plusieurs) opération(s) autant de fois que nécessaire.  
+L'instruction se lit:  
+> Pour chaque élément de l'array `$assiettes`, appelle-le `$assiette` et opère sur lui ces opérations: `trempe()`, `frotte()`, puis `mets_a_secher()`.
 
 Voici un exemple pratique: imagine que tu reçoives une liste (un array) de noms dans un tableau` $names` et que tu doives t'assurer que la première lettre de ces noms soit bien en majuscule. Tu penses avec raison que la fonction PHP `ucfirst($nom);` t'aidera. Avec une boucle, c'est très simple.
 
@@ -47,6 +46,7 @@ foreach ($names as $n){
 	echo ucfirst($n);
 }
 ```
+L'instruction se lit:  
 > Pour chaque élément du tableau` $name`, met la première lettre en majuscule puis affiche-là.
 
 ### Variation: avec l'index
@@ -60,12 +60,17 @@ foreach ($names as $index => $n){
 }
 ```
 
-Cette syntaxe utilisant `=>` te rappelle quelque chose n'est-ce pas? Les [tableaux associatifs](php-array.md) peut-être? Tout à fait! C'est logique, puisqu'une boucle permet de traverser un tableau de part en part. Donc quand tu penses "tableau", pense "boucle", et inversément, car les deux vont très souvent ensemble. 
+Cette syntaxe utilisant `=>` te rappelle quelque chose ? Les [tableaux associatifs](php-array.md) peut-être? Tout à fait! C'est logique, puisqu'une boucle permet notamment de traverser un tableau de part en part. Donc quand tu penses "tableau", pense "boucle", et inversément, car les deux vont très souvent ensemble. 
 
 ### Exercices
-à faire
+Voici un array  
+```php
+$pronoms_personnels = array ('Je', 'Tu', 'Il/Elle','Nous', 'Vous', 'Elles/Ils');
+``` 
+- Construis une boucle qui affiche chaque élément de l'array
+- Ensuite, dans ta boucle, conjuge le verbe "coder" en fonction du pronom. (utilise une condition pour cela)
 
-## Mais pas que: tu peux boucler dans une chaîne de caractères
+## Tu peux aussi boucler dans une chaîne de caractères
 ### construction While
 
 Tu es Bart Simpson et tu as été puni: tu dois recopier 100 fois « Je ne dois pas regarder les mouches voler quand j'apprends le PHP. ».  
@@ -107,14 +112,14 @@ Décrivons chacun de ces éléments:
 
 ## Conclusion
 
-Les boucles sont une structure logique permettant de répéter une ou plusieurs opération autant de fois que nécessaire.  
+Les boucles sont une structure logique permettant de répéter une ou plusieurs opérations autant de fois que nécessaire.  
 `foreach`, `while`, `for` sont trois manières de faire des boucles. Exerce-toi pour comprendre comment chacune fonctionne.
 
 ## Exercices
 
 - Crée un tableau contenant tous les prénoms des personnes composant ta classe. Affiche ces prénoms à l'aide d'une boucle.
 - Crée un tableau contenant au moins 10 pays du monde.  Une fois fait, utilise une boucle pour générer du html correspondant à une selectbox permettant à un utilisateur d'indiquer son pays dans un formulaire html.
-- A présent, modifie ton tableau contenant les pays pour qu'il soit un tableau associatif: la clef est le code ISO du pays, la valeur étant le nom du pays: par exemple: `$pays = array('BE'=>'Belgique');` au lieu de simplement `$pays = array('Belgique');`. Utilise la clef pour qu'elle devienne la valeur de l'élément `option` dans ton html.
+- A présent, modifie ton tableau contenant les pays pour qu'il soit un tableau associatif: la clef est le code ISO du pays, la valeur étant le nom du pays: par exemple: `$pays = array('BE'=>'Belgique');` au lieu de simplement `$pays = array('Belgique');`. Utilise la clef pour qu'elle devienne la valeur de la balise `option` dans ton html.
 
 
 
