@@ -11,8 +11,8 @@
 - Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
 - Drill: [Exercices sur les Conditions](php-exercices-conditions.md) 
 - [Tableaux (array)](php-array.md)
-- [Fonctions](php-fonctions.md) 
 - [Boucles](php-boucles.md)    ← 
+- [Fonctions](php-fonctions.md) 
 
 ## Introduction
 

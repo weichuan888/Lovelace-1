@@ -8,8 +8,8 @@
 - Quizz: [PHP / intro + variables](../../Quizz/PHP/php-base-1.md)
 - Drill: [Exercices sur les Conditions](php-exercices-conditions.md) 
 - [Tableaux (array)](php-array.md)   ←
+- [Boucles](php-boucles.md) 
 - [Fonctions](php-fonctions.md)
-- [Boucles](php-boucles.md) (en construction)
 
 ## Les tableaux
 
@@ -108,6 +108,56 @@ Que va retourner ceci ?
 5. Affiche son contenu avec la fonction `print_r`
 6. Crée un array listant tes films et séries préférés.
 7. En utilisant cet array, affiche uniquement ton film/série préféré
+
+### opérations courantes
+
+#### Afficher
+Comme tu l'as vu plus haut, pour "retrouver" l'information dans un array, on utilise les clefs dans des parenthèses carrées `[ ]` . 
+
+```php
+// Dans un array associatif : 
+echo $person['firstname'];
+echo $person['papa']['firstname']; // Retourne la valeur de la clef 'firstname' du sous-tableau 'papa' du tableau $person.
+// Ou si l'array est numérique
+ echo $pays[2]; // Retourne la 3ème clef du tableau $pays
+ echo $person['papa']['hobbies'][1]; // retourne le 2ème hobby du papa de la $person.
+
+```
+
+#### Ajouter un élément
+
+Il y a deux manières de faire.  
+La manière longue:
+
+```php
+array_push($person['hobbies'], 'Football');
+```
+
+La manière courte:
+
+```php
+// Si une clef numérique te suffit;
+$person['hobbies'][] = 'Football';
+
+// Si tu veux que la clef soit associative:
+$person['papa']['firstname'] = 'Georgio';
+```
+
+
+
+#### Remplacer la valeur d'une clef
+Imagine que `$person['papa']['firstname'] = 'Georgio'; `
+
+Pour changer son prénom, il suffit de l'écraser:
+
+```php
+$person['papa']['firstname'] = 'Georgio';
+echo $person['papa']['firstname'];
+$person['papa']['firstname'] = 'Sebastano';
+echo '<br>';
+echo $person['papa']['firstname']; // retourne "Sebastano"
+```
+
 
 ## Tableaux associatifs
 
