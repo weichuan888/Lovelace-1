@@ -6,7 +6,3 @@
 - [PHP](PHP)
 - [JavaScript](JavaScript)
 
-
-
-
-

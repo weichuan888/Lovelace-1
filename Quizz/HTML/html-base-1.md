@@ -1,4 +1,4 @@
-QUIZZ
+# HTML
 
 1
 Quel est le doctype d'un document HTML5 ?
