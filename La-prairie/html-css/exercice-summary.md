@@ -16,12 +16,12 @@
 
 ## Briefing
 
-### Etape 1 - Git
+### Étape 1 : Git
 
 - Crée un dépôt sur GitHub nomé "starting-web-developpment"
 - Cloner ce dépot sur votre ordinateur
 
-### Etape 2 - HTML
+### Étape 2 : HTML
 
 Faire les actions suivantes dans le dossier **"starting-web-developpment"**
 
@@ -38,7 +38,7 @@ Faire les actions suivantes dans le dossier **"starting-web-developpment"**
   - Pour avoir les icones utiliser ceci : `<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">` 
   - Pour choisir les icones rendez-vous chez [FontAwesome](http://fontawesome.io/icons/)
 
-### Etape 3 - CSS
+### Étape 3 : CSS
 
 - Faire de sorte que votre page ressemble à celle-ci ![Goal CSS](images/goal-css.png)
 - Pour avoir une jolie typographie utiliser ceci : `<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">`
@@ -51,14 +51,14 @@ Faire les actions suivantes dans le dossier **"starting-web-developpment"**
    - Changer la couleur des textes
    - Aligner les textes
 
-### Etape 4 - Sauver avec Git
+### Étape 4 : Sauver avec Git
 
 - Faire un `add` 
 - Faire un `commit` 
 - Faire un `push`
 - Aller sur votre profile GitHub pour vérifier les changements
 
-### Étape 3 - Présentation
+### Étape 3 : Présentation
 
 - Présenter son code
 - Expliquer les difficultés rencontrées
