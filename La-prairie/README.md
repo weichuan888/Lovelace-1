@@ -27,7 +27,7 @@
 
 ## HTML & CSS Avancé
 
-- [Exercice : Récapitulatif](exercice-summary.md)
+- [Exercice : Récapitulatif](html-css/exercice-summary.md)
 - [Exercice : VCard](html-css/exercice-vcard-html.md)
 - [Exercice : 404](html-css/exercice-404-html.md)
 - [Exercice : Star Wars](html-css/exercice-star-wars.md)
