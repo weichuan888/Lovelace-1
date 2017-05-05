@@ -58,7 +58,7 @@ Faire les actions suivantes dans le dossier **"starting-web-developpment"**
 - Faire un `push`
 - Aller sur votre profile GitHub pour vérifier les changements
 
-### Étape 3 : Présentation
+### Étape 5 : Présentation
 
 - Présenter son code
 - Expliquer les difficultés rencontrées
