@@ -40,7 +40,7 @@ Faire les actions suivantes dans le dossier **"starting-web-developpment"**
 
 ### Etape 3 - CSS
 
-- Faire de sorte que votre page ressemvble à celle-ci ![Goal CSS](images/goal-css.png)
+- Faire de sorte que votre page ressemble à celle-ci ![Goal CSS](images/goal-css.png)
 - Pour avoir une jolie typographie utiliser ceci : `<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">`
 - Suivre le lien pour savoir comment utiliser [Google Font](https://fonts.google.com/?query=open&selection.family=Montserrat|Open+Sans)
 - Ajouter des `div` en HTML pour séparer les éléments en blocs
