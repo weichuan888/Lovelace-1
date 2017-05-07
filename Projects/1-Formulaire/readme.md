@@ -22,7 +22,7 @@ Ta mission: développer un script en php, permettant d'afficher un formulaire de
 - Si la validation est ok, il enverra le contenu du message par email à une adresse spécifiée.
 - implémentation de la technique antispam du *honeypot*
 - Les messages d'erreur sont bien formulés, de manière à aider l'utilisateur. (lire [The Four H of Writing Error Messages](http://uxmas.com/2012/the-4-hs-of-writing-error-messages) )
-- Ton code est publié sur un repository intitulé "projet-1-formulaire"
+- Ton code est publié sur un repository intitulé "`projet-1-formulaire`"
 
 ## Critères de perfectionnement (à implémenter dans un second temps)
 - validation côté client en javascript (via jquery)
