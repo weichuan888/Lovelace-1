@@ -77,10 +77,24 @@ Si le genre est féminin, adapte la réponse de l'âge correspondant au genre f�
 Par exemple, si l'âge est entre 12 et 18 ans et le genre féminin, affiche "Salut l'adolescente!" sinon affiche "Salut l'adolescent!".  
 Idem pour les autres tranches d'âge.
 
-**Note:** Tu peux vérifier une "condition multiple" (plusieurs conditions combinées), en utilisant les mots-clef `AND` ("et") ou `OR` ("ou").
+**Note 1:** Tu peux vérifier une "condition multiple" (plusieurs conditions combinées), en utilisant les mots-clef `AND` ("et") ou `OR` ("ou").
 
 ```php
 if ( $age <= 12 AND $langue == "français" ) { ...
+```
+
+**NOTE 2:** Tu peux imbriquer des conditions les unes dans les autres. Attention à bien placer tes accolades. Utilise l'indentation du code pour t'aider à t'y retrouver visuellement.
+
+```php
+if ($genre == 'femme'){
+	if ( $age <= 12 AND $langue == "français" ) { ... }
+	else {
+
+	if ( $age <= 12 AND $langue == "français" ) { ... }
+	
+	}
+	
+}
 ```
 
 ### 4. Affiche une salutation différente selon l'âge, le genre de l'utilisateur et sa langue maternelle.
