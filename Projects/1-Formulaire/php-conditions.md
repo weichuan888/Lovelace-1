@@ -74,13 +74,26 @@ Tu peux également imbriquer des conditions les unes dans les autres. Attention 
 
 ```php
 if ($genre == 'femme'){
-	if ( $age <= 12 AND $langue == "français" ) { ... }
-	else {
 
-	if ( $age <= 12 AND $langue == "français" ) { ... }
+	// Ici, du code à exécuter si le genre est "femme"
 
+	if ( $age <= 12 and $langue == "français" ) {
+		// Ici, du code à exécuter si le genre est "femme",  que l'âge est inférieur à 13 et que la langue est "français"
+		...
+	} else{
+		// Ici, du code à exécuter si le genre est "femme",  et que l'âge est supérieur à 13 ou que la langue n'est pas "français"
+		...
+	}
+
+} else {
+	// Ici, du code à exécuter si le genre n'est pas "femme"
+
+	if ( $age <= 12 and $langue == "français" ) {
+		// Ici, du code à exécuter si le genre n'est pas "femme", que l'âge est inférieur à 13 et que la langue est "français"
+		...
 	}
 }
+
 ```
 
 ### Entraîne-toi
