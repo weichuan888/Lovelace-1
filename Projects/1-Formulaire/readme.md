@@ -18,6 +18,8 @@ Ta mission: développer un script en php, permettant d'afficher un formulaire de
 
 ## Critères de performance
 - Le formulaire sera du html sémantique, validé par le W3C, et accessible aux non-voyants.
+- Si l'utilisateur commet une erreur, lui retourner le formulaire, avec les réponses valides remises dans leurs inputs respectifs.
+- Idéalement: afficher les messages d'erreurs à proximité de leur champ respectif.
 - Le formulaire effectuera un nettoyage (*sanitization*) et une validation *serverside*
 - Si la validation est ok, il enverra le contenu du message par email à une adresse spécifiée.
 - implémentation de la technique antispam du *honeypot*
