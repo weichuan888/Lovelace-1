@@ -64,46 +64,26 @@ Si l'heure est entre 21h01 et 04h59, affiche "Bonne nuit!".
 ### 2. Affiche une salutation différente selon l'âge de l'utilisateur.
 Crée un petit formulaire contenant une seule question: "Quel est votre âge ?" (champ de type Number).  
 Méthode: GET
-Affiche un message différent selon la réponse au formulaire.
-Si l'âge est inférieur à 12 ans, affiche "Salut petit!"
-Si l'âge est entre 12 et 18 ans, affiche "Salut l'ado!"
-Si l'âge est entre 18 et 115 ans, affiche "Salut l'adulte!"
-Si l'âge est supérieur à 115 ans, affiche "Wow! Toujours vivant?"
+Affiche un message différent selon la réponse au formulaire.  
+- Si l'âge est inférieur à 12 ans, affiche "Salut petit!"  
+- Si l'âge est entre 12 et 18 ans, affiche "Salut l'ado!"  
+- Si l'âge est entre 18 et 115 ans, affiche "Salut l'adulte!"  
+- Si l'âge est supérieur à 115 ans, affiche "Wow! Toujours vivant?"  
+** Astuce ** Exploite le fait que l'on puisse combiner des conditions (via les opérateurs `AND` / `OR`).
 
 ### 3. Affiche une salutation différente selon l'âge et le genre de l'utilisateur.
 Complète le formulaire de l'exercice précédent en ajoutant une deuxième question : "Homme ou Femme?" (champ de type Radio).
-
 Si le genre est féminin, adapte la réponse de l'âge correspondant au genre féminin.  
 Par exemple, si l'âge est entre 12 et 18 ans et le genre féminin, affiche "Salut l'adolescente!" sinon affiche "Salut l'adolescent!".  
 Idem pour les autres tranches d'âge.
-
-**Note 1:** Tu peux vérifier une "condition multiple" (plusieurs conditions combinées), en utilisant les mots-clef `AND` ("et") ou `OR` ("ou").
-
-```php
-if ( $age <= 12 AND $langue == "français" ) { ...
-```
-
-**NOTE 2:** Tu peux imbriquer des conditions les unes dans les autres. Attention à bien placer tes accolades. Utilise l'indentation du code pour t'aider à t'y retrouver visuellement.
-
-```php
-if ($genre == 'femme'){
-	if ( $age <= 12 AND $langue == "français" ) { ... }
-	else {
-
-	if ( $age <= 12 AND $langue == "français" ) { ... }
-	
-	}
-	
-}
-```
+** Astuce ** Exploite le fait que l'on puisse mettre des conditions dans des conditions.
 
 ### 4. Affiche une salutation différente selon l'âge, le genre de l'utilisateur et sa langue maternelle.
-Complète le formulaire de l'exercice précédent en ajoutant une troisième question : "Parles-tu anglais?" (champ de type Radio).
-
-Si l'âge est inférieur à 12 ans et que l'utilisateur répond "yes", retourne: "Hello boy!" ou "Hello Girl!" selon son genre.  
-Si l'âge est entre 12 et 18 ans et que l'utilisateur répond "yes", affiche "Hello Teenage boy!" ou "Hello Teenage girl!" selon son genre.  
-Si l'âge est entre 18 et 115 ans et que l'utilisateur répond "yes", affiche "Hello Sir!" ou "Hello Lady!" selon son genre.  
-Si l'âge est supérieur à 115 ans et que l'utilisateur répond "yes", affiche "Wow! Still alive, old man?" ou "old lady?" selon son genre.  
+Complète le formulaire de l'exercice précédent en ajoutant une troisième question : "Parles-tu anglais?" (champ de type Radio: réponses possibles: "yes" ou "non" ).
+Adapte le traitement du formulaire en fonction:
+- Si l'âge est inférieur à 12 ans et que l'utilisateur répond "yes", retourne: "Hello boy!" ou "Hello Girl!" selon son genre.   
+- Si l'âge est entre 12 et 18 ans et que l'utilisateur répond "yes", affiche "Hello Teenage boy!" ou "Hello Teenage girl!" selon son genre.  
+- Si l'âge est entre 18 et 115 ans et que l'utilisateur répond "yes", affiche "Hello Sir!" ou "Hello Lady!" selon son genre.  - Si l'âge est supérieur à 115 ans et que l'utilisateur répond "yes", affiche "Wow! Still alive, old man?" ou "old lady?" selon son genre.  
 
 
 ### 5. Retour à l'école de l'échec et du jugement
