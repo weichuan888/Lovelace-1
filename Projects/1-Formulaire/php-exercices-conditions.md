@@ -68,7 +68,7 @@ Si l'heure est entre 12h01 et 16h00, affiche "Bon après-midi!".
 Si l'heure est entre 16h01 et 21h00, affiche "Bonne soirée!".  
 Si l'heure est entre 21h01 et 04h59, affiche "Bonne nuit!".  
 
-**Astuce** Exploite le fait que l'on puisse combiner des conditions (via les opérateurs `AND` / `OR`).
+**Astuce:** Exploite le fait que l'on puisse combiner des conditions (via les opérateurs `AND` / `OR`).
 
 ### 2. Affiche une salutation différente selon l'âge de l'utilisateur.
 Crée un petit formulaire contenant une seule question: "Quel est votre âge ?" (champ de type Number).  
@@ -84,7 +84,7 @@ Complète le formulaire de l'exercice précédent en ajoutant une deuxième ques
 Si le genre est féminin, adapte la réponse de l'âge correspondant au genre féminin.  
 Par exemple, si l'âge est entre 12 et 18 ans et le genre féminin, affiche "Salut l'adolescente!" sinon affiche "Salut l'adolescent!".  
 Idem pour les autres tranches d'âge.  
-**Astuce** Exploite le fait que l'on puisse mettre des conditions dans des conditions.
+**Astuce:** Exploite le fait que l'on puisse mettre des conditions dans des conditions.
 
 ### 4. Affiche une salutation différente selon l'âge, le genre de l'utilisateur et sa langue maternelle.
 Complète le formulaire de l'exercice précédent en ajoutant une troisième question : "Parles-tu anglais?" (champ de type Radio: réponses possibles: "yes" ou "non" ).
