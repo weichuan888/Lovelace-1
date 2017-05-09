@@ -57,12 +57,37 @@ if( $temperature > 21 ) {
 ```
 
 #### Exercice:
-Change la condition pour qu'elle devienne: "si la température est plus grande ou égale à 15 degrés".
+- Change la condition pour qu'elle devienne: "si la température est plus grande ou égale à 15 degrés".
+
+## Combiner des conditions
+
+### condition1 ET / OU condition2 
+Tu peux vérifier une "condition multiple" (plusieurs conditions combinées), en utilisant les mots-clef `AND` ("et") ou `OR` ("ou").
+
+```php
+if ( $age <= 12 AND $langue == "français" ) { ...
+```
+
+## Conditions hiérarchiques 
+Tu peux également imbriquer des conditions les unes dans les autres. Attention à bien placer tes accolades. 
+**Astuce** Utilise l'indentation du code pour t'aider à t'y retrouver visuellement.
+
+```php
+if ($genre == 'femme'){
+	if ( $age <= 12 AND $langue == "français" ) { ... }
+	else {
+
+	if ( $age <= 12 AND $langue == "français" ) { ... }
+
+	}
+}
+```
 
 ### Entraîne-toi
-Familiarise toi à l'écriture de conditions grâce à cette [série d'exercices](php-exercices-conditions.md). Lorsque tu as terminé, examine le cas pratique suivant.
+Familiarise toi à l'écriture de conditions grâce à cette [série d'exercices](php-exercices-conditions.md).  
+Lorsque tu as terminé, examine le cas pratique suivant.
 
-## CAs pratique 1: Générateur d'excuses
+## Cas pratique 1: Générateur d'excuses
 Les parents doivent parfois inventer des excuses pour leurs enfants. [Réalise un petit formulaire](./php-exercice-generateur-excuses.md) qui permette de proposer des excuses pré-définies. 
 
 ## Cas pratique 2: validation d'un champ de formulaire
