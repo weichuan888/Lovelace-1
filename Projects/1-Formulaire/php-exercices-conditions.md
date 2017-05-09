@@ -53,6 +53,13 @@ if( $temperature > 21 ) {
 Lance ton serveur de développement local.  
 Dans le dossier racine de ton serveur, crée un fichier que tu nommes `conditions.php`.  
 
+### 0. Représente en code le fait de devoir ranger sa chambre si elle est sale.
+** Astuce ** Initialise une variable booléenne $chambre_est_sale puis teste là dans une condition. Si elle est vraie, affiche "Range ta chambre, on dirait la cage d'un bonobo!". Sinon, affiche "Ta chambre est trop propre, vis un peu!".
+
+Fait? Bravo. A présent, modifie ton script pour représenter plutôt comment tes parents s'exprimeraient.
+
+Ensuite, rendons le script un peu plus subtil en permettant une gradation. Ta chambre pourrait être soit "dégoutante", "sale", "en ordre", "immaculée". Utilise une structure if/ elseif / else pour cela. Invente les messages à afficher en fonction de chaque cas de figure.
+
 ### 1. Affiche un message de salutation différent selon l'heure courante.
 Si l'heure est entre 05h00 et 9h00 du matin, affiche "Bonjour!".  
 Si l'heure est entre 9h01 et 12h00, affiche "Bonne journée!".  
@@ -60,6 +67,7 @@ Si l'heure est entre 12h01 et 16h00, affiche "Bon après-midi!".
 Si l'heure est entre 16h01 et 21h00, affiche "Bonne soirée!".  
 Si l'heure est entre 21h01 et 04h59, affiche "Bonne nuit!".  
 
+** Astuce ** Exploite le fait que l'on puisse combiner des conditions (via les opérateurs `AND` / `OR`).
 
 ### 2. Affiche une salutation différente selon l'âge de l'utilisateur.
 Crée un petit formulaire contenant une seule question: "Quel est votre âge ?" (champ de type Number).  
@@ -68,14 +76,13 @@ Affiche un message différent selon la réponse au formulaire.
 - Si l'âge est inférieur à 12 ans, affiche "Salut petit!"  
 - Si l'âge est entre 12 et 18 ans, affiche "Salut l'ado!"  
 - Si l'âge est entre 18 et 115 ans, affiche "Salut l'adulte!"  
-- Si l'âge est supérieur à 115 ans, affiche "Wow! Toujours vivant?"  
-** Astuce ** Exploite le fait que l'on puisse combiner des conditions (via les opérateurs `AND` / `OR`).
+- Si l'âge est supérieur à 115 ans, affiche "Wow! Toujours vivant?"   
 
 ### 3. Affiche une salutation différente selon l'âge et le genre de l'utilisateur.
 Complète le formulaire de l'exercice précédent en ajoutant une deuxième question : "Homme ou Femme?" (champ de type Radio).
 Si le genre est féminin, adapte la réponse de l'âge correspondant au genre féminin.  
 Par exemple, si l'âge est entre 12 et 18 ans et le genre féminin, affiche "Salut l'adolescente!" sinon affiche "Salut l'adolescent!".  
-Idem pour les autres tranches d'âge.
+Idem pour les autres tranches d'âge.  
 ** Astuce ** Exploite le fait que l'on puisse mettre des conditions dans des conditions.
 
 ### 4. Affiche une salutation différente selon l'âge, le genre de l'utilisateur et sa langue maternelle.
