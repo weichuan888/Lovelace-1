@@ -2,12 +2,9 @@
 Becode / BXL Central Main Repository
 
 ## Programme
+
 - [La-prairie](/La-prairie/)
-- [Projetcs](/Projects)
-
-## Challenges
+- [Projets](/Projects)
 - [Missions](/Missions)
-
-## Tests
 - [Quizz](/Quizz)
 
