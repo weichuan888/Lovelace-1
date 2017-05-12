@@ -63,8 +63,8 @@ J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple q
 
 
 ## Bonus : Validateur de QCM
-- Crée une autre **branche** nommée *"genetator"*
-- Crée deux fichier `QCM-1.html_` et `QCM-2.html`
+- Crée une autre **branche** nommée **"validator"**
+- Crée deux fichier `QCM-1.html` et `QCM-2.html`
 - Crée un fichier `resultat.php`
 - Dans chaque fichier **HTML** crée des questions et réponses **différentes**
 - Faire de sorte que les deux QCM envoient les réponses au même fichier **resultat.php**. 
