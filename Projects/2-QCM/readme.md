@@ -6,10 +6,10 @@
 Je suis professeur à BeCode et j'aimerais soummettre mes étudiants à un QCM.
 Le but du QCM c'est qu'ils puissent savoir où ils en sont donc je n'ai pas besoin 
 **à priori** de recevoir le résultat. 
-Mes QCM sont en général simple, il n'y a ques **10 questions** et **il n'y a qu'une réponse valable par question**.
-Je voudrais que le résultat s'affiche sur **une nouvelle page** avec la mention _"Ta note dest de x/10"_ par exemple. 
+Mes QCM sont en général simples, il n'y a ques **10 questions** et **il n'y a qu'une réponse valable par question**.
+Je voudrais que le résultat s'affiche sur **une nouvelle page** avec la mention _"Ta note est de x/10"_ par exemple. 
 
-J'aimerai que mon QCM ressemble à quelque chose comme ceci : ![Image exemple qcm](qcm.png)
+J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple qcm](qcm.png)
 
 
 ## Briefing
@@ -44,7 +44,7 @@ J'aimerai que mon QCM ressemble à quelque chose comme ceci : ![Image exemple qc
 
 ### Étape 3 : Envoyer le formulaire
 
-- Réaliser l'envoie du formulaire vers un fichier **PHP**
+- Réaliser l'envoi du formulaire vers un fichier **PHP**
 - Traiter les données en **PHP** pour afficher un note finale
 
 ### Étape 4 : Amélioration HTML
