@@ -10,7 +10,7 @@ Voici donc un petit guide sans prétention destiné à connaître l'essentiel su
 Quelques notions de base
 [img src="http://coreight.com/sites/default/files/typographie.jpg" ]
 
-Polices et fontes
+	Polices et fontes
 On voit souvent les deux termes utilisés indifféremment, alors qu'on ne parle pas exactement de la même chose.
 En gros la police est l'ensemble des représentations de caractères d'une même famille, quelle que soit la taille et la graisse utilisées.
 En revanche la fonte désigne précisément des caractéristique de corps, graisse et italique pour une police donnée.
@@ -20,7 +20,7 @@ Exemples :
 
 C'est aussi simple que ça.
 
-Serif ou sans serif ? La classification des polices
+	Serif ou sans serif ? La classification des polices
 
 Afin de mettre un peu d'ordre parmi les multiples possibilités, plusieurs classifications ont vu le jour au fil des années, dont je te passerai l'historique (<a href="http://fr.wikipedia.org/wiki/Police_d%C3%A9criture#Classifications" target="_blank" title="Classifications des polices d'écriture">plus d'infos ici</a>)
 La plus utilisée aujourd'hui, surtout sur le web, est celle du W3C qui nous donne les grandes familles suivantes :
@@ -51,41 +51,47 @@ Quant aux polices plus originales, mieux vaut les réserver aux titres ou a des 
 	La structure des lettres
 Il existe un tas de termes barbares pour désigner toutes les subtilités des caractères.
 Un dessin valant parfois mieux qu'un long discours, je pense que tu trouveras ton bonheur avec ça :
-<img alt="anatomie des catactères" src="http://coreight.com/sites/default/files/typo.png" style="width: 610px; height: 250px;" title="anatomie des catactères">
+[ image : http://coreight.com/sites/default/files/typo.png]
 J'ajouterais également deux autres termes : la hampe qui correspond à la partie au dessus de la Hauteur d'x, et le jambage sous la ligne de base.
 (<a href="http://cdn-5.lifehack.org/wp-content/files/2013/12/pictypo2.jpg">une version anglaise plus complète ici</a>, et <a href="http://www.fonts.com/content/learning/fontology/level-1/type-anatomy/anatomy" target="_blank" title="Anatomy of a Character">tout un article là</a>)
 
 	La taille des polices
-<img alt="taille des polices" src="http://coreight.com/sites/default/files/police-taille.png" style="width: 300px; height: 300px; float: left;" title="taille des polices">Exprimée au choix en point, pixels, ou en valeur relative (em ou %), la taille désigne en fait la hauteur du corps de la police (cf schéma au dessus).
+[ image : http://coreight.com/sites/default/files/police-taille.png]
+Exprimée au choix en point, pixels, ou en valeur relative (em ou %), la taille désigne en fait la hauteur du corps de la police (cf schéma au dessus).
 Attention cependant, l'affichage pourra rendre complètement différemment selon la police : 2 polices en 12 points n'auront pas forcément la même taille et surtout la même largeur.
  
  
 
 	La graisse
-<img alt="police graisse" src="http://coreight.com/sites/default/files/graisse.png" style="width: 300px; height: 250px; float: left;" title="police graisse">La graisse correspond tout simplement à l'épaisseur du trait, et permet de mettre en valeur certains mots, titres, paragraphes...
+[ image : http://coreight.com/sites/default/files/graisse.png]
+La graisse correspond tout simplement à l'épaisseur du trait, et permet de mettre en valeur certains mots, titres, paragraphes...
 En partant d'une graisse dite normale ou regular (font-weight: 400 en CSS), on peut aussi bien grossir le trait vers gras, heavy, black (avec tous les intermédiaires), ou au contraire l'affiner avec léger (light), extra-light, ultra-light.
 C'est d'ailleurs une tendance que l'on trouve de plus en plus souvent dans le webdesign moderne : des polices de grande taille avec des caractères très fin.
 
-	Bien utiliser les polices, quelques conseils
-<img alt="Polices" src="http://coreight.com/sites/default/files/polices-dessin.jpg" style="width: 610px; height: 300px;" title="Polices">
+Bien utiliser les polices, quelques conseils
+[ image : http://coreight.com/sites/default/files/polices-dessin.jpg]
 
 	Ne pas mélanger trop de polices différentes
-<img alt="polices différentes" src="http://coreight.com/sites/default/files/polices-differentes.png" style="width: 300px; height: 200px; float: left;" title="polices différentes">C'est un défaut que l'on retrouve très souvent dans les publications amateurs : chaque information sera écrite avec une fonte totalement différente : une police fantasy pour le titre, une police serif en gras pour la date, une police sans-serif en italique pour le lieu... et tout le reste en <a href="http://www.comicsanscriminal.com/" target="_blank" title="Comic Sans MS">Comic Sans MS</a> bien entendu.
+[ image : http://coreight.com/sites/default/files/polices-differentes.png]
+C'est un défaut que l'on retrouve très souvent dans les publications amateurs : chaque information sera écrite avec une fonte totalement différente : une police fantasy pour le titre, une police serif en gras pour la date, une police sans-serif en italique pour le lieu... et tout le reste en <a href="http://www.comicsanscriminal.com/" target="_blank" title="Comic Sans MS">Comic Sans MS</a> bien entendu.
 Il est souvent plus prudent de limiter le nombre de polices différentes sur un même document. Les variations de taille, de graisse voir de couleur doivent déjà permettre de mettre en valeur les différents éléments.
 Donc avec 2-3 polices différentes, tu devrais t'en sortir.
 
 	Les combinaisons de polices
-<img alt="polices combinaisons" src="http://coreight.com/sites/default/files/polices-combinaison.png" style="width: 300px; height: 200px; float: left;" title="polices combinaisons">Maintenant que tu connais tout des différentes familles de police, et que tu sais qu'il ne faut pas trop exagérer sur leur nombre dans un même document, tu vas pouvoir jouer à les combiner.
+[ image : http://coreight.com/sites/default/files/polices-combinaison.png]
+Maintenant que tu connais tout des différentes familles de police, et que tu sais qu'il ne faut pas trop exagérer sur leur nombre dans un même document, tu vas pouvoir jouer à les combiner.
 Le jeu pour que ça fonctionne est qu'elles soient suffisamment différentes pour être facilement reconnaissables, mais pas trop pour que l'ensemble paraisse homogène.
 Je trouve l'exemple ci-contre assez parlant. Pas de faute grave sur le premier exemple, mais en effet la lecture est plus difficile qu'avec les deux autres, car le contraste entre les deux polices est trop élevé.
 N'oublie pas également que tu peux jouer sur la taille, la graisse, la couleur, la décoration
 (<a href="http://www.noupe.com/design/a-crash-course-in-typography-principles-for-combining-typefaces.html" target="_blank" title="A Crash Course in Typography: Principles for Combining Typefaces">plus d'infos (en anglais)</a>, <a href="http://www.smashingmagazine.com/2013/02/26/creating-visual-hierarchies-typography/" target="_blank" title="Creating Exciting And Unusual Visual Hierarchies">mais aussi ici</a>)
 
 	Modifier les polices ?
-<img alt="Modifier polices" src="http://coreight.com/sites/default/files/police-modifier.jpg" style="width: 300px; height: 300px; float: left;" title="Modifier polices">N'oublie pas également qu'une même police peut-être adaptée selon tes besoins, car on peut jouer sur la hauteur des interlignes, ou l'espacement entre les caractères (exemple ci-contre sous Gimp)
+[ image : http://coreight.com/sites/default/files/police-modifier.jpg]
+N'oublie pas également qu'une même police peut-être adaptée selon tes besoins, car on peut jouer sur la hauteur des interlignes, ou l'espacement entre les caractères (exemple ci-contre sous Gimp)
 
 	La mise en forme des paragraphes
-<img alt="paragraphes" src="http://coreight.com/sites/default/files/paragraphe.jpg" style="width: 300px; height: 300px; float: left;" title="paragraphes">Les caractères, c'est une chose, mais autant les utiliser dans des ensembles clairs et cohérents
+[ image : http://coreight.com/sites/default/files/paragraphe.jpg]
+Les caractères, c'est une chose, mais autant les utiliser dans des ensembles clairs et cohérents
 Premier point, la séparation entre deux paragraphes. Pour bien faire la distinction, tu peux soit laisser un espace libre entre les deux, soit débuter le second avec un alinéa.
 	Mais pas les deux ! C'est comme boire ou conduire, ou Julie ou Valérie, il faut choisir.
 ("non, t'as pas osé la placer celle là ?"
@@ -103,8 +109,9 @@ Voilà bien un truc qui m'énerve, car certains n'ont pas dû apprendre les règ
 	- pour les () [] {} et les guillemets, on met des espaces à l'extérieur, pas à l'intérieur
 
 
-	Quelle police sur le web ? L'utilité des web fonts
-<img alt="Web fonts" src="http://coreight.com/sites/default/files/web-fonts.jpg" style="width: 300px; height: 300px; float: left;" title="Web fonts">Aux origines du web, nous étions un peu limité en termes de polices de caractère, puisque pour qu'une police s'affiche sur le navigateur d'un gentil internaute, il fallait qu'elle soit déjà installée sur son ordinateur.
+Quelle police sur le web ? L'utilité des web fonts
+[ image : http://coreight.com/sites/default/files/web-fonts.jpg]
+Aux origines du web, nous étions un peu limité en termes de polices de caractère, puisque pour qu'une police s'affiche sur le navigateur d'un gentil internaute, il fallait qu'elle soit déjà installée sur son ordinateur.
 Bien heureusement, une propriété CSS a commencé à être pris en compte de plus en plus souvent par les navigateurs, la propriété @font-face.
 Celle-ci permet d'utiliser des polices présentes sur le web, même si elles ne sont pas installées sur l'appareil qui consulte la page. Des bibliothèques de polices fleurissent alors un peu partout pour pouvoir faire son choix parmi des milliers de références.
 <a href="http://www.google.com/fonts/" target="_blank" title="Google Web Fonts">Google Web Fonts</a> par exemple est assez performante et facile à mettre en place.
