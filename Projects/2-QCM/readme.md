@@ -3,7 +3,7 @@
 - Emplacement : [GitHub](https://github.com/) sur un repository intitulé "`projet-2-QCM`"
 
 ## Demande client
-Je suis professeur à BeCode et j'aimerais soummettre mes étudiants à un QCM.
+Je suis professeur à BeCode et j'aimerais soumettre mes étudiants à un QCM.
 Le but du QCM c'est qu'ils puissent savoir où ils en sont donc je n'ai pas besoin 
 **à priori** de recevoir le résultat. 
 Mes QCM sont en général simples, il n'y a ques **10 questions** et **il n'y a qu'une réponse valable par question**.
