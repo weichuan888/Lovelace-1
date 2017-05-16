@@ -82,8 +82,9 @@ Par conséquent, si nos pages ne sont pas bien sémantiques, Google ne les montr
 		-   Au deuxième élément de la liste (les types de gens), joue avec `background-image` et `padding-right` pour faire apparaître l'image  ![mal](mal.png)  
 		-   Au troisième élément de la liste (les types de gens), joue avec `background-image` et `padding-right` pour faire apparaître l'image  ![chat](chat.png)  
 ### CSS de positionnement:  
-	-  **comprendre le flux** (display inline/inline-block/block & float)
+	-  **comprendre le flux** (display inline/inline-block/block)
 	-  cfr https://codepen.io/pixeline/pen/QvrbPv 
+	-  `float` va laisser le block flotter sur le block suivant (au lieu de le pousser à la ligne)
 	-  Exercice: fais en sorte que le texte courre autour des images, en utilisant, sur les images, la propriété float (ajuste avec du margin pour distancier le texte de l'image).
 	-  sortir du flux: position relative / absolute / fixed
 
