@@ -141,5 +141,7 @@ Exercice:
 - Crée une version en html sémantique du document [
 8 façons simples d’améliorer la typographie dans vos designs](doc-ameliorer-sa-typo.txt) et améliore la lisibilité en appliquant tout le css pour en améliorer le contenu. Cherche à produire un résultat favorisant la lecture, proche d'un article sur Medium. 
 - Crée une version en html sémantique du document [Petit Guide Typographique](doc-guide-typographie.txt) et améliore la lisibilité en appliquant tout le css pour en améliorer le contenu. Cherche à produire un résultat favorisant la lecture, proche d'un article sur Medium. 
-- Reproduis le plus fidèlement possible le layout suivant:    
-[homepage d'un site](turlututu.png))
+- Sans aller voir le code source, reproduis le plus fidèlement possible les layouts suivants:    
+	- [homepage de turlututu.com](turlututu.png)
+	- [homepage de Active Collab](activecollab.png)
+
