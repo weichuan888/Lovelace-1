@@ -4,8 +4,10 @@
 
 # Sprint: Amélioration progressive
 ## 1. Sémantique html
-- Ca veut dire quoi "**sémantique**" ? 
-Pour bien composer un document, il faut raisonner non pas en termes d'apparence graphique mais en termes de définition de chacun des objets le composant, c.à.d. raisonner en terme de structure du document. Utiliser une balise "titre" pour un titre, une balise "définition" pour une définition, etc.
+- Ca veut dire quoi "**sémantique**" ?   
+Pour bien composer un document html, il faut raisonner non pas en termes d'apparence graphique mais en termes de définition de chacun des objets le composant, c.à.d. raisonner en terme de structure du document.  
+Utiliser une balise "titre" pour un titre, une balise "définition" pour une définition, etc.  
+Concrètement, se poser la question: "Ce bout de texte, c'est quoi: un titre? Un paragraphe? Une légende? Et ce bloc, est-ce un chapitre ? Une note de l'auteur ?".
 
 - **Pourquoi** la sémantique est importante pour le web developer?
 Discussion -> googlebot (donc SEO organique) + Accessibilité (liseuses d'écran).  
@@ -22,15 +24,22 @@ Par conséquent, si nos pages ne sont pas bien sémantiques, Google ne les montr
 - **balises** = les "blocs". Ils permettent d'indiquer la fonction sémantique d'une portion de contenu.
 - Exercices: 
 	- Retranscris [ce document Texte](doc-le-paysan-chinois.txt) en sémantique html, donc en utilisant les bons blocs html (pas de `div` ni de `span`)  
-	- Utilise les balises suivantes: `h1`,`h2`, `blockquote`, `q`, `img`, `p`, `img`, `hr`, `figure` et `caption`, `table`, `th`, `tr`, `td`, `ul` ou `ol` et `li`. 
-	- Ajoute deux ou trois liens de ton choix dans la page html via la balise `a`
+	- Utilise les balises suivantes: `h1`, `h2`, `blockquote`, `q`, `img`, `p`, `img`, `hr`, `figure` et `caption`, `table`, `th`, `tr`, `td`, `ul` ou `ol` et `li`. 
 	- Retrouve, pour chacune de ces balises, l'origine de leur nom (c'est comme cela qu'on les retient). Va voir sur html5doctor.com à quoi elles correspondent si tu as un doute.
+	- Ajoute deux ou trois liens de ton choix dans la page html via la balise `a`
+	- Y-a-t-il une partie que l'on pourrait considérer comme une entête? Si oui, regroupe la dans une balise `header`. 
+	- Et un pied de page? Si oui, regroupe ce contenu là dans une balise `footer`
+	- Mets toutes les instances des mots "Bien" et "Mal" dans une balise `span` , `em` ou `strong`. 
+
+### A savoir
+- trop de sémantique tue la sémantique. La règle (comme souvent en programmation) est: **le moins de code possible, mais autant que nécessaire.**
 
 - **html attributes** = permet de donner les caractéristiques des balises
 - Exercices : 
-	- Rajoute l'attribut Alt aux images.
-	- Ajoute l'attribut au liens, qui permettent d'indiquer la page vers laquelle doit mener le lien
-	- Fais en sorte que lorsqu'on clique sur tes liens, la page s'ouvre dans un nouvel onglet du navigateur  
+	- Rajoute l'attribut `Alt` aux images. A quoi sert-il?  
+	- Ajoute une classe "bien" ou "mal" aux balises entourant les mots "Bien" et "Mal".
+	- Ajoute l'attribut au liens, permettant d'indiquer la page vers laquelle doit mener le lien.  
+	- Fais en sorte que lorsqu'on clique sur les liens, la page s'ouvre dans un nouvel onglet du navigateur.  
 	- Trouve l'attribut permettant d'afficher une petite boite de texte au survol des liens   
 ![Exemple](https://cdn.searchenginejournal.com/wp-content/uploads/2008/09/title-usability.jpg)
 	
@@ -69,28 +78,36 @@ Par conséquent, si nos pages ne sont pas bien sémantiques, Google ne les montr
 	- En utilisant uniquement la balise comme sélecteur, mets toutes les citations en italiques.
 	- Identifie les citations des villageois et celles du fermier en assignant à chacune une classe correspondante.
 	- Change la couleur du bord gauche des citations en fonction de la personne qui parle.
+- Sélectionner via parent et enfant
+- Exercice:
+	- Sélectionne un élément du `header` et donne lui un fond jaune.
+
 -  Tous les autres sélecteurs: 
 	-  `+` et `>` 
 	-  	Sélectionner via l'attribut `[attribute]`
-	-   Il y en a quelques autres. Pour te faire une idée de ce qu'ils permettent, va lire la petite [doc officielle](https://www.w3schools.com/cssref/css_selectors.asp).
+	-   Il y en a quelques autres. Pour te faire une idée de ce qu'ils permettent, va lire la petite [doc officielle](https://www.w3schools.com/cssref/css_selectors.asp), puis joue à [CSS Diner](http://flukeout.github.io/)
 	-   Exercices:
-		-   Mets en gras le premier paragraphe
 		-   Mets en italique le texte des citations
-		-   Mets en lettres majuscules toutes les instances du mot "bien" et "mal" (tu peux utiliser une balise `span` pour pouvoir les sélectionner).
+		-   Mets en lettres majuscules toutes les instances des mots "bien" et "mal".
+		-   Mets en rouge les mots "Mal"
+		-   Mets en vert les mots "Bien"
 		-   Stylise la table pour que la couleur de fond de chaque rangée soit en alternance grise ou blanche
 		-   Au premier élément de la liste (les types de gens), joue avec `background-image` et `padding-right` pour faire apparaître l'image ![bien](bien.png)  
 		-   Au deuxième élément de la liste (les types de gens), joue avec `background-image` et `padding-right` pour faire apparaître l'image  ![mal](mal.png)  
 		-   Au troisième élément de la liste (les types de gens), joue avec `background-image` et `padding-right` pour faire apparaître l'image  ![chat](chat.png)  
+		-   Mets en gras le premier paragraphe
+
+		
 ### CSS de positionnement:  
 	-  **comprendre le flux** (display inline/inline-block/block)
 	-  cfr https://codepen.io/pixeline/pen/QvrbPv 
 	-  `float` va laisser le block flotter sur le block suivant (au lieu de le pousser à la ligne)
 	-  Exercice: fais en sorte que le texte courre autour des images, en utilisant, sur les images, la propriété float (ajuste avec du margin pour distancier le texte de l'image).
-	-  sortir du flux: position relative / absolute / fixed
+	-  sortir du flux: position `static` / `relative` / `absolute` / `fixed` voir http://fr.learnlayout.com
 
 ## 3. les bonbons
 - Élimine le css par défaut (`reset.css`, normalize.css, ...)  
-- Google Webfonts: change la police de caractère du document à Open Sans, hébergée sur Google Web Fonts.
+- [Google Webfonts](https://fonts.google.com/): change la police de caractère du document à Open Sans, hébergée sur Google Web Fonts.
 - Pour les titres, choisis une autre police, suffisamment différente.
 
 ## Du bon html? 
