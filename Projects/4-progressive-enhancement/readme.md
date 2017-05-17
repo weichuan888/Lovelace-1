@@ -123,6 +123,7 @@ Une balise est rendue sous forme de "bloc". Tu peux contrôler les dimensions et
 	-  sortir du flux: position `static` / `relative` / `absolute` / `fixed`   
 		-  	la propriété `position` permet de positionner un élément n'importe où (via les propriétés `top` et `left`), à partir des coordonnées de son premier parent en position: relative ou static. [Expérimente via ce Pen](https://codepen.io/pixeline/pen/vmzNjw?).
 	-   Exercice: une [notification d'interface](https://codepen.io/pixeline/pen/dWqMxe)
+	-   Exercice: [position absolue](https://codepen.io/pixeline/pen/JNaKJv) 
 	-  Plus d'informations sur le positionnement CSS: http://fr.learnlayout.com
 
 ## 3. Web fonts
