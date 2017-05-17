@@ -1,5 +1,7 @@
 Est-ce un bien? Est-ce un mal? Je ne sais pas.
+11 mai 2016, Alexandre Gorius
 Dans la nature, Bien & mal n’existent pas. L'Univers lui-même n'est ni bon ni mauvais, mais un potentiel en développement permanent.
+
 
 Dans la vie, il y a 4 types de personnes.
 - les gens qui pensent qu'Internet c'est bien,
@@ -72,5 +74,9 @@ En résumé, représentons ce dialogue sous forme de tableau
    Tableau représentant la philosophie du fermier.
    
    
-   
+Conclusion  
+Le Bien et le Mal sont des valeurs culturelles et non naturelles. La banane est bonne pour le singe, le singe n'est pas bon pour la banane. N'en faisons donc pas un fromage...
+
+----
+Copyright Just Another Company 2017. Tous droits réservés. Très largement adapté de cet article: https://medium.com/scribe/il-ny-a-rien-de-bien-ni-de-mal-3d46a2d2e263
    
