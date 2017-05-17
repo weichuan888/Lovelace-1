@@ -121,7 +121,8 @@ Une balise est rendue sous forme de "bloc". Tu peux contrôler les dimensions et
 	-  `float` va laisser le block flotter sur le block suivant (au lieu de le pousser à la ligne)
 	-  Exercice: fais en sorte que le texte courre autour des images, en utilisant, sur les images, la propriété float (ajuste avec du margin pour distancier le texte de l'image).   
 	-  sortir du flux: position `static` / `relative` / `absolute` / `fixed`   
-		-  	`absolute` permet de positionner un élément n'importe où (via les propriétés `top` et `left`), à partir des coordonnées de son premier parent en position: relative ou static. [Expérimente via ce Pen](https://codepen.io/pixeline/pen/vmzNjw?).
+		-  	la propriété `position` permet de positionner un élément n'importe où (via les propriétés `top` et `left`), à partir des coordonnées de son premier parent en position: relative ou static. [Expérimente via ce Pen](https://codepen.io/pixeline/pen/vmzNjw?).
+	-   Exercice: une [notification d'interface](https://codepen.io/pixeline/pen/dWqMxe)
 	-  Plus d'informations sur le positionnement CSS: http://fr.learnlayout.com
 
 ## 3. Web fonts
