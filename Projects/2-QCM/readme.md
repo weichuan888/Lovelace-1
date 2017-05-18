@@ -4,15 +4,17 @@
 
 ## Demande client
 Je suis professeur à BeCode et j'aimerais soummettre mes étudiants à un QCM.
-Le but du QCM c'est qu'ils puissent savoir où ils en sont donc je n'ai pas besoin 
-**à priori** de recevoir le résultat. 
-Mes QCM sont en général simples, il n'y a ques **10 questions** et **il n'y a qu'une réponse valable par question**.
+Le but du QCM c'est qu'ils puissent savoir où ils en sont donc je n'ai pas besoin **à priori** de recevoir le résultat. 
+Mes QCM sont en général simples, il n'y a que **10 questions** et **il n'y a qu'une réponse valable par question**.
+
 Je voudrais que le résultat s'affiche sur **une nouvelle page** avec la mention _"Ta note est de x/10"_ par exemple. 
 
 J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple qcm](qcm.png)
 
+N'hésite pas à faire plus beau.
 
-## Briefing
+
+## Simple QCM
 
 ### Étape 1 : Planifier le travail à effectuer
 - Etude de la demande
@@ -23,7 +25,7 @@ J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple q
 
 - HTML sémantique _(aide : [html5doctor](http://html5doctor.com/))_
 - Implémenter le framework : [Bootstrap](http://getbootstrap.com/)
-- Pour tester rapidement réaliser le formulaire en HTML avec 3 questions :
+- Pour tester **rapidement** commencer par réaliser le formulaire en HTML avec 3 questions comme ceci :
 
 ```
 1 : La bonne réponse est A ?
@@ -41,6 +43,7 @@ J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple q
 - Réponse B
 - Réponse C
 ```
+**Après** vous ferez avec 10 questions
 
 ### Étape 3 : Envoyer le formulaire
 
@@ -51,18 +54,20 @@ J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple q
 
 - Ajouter un champ **nom, prénom**
 - Mettre d'autres questions et réponses ([exemple](/Quizz))  
-- Améliorer la mise en page de la note finale
+- Améliorer la mise en page de la note finale ([exemple](layout.jpeg))  
 - Valider le HTML par le [W3C](https://validator.w3.org/).
 
 ### Étape 5 : Pour aller plus loin
 
-- Ajouter un champ **email**
-- Valider l'email en **PHP**
-- Si l'email est valide envoyer le résultat à l'etudiant 
+- Ajouter un champ **email** pour l'étudiant
+- Valider l'email de l'étudiant en **PHP** (`filter_var()`)
+- Si l'email est **valide** alors envoyer le résultat à l'etudiant par **email** (`mail()`)
 - Envoyer le résultat aussi au formateur à : **"ton@email.com"**
 
 
-## Bonus : Validateur de QCM
+## Améliorer
+
+### Validateur de QCM
 - Crée une autre **branche** nommée **"validator"**
 - Crée deux fichier `QCM-1.html` et `QCM-2.html`
 - Crée un fichier `resultat.php`
@@ -70,7 +75,20 @@ J'aimerais que mon QCM ressemble à quelque chose comme ceci : ![Image exemple q
 - Faire de sorte que les deux QCM envoient les réponses au même fichier **resultat.php**. 
 - Ce même fichier **resultat.php** devra retourner une note selon les réponses pour les deux fichiers **HTML** 
 
-Astuces
+_Consigne_ : Ici on assume que les étudiants ne savent pas activer l'inspecteur et voir le code HTML
 
-- _astuce_ : la bonne réponse doit être envoyée de manière cachée dans le formulaire
-- _consigne_ : ici on assume que les étudiants ne savent pas activer l'inspecteur et voir le code HTML
+_Astuce_ : La bonne réponse peut être envoyée de manière cachée dans le formulaire
+
+
+### Générateur de QCM
+- Crée une autre **branche** nommée **"generator"**
+- Crée un fichier `QCM.php`
+- Dans ce fichier crée un `array()` pour stoquer tes questions et réponses
+- Générer un formulaire à partir de ce tableau (`foreach`, `for`,`while`)
+- Faire de sorte que le formulaire généré soit envoyé à `QCM.php`
+- Afficher en rouge les mauvaises réponses et en vert les bonnes réponses 
+- Ajouter l'envoie du résultat par email à **l'étudiant** et au **formateur**
+- Bonus : retirer un point quand une réponse est mauvaise
+- Bonus : afficher une alerte (bootstrap) pour dire que le résultat à bien été envoyé
+
+
