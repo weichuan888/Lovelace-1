@@ -25,17 +25,17 @@ Par conséquent, si nos pages ne sont pas bien sémantiques, Google ne les montr
 - Exercices: 
 	- Retranscris [ce document Texte](doc-le-paysan-chinois.txt) en sémantique html, donc en utilisant les bons blocs html (pas de `div` ni de `span`)  
 	- Utilise les balises suivantes: `h1`, `h2`, `blockquote`, `q`, `img`, `p`, `img`, `hr`, `figure` et `caption`, `table`, `th`, `tr`, `td`, `ul` ou `ol` et `li`. 
-	- Retrouve, pour chacune de ces balises, l'origine de leur nom (c'est comme cela qu'on les retient). En cas de doute, cherche la réponse sur http://html5doctor.com.
+	- Retrouve, pour chacune de ces balises, l'origine de leur nom (c'est comme cela qu'on les retient). En cas de doute, cherche la réponse sur [html5doctor.com](http://html5doctor.com).
 	- Ajoute deux ou trois liens de ton choix dans la page html via la balise `a`
 	- Y-a-t-il une partie que l'on pourrait considérer comme une entête? Si oui, regroupe la dans une balise `header`. 
 	- Et un pied de page? Si oui, regroupe ce contenu là dans une balise `footer`
 	- Mets toutes les instances des mots "Bien" et "Mal" dans une balise `span` , `em` ou `strong`. 
 
-### A savoir
-- trop de sémantique tue la sémantique. La règle (comme souvent en programmation) est:  
+### À savoir
+- Trop de sémantique tue la sémantique. La règle (comme souvent en programmation) est:  
 	**Le moins de code possible, mais autant que nécessaire.**
 
-- **les attributs html** : ils permettent de définir les caractéristiques des balises.  Imagine qu'il y ait une balise "humain". 
+- **Les attributs html** : ils permettent de définir les caractéristiques des balises.  Imagine qu'il y ait une balise "humain". 
 ```<human>Steven Paul Jobs, dit Steve Jobs, (San Francisco, 24 février 1955 - Palo Alto, 5 octobre 2011) est un entrepreneur... </human>```   
 Nous pouvons, avec des attributs, décrire cet humain pour le différencier des autres.
 
