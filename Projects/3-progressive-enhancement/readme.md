@@ -1,8 +1,5 @@
-# Transmissif: Amélioration progressive
-- parler typo, sacade, confort de lecture, 
-- exposer à un texte brut, pas ou mal architecturé (Le fichier de travail: [le paysan chinois](doc-le-paysan-chinois.txt) ?)
-
-# Sprint: Amélioration progressive
+# L'Amélioration progressive
+## Sprint: Amélioration progressive
 ## 1. Sémantique html
 - Ca veut dire quoi "**sémantique**" ?   
 Pour bien composer un document html, il faut raisonner non pas en termes d'apparence graphique mais en termes de définition de chacun des objets le composant, c.à.d. raisonner en terme de structure du document.  
