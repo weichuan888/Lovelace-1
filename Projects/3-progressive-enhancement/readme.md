@@ -1,5 +1,9 @@
 # L'Amélioration progressive
 ## Sprint: Amélioration progressive
+
+- Emplacement : [GitHub](https://github.com/) sur un repository intitulé "`projet-3-progressive-enhancement`"
+- Remise : lundi prochain
+
 ## 1. Sémantique html
 - Ca veut dire quoi "**sémantique**" ?   
 Pour bien composer un document html, il faut raisonner non pas en termes d'apparence graphique mais en termes de définition de chacun des objets le composant, c.à.d. raisonner en terme de structure du document.  
@@ -143,4 +147,5 @@ Exercice:
 - Sans aller voir le code source, reproduis le plus fidèlement possible les layouts suivants:    
 	- [homepage de turlututu.com](turlututu.png)
 	- [homepage de Active Collab](activecollab.png)
+
 
