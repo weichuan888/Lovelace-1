@@ -18,7 +18,6 @@
 - Have fun
 
 
-
 ## Instructions
 
 - En groupe faire un mockup de la solution
@@ -38,5 +37,6 @@
 - Refresh page : [solution 1](http://stackoverflow.com/a/11497617)
 - Refresh page : [solution 2](http://abundantcode.com/how-to-auto-refresh-webpage-every-5-seconds-in-php/)
 
-
+## Lecture
+- [10 Astuces pour réaliser le parfait livetweet](https://www.webmarketing-com.com/2015/02/25/35741-10-astuces-pour-realiser-le-parfait-livetweet)
 
