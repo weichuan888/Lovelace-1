@@ -2,6 +2,7 @@
 ## Sprint: Amélioration progressive
 
 - Emplacement : [GitHub](https://github.com/) sur un repository intitulé "`projet-3-progressive-enhancement`"
+- Slides : [La typographie web](la-typographie-web.pdf)
 - Remise : lundi prochain
 
 ## 1. Sémantique html
