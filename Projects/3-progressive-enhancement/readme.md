@@ -58,7 +58,7 @@ De la sorte, en augmentant la sémantique des balises par des attributs, on a ai
 ## 2. CSS (Le look)
  
 -  Les sélecteurs en CSS (part 1): via la balise
--  contrôler l'aspect du texte: `font-face` (serif / sans-serif), font-size, color, line-height  
+-  contrôler l'aspect du texte: `font-style` (serif / sans-serif), font-size, color, line-height  
 -  Exercices: 
 	- stylise les paragraphes: utilise une police à empatement, augmente un peu l'interlignage, utilise une taille de base bien lisible. Donne au texte de couleur foncée, mais pas noire.
 	- stylise les liens de manière à les rendre bien lisibles.
