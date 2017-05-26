@@ -118,8 +118,8 @@ Le plus souvent, on sélectionne les éléments à styliser via l'attribut `clas
 
 		
 ### CSS de positionnement:  
--  **comprendre le flux** (display inline/inline-block/block) 
-	-  Théorie: https://codepen.io/pixeline/pen/QvrbPv 
+-  **comprendre le flux** (display `inline`/`inline-block`/`block`) 
+	-  Théorie interactive: https://codepen.io/pixeline/pen/QvrbPv 
 	-  Exercice: un menu horizontal https://codepen.io/pixeline/pen/PmdPYL 
 	-  Exercice: une grille https://codepen.io/pixeline/pen/aWavWq  
 	-  `float` va laisser le block flotter sur le block suivant (au lieu de le pousser à la ligne)
