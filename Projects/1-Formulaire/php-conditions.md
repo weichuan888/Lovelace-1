@@ -100,6 +100,9 @@ if ($genre == 'femme'){
 Familiarise toi à l'écriture de conditions grâce à cette [série d'exercices](php-exercices-conditions.md).  
 Lorsque tu as terminé, examine le cas pratique suivant.
 
+## Bonne pratique: le PHP avant HTML
+Comme tu l'as vu, on peut mélanger du html et du php dans un fichier `.php`. Cela étant, il vaut mieux mettre le plus possible de code PHP AVANT de commencer à faire du html, càd, de retourner la réponse du serveur au navigateur.
+
 ## Cas pratique 1: Générateur d'excuses
 Les parents doivent parfois inventer des excuses pour leurs enfants. [Réalise un petit formulaire](./php-exercice-generateur-excuses.md) qui permette de proposer des excuses pré-définies. 
 

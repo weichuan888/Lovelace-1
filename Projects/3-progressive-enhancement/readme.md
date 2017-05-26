@@ -69,31 +69,33 @@ De la sorte, en augmentant la sémantique des balises par des attributs, on a ai
 Une balise est rendue sous forme de "bloc". Tu peux contrôler les dimensions et les espacements de ce bloc:   
 
 - `width`/ `height`: dimensions  
+- `border`: contrôle la bordure. Par exemple: `border:1px solid #FF0000;` crée un bord fait d'un trait continu (`solid`) rouge `#FF0000` et de 1px d'épaisseur
 - `padding` : l'espace entre le contenu du bloc et son contour (le `border`). Le padding "gonfle" le bloc.  
 - `margin` : l'espace autour du bloc, à l'extérieur de lui. Le margin distancie le bloc de son entourage.  
 - **Exercices**   
-	- Centre le `body` en lui donnant une largeur maximum de 90% et en jouant avec la propriété `margin`  
+	- Donne au `body` une largeur maximum de 90% 
+	- Ensuite, centre le `body` en jouant avec la propriété `margin`  
 	- Fais en sorte que les citations ne prennent en largeur que la moitié de la page   
 	- En utilisant uniquement la propriété `margin`, positionne les citations au milieu.  
 	- Augmente la taille du texte dans les citations à 160% de la taille du texte par défaut  
 	- Donne une couleur légèrement grisée au fond des citations   
 	- Ajoute une bordure à gauche de chaque citation, de 3px et de couleur brique    
 	- Le texte des citations touche la bordure, ce n'est pas joli. Ajoute un espace de 30px entre la bordure et le texte de la citation.  
-	- Fais en sorte que les citations aient un espace vide au dessus et en dessous de 80 pixels.  
-
-- Le fond du bloc: `background-color` `background-image`
+	- Fais en sorte que les citations aient un espace vide de 80 pixels au dessus et en dessous.  
+- Le fond du bloc: `background-color` , `background-image`
 - **Exercices** 
 	- ajoute une couleur de fond à ton `body`
-	- Change la couleur de fond pour utiliser un dégradé de couleur (va sur http://www.colinkeany.com/blend/)
+	- Change la couleur de fond pour utiliser un dégradé de couleur (va sur [http://www.colinkeany.com/blend/](http://www.colinkeany.com/blend/))
 	- ajoute une image de fond à ton `body`
 	- fais en sorte que l'image ne se répète pas 
 	- change son positionnement à `bottom right` 
 	- change sa taille à `cover`
 
 ### Les sélecteurs en CSS (part 2): 
-- `class`   (`.nom-de-la-classe`) et `id` (`#nom-de-lid`).
-- **Exercices** 
-	- En utilisant uniquement la balise comme sélecteur, mets toutes les citations en italiques.  
+#### Les plus courants
+Le plus souvent, on sélectionne les éléments à styliser via l'attribut `class` (`.nom-de-la-classe`) et `id` (`#nom-de-lid`).  
+**Exercices**   
+- En utilisant uniquement la balise comme sélecteur, mets toutes les citations en italiques.  
 	- Identifie les citations des villageois et celles du fermier en assignant à chacune une classe correspondante.  
 	- Change la couleur du bord gauche des citations en fonction de la personne qui parle.  
 - Sélectionner via parent et enfant  
