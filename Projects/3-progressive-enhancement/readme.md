@@ -142,11 +142,12 @@ Exercice:
 - Vérifie que ton html permet **une bonne SEO organique**, via d'autres outils comme [Woorank (payant)](https://www.woorank.com/fr/)
 
 ## Exercices pratiques terminant ce sprint
+- Sans aller voir le code source, reproduis le plus fidèlement possible les layouts suivants:    
+	- [homepage de turlututu.com](turlututu.png)
+
+## Bonus
 - Crée une version en html sémantique du document [
 8 façons simples d’améliorer la typographie dans vos designs](doc-ameliorer-sa-typo.txt) et améliore la lisibilité en appliquant tout le css pour en améliorer le contenu. Cherche à produire un résultat favorisant la lecture, proche d'un article sur Medium. 
 - Crée une version en html sémantique du document [Petit Guide Typographique](doc-guide-typographie.txt) et améliore la lisibilité en appliquant tout le css pour en améliorer le contenu. Cherche à produire un résultat favorisant la lecture, proche d'un article sur Medium. 
 - Sans aller voir le code source, reproduis le plus fidèlement possible les layouts suivants:    
-	- [homepage de turlututu.com](turlututu.png)
 	- [homepage de Active Collab](activecollab.png)
-
-
