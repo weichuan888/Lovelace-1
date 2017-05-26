@@ -136,7 +136,7 @@ Exercice:
 - Va sur [Google Webfonts](https://fonts.google.com/): change la police de caractère de ton document à celle-ci: Open Sans. Si tu n'y arrives pas, [fais d'abord cet exercice](https://d157rqmxrxj6ey.cloudfront.net/chadsansing/20997/) (clique sur le bouton "remix").
 - Choisis une autre police pour les titres, suffisamment différente.
 
-## 4. les bonbons
+## 4. Les bonbons
 - Élimine le css utilisé par défaut par les navigateurs (`reset.css`), ou pars sur une base normalisée (`normalize.css`)  
 
 ## Du bon html? 
