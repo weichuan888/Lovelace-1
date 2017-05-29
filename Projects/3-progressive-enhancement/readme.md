@@ -3,7 +3,7 @@
 
 - Emplacement : [GitHub](https://github.com/) sur un repository intitulé "`projet-3-progressive-enhancement`"
 - Slides : [La typographie web](la-typographie-web.pdf)
-- Remise : lundi prochain
+- Remise : lundi prochain. Remettre le lien vers le repo + le lien vers le layout sur heroku.
 
 ## 1. Sémantique html
 - Ca veut dire quoi "**sémantique**" ?   
