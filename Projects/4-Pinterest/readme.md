@@ -14,10 +14,10 @@ J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple 
 
 ## Objectifs principaux
 1. formulaire d'upload en html sémantique
-  - sécurité: limiter l'upload uniquement aux formats d'images les plus courants (jpg, jpeg, png, gif, WebP)
-  - upload fonctionnel ([référence](https://www.w3schools.com/php/php_file_upload.asp))
+    - sécurité: limiter l'upload uniquement aux formats d'images les plus courants (jpg, jpeg, png, gif, WebP)
+    - upload fonctionnel ([référence](https://www.w3schools.com/php/php_file_upload.asp))
 1. afficher en html le contenu du dossier contenant les images
-  - utiliser la fonction php `scandir()` pour "lire" le contenu du dossier
+    - utiliser la fonction php `scandir()` pour "lire" le contenu du dossier
 1. Utiliser une grille pour afficher les images.
 
 ## Objectifs supplémentaires
