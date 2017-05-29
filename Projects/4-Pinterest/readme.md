@@ -23,10 +23,10 @@ J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple 
 ## Objectifs supplémentaires
 1. Permettre à l'utilisateur de modifier le cadrage de l'image (via la librairie php [simpleImage](https://github.com/claviska/SimpleImage))
 1. Faire en sorte que ton interface s'adapte aux différentes tailles d'écran: mobile, tablet, desktop, huge screens. Exemple: [Dribbble](http://dribbble.com)
-1. Fais un vrai Pinterest!
-  1. Utilise [isotope](https://isotope.metafizzy.co/) pour la mise en page de ton système
-  1. En PHP lors de l'upload faire de sorte que l'on sauve une miniature et l'image à sa taille normale
-  1. Faire de sorte que l'on puisse cliquer sur une image et l'affciher dans une modal [Remodal](https://github.com/VodkaBears/Remodal) avec la version normale de l'image
+1. Fais un vrai Pinterest:
+    1. Utilise [isotope](https://isotope.metafizzy.co/) pour la mise en page de ton système
+    1. En PHP lors de l'upload faire de sorte que l'on sauve une miniature et l'image à sa taille normale
+    1. Faire de sorte que l'on puisse cliquer sur une image et l'affciher dans une modal [Remodal](https://github.com/VodkaBears/Remodal) avec la version normale de l'image
 
 
 
