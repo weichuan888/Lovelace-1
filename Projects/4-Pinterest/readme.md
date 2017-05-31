@@ -8,9 +8,6 @@ J'ai besoin d'un site participatif, permettant à tout le monde de partager des 
 
 J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple Pinterest](Pinterest.png)
 
-## Ressources
-
-- En PHP, la fonction [scandir()](http://php.net/manual/fr/function.scandir.php) permet de lire le contenu d'un dossier et récupérer son contenu sous forme de tableau.
 
 ## Objectifs principaux
 1. formulaire d'upload en html sémantique
@@ -19,6 +16,11 @@ J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple 
 1. afficher en html le contenu du dossier contenant les images
     - utiliser la fonction php `scandir()` pour "lire" le contenu du dossier
 1. Utiliser une grille pour afficher les images.
+
+## Ressources
+
+- En PHP, la fonction [scandir()](http://php.net/manual/fr/function.scandir.php) permet de lire le contenu d'un dossier et récupérer son contenu sous forme de tableau.
+
 
 ## Objectifs supplémentaires
 1. Permettre à l'utilisateur de modifier le cadrage de l'image (via la librairie php [simpleImage](https://github.com/claviska/SimpleImage))
