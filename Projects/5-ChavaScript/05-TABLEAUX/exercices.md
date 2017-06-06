@@ -12,20 +12,12 @@
 
 Bonus:transformer en : "Le premier est Stalone", Le deuxième est Cruiz", etc...
 
-### Exercice : Duplications
-
-* crée un tableau qui contetient les valeurs suivantes : ruby, marteau, piece, dague, piece, tenue, piece, ruby, vie, dague, piece  
-* faire une fonction qui permet de trouver des valeurs en double
 
 ### Exercice : clone
 
 * crée un tableau qui contetient les valeurs suivantes : "Mario", "Luigi", "Peach"
 * dupliquer le tableau et y ajouter "Bowser"
 
-### Exercice : occurence
-
-* crée un tableau qui contetient les valeurs suivantes : 3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3
-* Trouver l'élément le plus fréquent du tableau
 
 ### Exercice : aléatoire
 
