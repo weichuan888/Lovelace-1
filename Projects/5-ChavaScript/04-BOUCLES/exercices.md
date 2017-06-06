@@ -10,7 +10,7 @@
 
 ### Exercice : Multiplication Tables
 
-* Écrire une boucle qui va itéremlgfdkhr de 0 à 10
+* Écrire une boucle qui va itérer de 0 à 10
 * Pour chaque itération de la boucle, il va multiplier le nombre de 9
 
 - afficher dans la console le résultat par exemple : " 2 * 9 = 18".
