@@ -8,21 +8,29 @@ J'ai besoin d'un site participatif, permettant à tout le monde de partager des 
 
 J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple Pinterest](Pinterest.png)
 
+
+## Objectifs principaux
+1. formulaire d'upload en html sémantique
+    - sécurité: limiter l'upload uniquement aux formats d'images les plus courants (jpg, jpeg, png, gif, WebP)
+    - upload fonctionnel ([référence](https://www.w3schools.com/php/php_file_upload.asp))
+1. afficher en html le contenu du dossier contenant les images
+    - utiliser la fonction php `scandir()` pour "lire" le contenu du dossier
+1. Utiliser une grille pour afficher les images.
+
 ## Ressources
 
 - En PHP, la fonction [scandir()](http://php.net/manual/fr/function.scandir.php) permet de lire le contenu d'un dossier et récupérer son contenu sous forme de tableau.
 
-## Objectifs principaux
-1. formulaire d'upload en html sémantique
-  - sécurité: limiter l'upload uniquement aux formats d'images les plus courants (jpg, jpeg, png, gif, WebP)
-  - upload fonctionnel ([référence](https://www.w3schools.com/php/php_file_upload.asp))
-1. afficher en html le contenu du dossier contenant les images
-  - utiliser la fonction php `scandir()` pour "lire" le contenu du dossier
-1. Utiliser une grille pour afficher les images.
 
 ## Objectifs supplémentaires
 1. Permettre à l'utilisateur de modifier le cadrage de l'image (via la librairie php [simpleImage](https://github.com/claviska/SimpleImage))
 1. Faire en sorte que ton interface s'adapte aux différentes tailles d'écran: mobile, tablet, desktop, huge screens. Exemple: [Dribbble](http://dribbble.com)
+1. Fais un vrai Pinterest:
+    1. Utilise [isotope](https://isotope.metafizzy.co/) pour la mise en page de ton système
+    1. En PHP lors de l'upload faire de sorte que l'on sauve une miniature et l'image à sa taille normale
+    1. Faire de sorte que l'on puisse cliquer sur une image et l'affciher dans une modal [Remodal](https://github.com/VodkaBears/Remodal) avec la version normale de l'image
+
+
 
 ## Pour commencer...
 - Etude de la demande: as-tu tout compris? Pour le savoir, reformule la demande avec un(e) collègue et comparez votre compréhension mutuelle.
@@ -40,13 +48,5 @@ J'aimerais que mon site ressemble à quelque chose comme ceci : ![Image exemple 
 1. PHP: expérimenter avec l'upload
 1. PHP: expérimenter avec scandir()
 1. Associer une librairie javascript à du html
-
-#### Bonus : Faire du vrais Pinterest
-
-- Utilise [isotope](https://isotope.metafizzy.co/) pour la mise en page de ton système
-- En PHP lors de l'upload faire de sorte que l'on sauve une miniature et l'image à sa taille normale
-- Faire de sorte que l'on puisse cliquer sur une image et l'affciher dans une modal [Remodal](https://github.com/VodkaBears/Remodal) avec la version normale de l'image
-
-
 
 Bon amusement!
