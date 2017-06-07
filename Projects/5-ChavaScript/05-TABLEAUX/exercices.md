@@ -19,14 +19,6 @@ Bonus:transformer en : "Le premier est Stalone", Le deuxième est Cruiz", etc...
 * dupliquer le tableau et y ajouter "Bowser"
 
 
-### Exercice : aléatoire
-
-* crée un tableau qui contetient les valeurs suivantes : Goro, Johnny Cago, Kano, Liu Kano, Raiden, Reptil, Scorpion, Shang Tsun, Sonya, Sub-Zero
-* choisir un personnage aléatoirement dans le tableau
-
-
-
-
 
 
 
