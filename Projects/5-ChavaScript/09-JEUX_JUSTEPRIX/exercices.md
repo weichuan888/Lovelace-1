@@ -1,4 +1,3 @@
-
 ## Exercice : Juste prix
 
 Déclarez les variables suivantes : 

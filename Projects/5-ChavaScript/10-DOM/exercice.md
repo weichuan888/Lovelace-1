@@ -1,12 +1,11 @@
-
 ## DOM
 
-- Télécharger dossier "files"
+- Télécharger fichier "file.zip"
 - Utiliser fonctions apprises pour modifier le DOM :
-	- Crée des éléments
-	- Ajouter des classes
-	- Supprimer des classes
-	- Selectioner plusieurs élément et leurs ajouter des classes
+	- Crée des éléments, ajoute les au DOM (h4, p, li, th, td)
+	- Ajouter des classes __(regarde le fichier css)__
+	- Supprimer des classes __(que ce soit plus joli)__
+	- Ajouter la classe __"shadow"__ à tous les paragraphes
 
 ### Reminder
 
