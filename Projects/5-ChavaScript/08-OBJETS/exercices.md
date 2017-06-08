@@ -4,20 +4,22 @@
 
 - name (string), 
 - age (numero), 
-- items to give (tableau).
+- items_to_give (tableau).
 
-- afficher chaque information sur une ligne séparés dans la console
+- afficher chaque information sur une ligne séparés dans la console __(for in)__
 - faire une fonction "giveItem" qui permet au PNJ de donner un objet aléatoirement
 
 # Exercice : Shop
 
-Crée un tableau avec des objets à vendre (épée, hache, sceptre, etc.)
+Crée un tableau avec des *objets* à vendre (épée, hache, sceptre, etc.)
+Caractéristique de chaque objet :
 	- title (string) 
 	- physic (int)
 	- magic (int)
 	- minLevel (int)
 	- available (boolean)
 
+Manipulation :
 	- faire une fonction pour afficher tout les objets
 	- faire une fonction pour afficher les objets disponibles
 	- faire une fonction pour afficher les objets dont le niveau minimum est de 10
