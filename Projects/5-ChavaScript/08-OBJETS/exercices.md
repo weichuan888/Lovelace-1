@@ -1,4 +1,4 @@
-# Exercice : PNJ
+# Exercice : PNJ (Personnage non-joueur)
 
 * Crée un objet "Character" qui contient les informations suivantes : 
 
