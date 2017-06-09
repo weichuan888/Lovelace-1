@@ -43,6 +43,9 @@ Manipulation :
 		(le nom du personnage) attaque avec l'arme (nom de l'arme) les dégâts sont (niveau du personnage multiplié par le damage de l'arme)
 
 
+
+# BONUS :
+
 # Exercice : Adversaire
 
 * crée un objet "character" qui possèe le propriétés suivantes : 
