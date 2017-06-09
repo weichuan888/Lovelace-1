@@ -2,9 +2,9 @@
 
 * Crée un objet "Character" qui contient les informations suivantes : 
 
-- name (string), 
-- age (numero), 
-- items_to_give (tableau).
+- name (string) 
+- age (numero) 
+- items_to_give (tableau)
 
 - afficher chaque information sur une ligne séparés dans la console __(for in)__
 - faire une fonction "giveItem" qui permet au PNJ de donner un objet aléatoirement
