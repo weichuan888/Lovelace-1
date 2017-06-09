@@ -1,6 +1,6 @@
 ## JavaScript
 
-
+```javascript
 let table = new Object(); // ancienne manière de déclarer
 let table = {}; // nouvelle manière de déclarer
 
@@ -24,6 +24,6 @@ for(let key in chair){ // boucle
 	console.log( key ) // affiche chaque clé de mon objet ("color", "feets",...)
 	console.log( chair[key] ) // affiche chaque valeur ("#FF0000", 4,...)
 }
-
+```
 
 voir : [w3schools json objects](https://www.w3schools.com/js/js_json_objects.asp)
