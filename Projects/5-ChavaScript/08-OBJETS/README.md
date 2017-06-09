@@ -1,6 +1,7 @@
 ## JavaScript
 
 ```javascript
+
 let table = new Object(); // ancienne manière de déclarer
 let table = {}; // nouvelle manière de déclarer
 
@@ -8,9 +9,11 @@ let main_color = "#FF0000";
 let chair = {
 	color : main_color,
 	feets : 4,
-	objects : ["papier","telecommande","clé usb"],
+	things : ["papier","telecommande","clé usb"],
 	knock : function(){
 		console.log("TAP TAP ! ");
+		console.log( chair.things ); // ["papier",..] si on utilise des références 
+		console.log( this.things ); // ["papier",...] si on utilise d'autres instances
 	}
 };
 console.log( chair[feets] ); // pas bon
