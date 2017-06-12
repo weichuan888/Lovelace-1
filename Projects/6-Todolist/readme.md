@@ -29,7 +29,7 @@ Crée un outil de gestion de tâches basique et fiable. Il contient deux écrans
 - Ce qu'est une fonction et comment l'utiliser
 
 ## Remise
-- nom du repository: `php-todolist`
+- nom du repository: `projet-6-todolist`
 - publie ton app sur Heroku pour qu'on puisse la tester
 - envoie l'URL de ton repository + heroku via ryver
 
