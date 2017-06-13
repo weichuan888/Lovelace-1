@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maths</title>
+</head>
+<body>
+
+	<p>Regarde la console</p>
+	
+	
+	<script>
+
+		/****************
+			EXERCICE 1
+		*****************/
+
+		let minimum_value = Math.min(7, 5, -12, 6, 32, 18, 14, -2);
+		let maximum_value = Math.max(-3, 9, 21, 36, 27, 54, 17, 35);
+
+		let result = minimum_value + maximum_value;
+		
+		console.log( result );
+
+		/****************
+			EXERCICE 2
+		*****************/
+
+		let floatBateau = 10.4;
+		let couleBateau = Math.floor(floatBateau);
+		let voleBateau =  Math.ceil(floatBateau);
+
+		console.log( floatBateau );
+		console.log( couleBateau );
+		console.log( voleBateau );
+
+		/****************
+			EXERCICE 3
+		*****************/
+
+		let random_range = Math.random() * (100 - 50) + 50;
+		let random_binary = Math.round( Math.random() );
+		let random_full = Math.round( Math.random() * 10 );
+
+		console.log( random_range );
+		console.log( random_binary );
+		console.log( random_full );
+
+		/****************
+			EXERCICE 4
+		*****************/
+
+		let characters = ["Goro", "Johnny Cage", "Kano", "Liu Kang", "Raiden", "Reptil", "Scorpion", "Shang Tsun", "Sonya", "Sub-Zero"];
+
+		let random_key = Math.floor( Math.random() * characters.length );
+		let random_character = characters[random_key];
+
+		console.log( random_character );
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>
