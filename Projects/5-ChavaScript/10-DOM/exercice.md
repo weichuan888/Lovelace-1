@@ -7,6 +7,11 @@
 	- Supprimer des classes __(que ce soit plus joli)__
 	- Ajouter la classe __"shadow"__ à tous les paragraphes
 
+
+
+
+
+
 ### Reminder
 
 Selecteurs
