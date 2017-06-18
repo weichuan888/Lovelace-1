@@ -1,6 +1,4 @@
-Becode / parcours / SQL / Intro
-
---
+[Becode](../../../) / [parcours](../../) / [SQL](../) / Intro
 
 # MySQL et les base de données
 
