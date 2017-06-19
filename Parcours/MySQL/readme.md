@@ -20,7 +20,7 @@ C'est sympa et cela marche bien apparemment, mais pourtant, c'est pas top. Car l
 
 - **Problème 2: si le contenu augmente**: au fur et à mesure que la liste de tâche augmente, le fichier gonfle en poids (kilobytes). L'opération d'ouverture, écriture, fermeture du fichier sera donc de plus en plus lente.
 
-Face à ces limites, la solution actuelle est d'associer au serveur web et à l'exécutable PHP un autre serveur: un serveur de bases de données. Son rôle dans l'architecture LAMP est précis: stocker des données, et permettre d'interragir avec ces données en les servant très (très) rapidement à PHP, ce qui minimize les risques de "timeout". 
+Face à ces limites, la solution actuelle est d'associer au serveur web et à l'exécutable PHP un autre serveur: un serveur de bases de données. Son rôle dans l'architecture LAMP est précis: stocker des données, et permettre d'interragir avec ces données en les servant très (très) rapidement à PHP, ce qui minimise les risques de "timeout". 
 
 ![via MySQL](./assets/amazon.gif)
 
