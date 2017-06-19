@@ -1,6 +1,7 @@
 # To-do list + SQL, en php
 
 **repository:** `6-todolist-sql`
+**deadline:** Vendredi.
 
 Crée un outil de gestion de tâches basique et fiable. L'interface est subdivisé en deux parties:  
 
@@ -12,58 +13,56 @@ Lorsqu'une tâche est effectuée, on coche la tâche puis on appuye sur un bouto
 
 ## Objectif principal
 
-- Fichier "formulaire.php": Lorsqu'on traite le formulaire il faut, après sanitization et validation, stocker les tâches au format JSON dans un fichier TXT ( par exemple `todo.json`)
-- Fichier "contenu.php": il lit le contenu du fichier json, et affiche chaque entrée dans la bonne zone ("A Faire" ou "Archive") avec le contenu html nécessaire pour avoir une checkbox.
+- Lorsqu'on traite les formulaires il faut, après sanitisation et validation, stocker les tâches dans une table "todos" d'une base de données "todolist".
+- Lorsqu'on affiche les tâches on va les rechercher dans la base de données.
 
 ## Bonus
 - Via Javascript, cacher le bouton "Enregistrer" et sauvegarder la liste via ajax lorsqu'une checkbox change d'état (selected / unselected).
 - Via Javascript, pouvoir réorganiser l'ordre vertical des tâches, via drag and drop.
+- **Schnell!** Ajoute une fonctionnalité de "rappel": on pourrait spécifier une date + heure et si celle-ci est dépassée, afficher la tâche en rouge flashy bien visible ainsi qu'une alerte javascript invitant l'utilisateur à exécuter la tâche immédiatement.
+- **Search** Ajoute une fonctionnalité de "recherche": via un champ texte, on pourrait chercher des tâches contenant le texte recherché.
+- **Tri** ajouter une fonctionnalité de "tri": tri par date d'échéance, tri par nom (asc/desc).
+
+## Superbonus Godmode si tu as encore du temps
+- Parse le texte de la tâche à la recherche de #hashtags. Si il y en a, les convertir en lien de recherche pour ce hashtag (donc exploitant la fonctionnalité Search faite plus .
 
 ## Ce qui est nouveau
 
-- le format JSON ([documentation](https://www.alsacreations.com/article/lire/1675-json-stockage-leger-pratique-donnees-multitypes.html))
-- fonction pour lire et écrire le contenu d'un fichier: [`file()`](http://php.net/manual/en/function.file.php) et [`file_put_contents`](http://php.net/manual/en/function.file-put-contents.php)
-- fonction pour manipuler du contenu au format json [`json_encode()`](http://php.net/manual/en/function.json-encode.php) et [`json_decode()`](http://php.net/manual/en/function.json-decode.php)
+- Communiquer avec une base de données MySQL en PHP, via la librairie PDO.
 
 ## Ce qui est déjà connu
 - tableau
 - boucles
 - conditions
 - Ce qu'est une fonction et comment l'utiliser
+- le principe logique d'écriture/lecture de données.
 
 ## Remise
-- nom du repository: `projet-6-todolist`
-- publie ton app sur Heroku pour qu'on puisse la tester
-- envoie l'URL de ton repository + heroku via ryver
+- nom du repository: `6-todolist-sql`
+- [en suspens] publie ton app quelque part (plus d'instructions à ce sujet bientôt).
 
 ## Deadline
-4 jours.
-
+Vendredi matin.
 ## Planning
 Voici un planning réaliste auquel tu dois arriver à la fin de chaque jour.
 
 ### Jour 1
-- Avoir créé son repo et dossier de travail local
-- Avoir lu et compris la [documentation](https://www.alsacreations.com/article/lire/1675-json-stockage-leger-pratique-donnees-multitypes.html) sur le format JSON 
-- Avoir identifié les fichiers de travail nécessaires à ton projet et les avoir créé (vides au départ).
-- Sanitisation et validation lors de l'exécution du formulaire d'ajout des tâches.
-- Ecriture de la tâche dans le fichier `todo.json`.
+- Avoir créé son repo et dossier de travail local.
+- Avoir lu et compris l'utilisation de PDO. Invente-toi un petit exercice simple. Utilise PhpMyAdmin pour créer et nourrir une base de données de ton cru.
 - Avoir committé son évolution, au minimum à la fin de la journée.
 
 ### Jour 2
-- Lecture du fichier json `todo.json`
+- Formulaire de création des tâches est fonctionnel
 - Affichage des tâches dans les 2 zones de contenu (A faire/Archive) selon leur état.
 - Avoir committé son évolution, au minimum à la fin de la journée.
 
 ### Jour 3
-- Le fichier "contenu.php" modifie le status des tâches lorsqu'on le soumet.
-- Avoir committé son évolution, au minimum à la fin de la journée.
-	
-### Jour 4
 - Création d'une branche "Bonus"
 - Exécution des objectifs Bonus
 - Si OK, la merger à la branche "Master"
 
-### Jour 5
-Remise
+### Vendredi matin
+
+- mise en ordre du repo
+- Remise
 
