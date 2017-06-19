@@ -1,7 +1,7 @@
 # To-do list + SQL, en php
 
-**repository:** `6-todolist-sql`
-**deadline:** Vendredi.
+**repository:** `6-todolist-sql`  
+**deadline:** Vendredi matin.
 
 Crée un outil de gestion de tâches basique et fiable. L'interface est subdivisé en deux parties:  
 
@@ -20,8 +20,8 @@ Lorsqu'une tâche est effectuée, on coche la tâche puis on appuye sur un bouto
 - Via Javascript, cacher le bouton "Enregistrer" et sauvegarder la liste via ajax lorsqu'une checkbox change d'état (selected / unselected).
 - Via Javascript, pouvoir réorganiser l'ordre vertical des tâches, via drag and drop.
 - **Schnell!** Ajoute une fonctionnalité de "rappel": on pourrait spécifier une date + heure et si celle-ci est dépassée, afficher la tâche en rouge flashy bien visible ainsi qu'une alerte javascript invitant l'utilisateur à exécuter la tâche immédiatement.
-- **Search** Ajoute une fonctionnalité de "recherche": via un champ texte, on pourrait chercher des tâches contenant le texte recherché.
-- **Tri** ajouter une fonctionnalité de "tri": tri par date d'échéance, tri par nom (asc/desc).
+- **Search!** Ajoute une fonctionnalité de "recherche": via un champ texte, on pourrait chercher des tâches **contenant** le texte recherché.
+- **Sort!** Ajoute une fonctionnalité de "tri": tri par date d'échéance, tri par nom (asc/desc).
 
 ## Superbonus Godmode si tu as encore du temps
 - Parse le texte de la tâche à la recherche de #hashtags. Si il y en a, les convertir en lien de recherche pour ce hashtag (donc exploitant la fonctionnalité Search faite plus .
