@@ -49,3 +49,7 @@ VALUES
 -  Ajoute un formulaire avec 3 champs (ville, haut, bas) permettant d'ajouter d'autres villes
 -  Fais en sorte que lorsque le formulaire est envoyé, son contenu soit ajouté à la table "Météo".
 -  Fait? Ajoute à présent le code html nécessaire pour ajouter une checkbox à chaque ville, et fais en sorte, en php, que lorsqu'on clique dessus, cela efface la ville en question de la table "Météo". 
+
+
+## Besoin d'aide? 
+Fais le [tuto d'Habib](./6.pdo.md)! 
