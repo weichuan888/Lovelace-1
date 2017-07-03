@@ -16,3 +16,5 @@ Becode / BXL Central Main Repository
 1. FRONTEND/ Javascript
 1. PHP/ Todolist + json
 1. PHP/ Todolist + MySQL
+1. FRONTEND/ Design Components (+ SASS)
+1. Holidays break Briefing
