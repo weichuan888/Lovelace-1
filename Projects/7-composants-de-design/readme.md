@@ -38,16 +38,18 @@ Playground: [SASS meister](https://www.sassmeister.com/)
 
 ## Ressources et images
 
-Les images ne permettent pas d'identifier les fonts facilement. Utilise des police différetes mais proches.
+Les images ne permettent pas d'identifier les fonts facilement. Utilise des polices différentes mais proches.
+
+Voici deux outils utiles:  
 - [Fontpair](http://fontpair.co/)
 - [Google Font](https://fonts.google.com/)
 
 Quelques images te sont fournies dans le [dossier assets](assets).
 
-Pour le reste tu devra utiliser des outils en ligne comme [pixlr](https://pixlr.com/editor/) ou [GIMP](https://www.gimp.org/fr/) en local.
+Pour le reste tu devras parfois extraire des captures d'écran les images nécessaires pour ton intégration html/css. 
+Pour cela, utilises des outils en ligne comme [pixlr](https://pixlr.com/editor/) ou [GIMP](https://www.gimp.org/fr/) en local.
 
-Les photos peuvent être différente et tu peux en trouver ici : [Unsplash](https://unsplash.com).
-
+Les photos peuvent être différentes et tu peux en trouver ici : [Unsplash](https://unsplash.com).
 
 ## Astuces 
 
@@ -60,7 +62,9 @@ Les photos peuvent être différente et tu peux en trouver ici : [Unsplash](http
     outline: 1px solid #000;
 }
 ```
+
 ### Extention Chrome 
+
 - [pix-to-pix-pixel-perfect](https://chrome.google.com/webstore/detail/pix-to-pix-pixel-perfect/binboaimbgchaamickjnhgjdccohndin?hl=fr)
 
 
