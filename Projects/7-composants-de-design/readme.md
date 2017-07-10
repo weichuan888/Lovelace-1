@@ -59,7 +59,7 @@ Les photos peuvent être différente et tu peux en trouver ici : [Unsplash](http
 .outline-mode * {
     outline: 1px solid #000;
 }
-
+```
 ### Extention Chrome 
 - [pix-to-pix-pixel-perfect](https://chrome.google.com/webstore/detail/pix-to-pix-pixel-perfect/binboaimbgchaamickjnhgjdccohndin?hl=fr)
 
