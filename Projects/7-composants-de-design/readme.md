@@ -32,8 +32,36 @@ Pour chaque composant, crée un dossier du même nom que l'image, contenant cett
 - importation de fichiers partiels
 - Imbrication ("Nesting") des sélecteurs
 
-Tutos: http://www.thesassway.com/beginner  
-Playground: https://www.sassmeister.com/  
+Tutos: [The SASS way - thesassway](http://www.thesassway.com/beginner) 
+Playground: [SASS meister](https://www.sassmeister.com/)
+
+
+## Ressources et images
+
+Les images ne permettent pas d'identifier les fonts facilement. Utilise des police différetes mais proches.
+- [Fontpair](http://fontpair.co/)
+- [Google Font](https://fonts.google.com/)
+
+Quelques images te sont fournies dans le [dossier assets](assets).
+
+Pour le reste tu devra utiliser des outils en ligne comme [pixlr](https://pixlr.com/editor/) ou [GIMP](https://www.gimp.org/fr/) en local.
+
+Les photos peuvent être différente et tu peux en trouver ici : [Unsplash](https://unsplash.com).
+
+
+## Astuces 
+
+[Fais ta propre grille avec SASS](https://css-tricks.com/dont-overthink-it-grids/)
+
+### Voir le contour de tous les éléments
+À appliquer au `body`
+```
+.outline-mode * {
+    outline: 1px solid #000;
+}
+
+### Extention Chrome 
+- [pix-to-pix-pixel-perfect](https://chrome.google.com/webstore/detail/pix-to-pix-pixel-perfect/binboaimbgchaamickjnhgjdccohndin?hl=fr)
 
 
 
