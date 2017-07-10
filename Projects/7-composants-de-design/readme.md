@@ -32,8 +32,8 @@ Pour chaque composant, crée un dossier du même nom que l'image, contenant cett
 - importation de fichiers partiels
 - Imbrication ("Nesting") des sélecteurs
 
-Tutos: http://www.thesassway.com/beginner
-Playground: https://www.sassmeister.com/
+Tutos: http://www.thesassway.com/beginner  
+Playground: https://www.sassmeister.com/  
 
 
 
