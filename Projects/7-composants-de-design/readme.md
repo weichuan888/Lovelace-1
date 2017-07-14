@@ -3,7 +3,9 @@
 ## Mission
 Dans ce repo se trouvent 22 composants interfaces. 
 
-Intègre-les en html+css en suivant l'ordre numérique (de 1 à ...).
+Intègre-les en html+css en suivant l'ordre numérique (de 1 à ...). 
+
+Utilise SASS pour générer le fichier css. Profite-en pour tester les variables, le *nesting* et les `@import`. 
 
 Pour chaque composant, crée un dossier du même nom que l'image, contenant cette structure:
 
@@ -14,8 +16,9 @@ Pour chaque composant, crée un dossier du même nom que l'image, contenant cett
         L css
         L sass
         L img
-        
 ```
+
+**Nom du repository à créer sur github:** `7-composants-de-design`  
 
 ## Installer un compilateur de SASS
 
@@ -26,6 +29,7 @@ Pour chaque composant, crée un dossier du même nom que l'image, contenant cett
 
 - lancer koala et y ajouter ton dossier de travail
 - créer le(s) fichier(s) scss
+- compiler le fichier css à chaque fois que le fichier scss est modifié.
 
 ## explore ce que sass te permet de faire
 - utilisation de variables
