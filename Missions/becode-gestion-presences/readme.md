@@ -1,7 +1,7 @@
 # Projet: Gestion des présences
 
 ## Le besoin
-Une *webapp* permettant aux déformateurs d'encoder d'une simple croix les présences et retards, et d'importer le plus simplement et rapidement possible les feuilles signées.
+Une *progressive webapp* permettant aux déformateurs d'encoder d'une simple croix les présences et retards, et d'importer le plus simplement et rapidement possible les feuilles signées.
 
 ### Fonctionnalités clef
 - générer la liste pour Bruxelles Formation
@@ -14,6 +14,7 @@ Une *webapp* permettant aux déformateurs d'encoder d'une simple croix les prés
 - responsive (smartphone, tablet, desktop)
 - UX centrée sur les publics-cible (donc les impliquer dans la phase d'étude et la conception de l'UX)
 - base de données: MySQL
+- Offline-ready via l'implémentation de Service Workers (via upup.js)
 
 ## Bonus
 - code organisé en MVC (fatfreeframework)
