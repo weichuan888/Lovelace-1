@@ -1,7 +1,7 @@
 # Projet: Gestion des présences
 
 ## Le besoin
-Une *progressive webapp* permettant aux déformateurs d'encoder d'une simple croix les présences et retards, et d'importer le plus simplement et rapidement possible les feuilles signées.
+Une **progressive webapp** permettant aux déformateurs d'encoder d'une simple croix les présences et retards, et d'importer le plus simplement et rapidement possible les feuilles signées.
 
 ### Fonctionnalités clef
 - générer la liste pour Bruxelles Formation
@@ -15,12 +15,13 @@ Une *progressive webapp* permettant aux déformateurs d'encoder d'une simple cro
 - UX centrée sur les publics-cible (donc les impliquer dans la phase d'étude et la conception de l'UX)
 - base de données: MySQL
 - Offline-ready via l'implémentation de Service Workers (via upup.js)
+- présence de favicons et d'un app icon (http://realfavicongenerator.net/)
 
 ## Bonus
-- code organisé en MVC (fatfreeframework)
+- code organisé en MVC (utiliser le [fatfreeframework](https://fatfreeframework.com/))
 
 ## Contact client
-Alexandre
+Alexandre (Teddy en backup)
 
 ## Publics-cible
 Formateurs BeCode: Teddy, Alexandre, Emily, Eric.
