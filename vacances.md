@@ -9,7 +9,7 @@ Pour le 15 août, tu auras fais AU MOINS ceci:
 1. **terminé l'intégration des 21 composants d'interface** (attention, le nom du repo à utiliser a été ajouté);
 1. **réalisé le briefing** [Projets/8-nomophobie-questionnaire/](./Projects/8-nomophobie-questionnaire/readme.md)
 
-Tu peux bien sûr en faire plus, notamment revoir tout ce qui n'aurait pas encore été terminé.
+Tu peux bien sûr en faire plus, notamment revoir tout ce qui n'aurait pas encore été terminé / compris.
 
 Passe de bonnes vacances.
 
