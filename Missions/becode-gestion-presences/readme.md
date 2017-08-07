@@ -8,7 +8,7 @@ Une **progressive webapp** permettant aux déformateurs de gérer deux aspects :
 - et importer le plus simplement et rapidement possible les feuilles signées.
 
 ### Fonctionnalités clef
-- générer la liste pour Bruxelles Formation
+- générer la liste pour Bruxelles Formation. Attention: cela ne concerne qu'une partie des étudiant(e)s.
 - avoir les heures d'arrivée et de départ de chaque apprenant par jour
 - l'encodage peut se faire par un formateur et se ferait via une interface tactile dans une interaction rapide : "là", "pas là".
 - gérer les excuses justifiées et injustifiées
