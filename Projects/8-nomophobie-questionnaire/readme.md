@@ -16,7 +16,9 @@ Lorsqu'il envoie le formulaire, ton script doit calculer les points et afficher 
 - Au niveau du design visuel, n'en fais pas des caisses: on veut juste une page simple, propre, facile à lire et à utiliser. Il s'agit d'une page web proposant un article destiné à être lu, pas une oeuvre d'art exposée au Louvre dans la galerie "Art Conceptuel". **Donc :** utilise un framework CSS au choix, retouche juste les couleurs et les polices de caractères. Vise à faciliter la lecture (donc attention au bruit visuel, à la hiérarchie visuelle (titres, sous-titres...). Propre et simple.
 - Le résultat du test doit s'afficher à proximité du bouton envoyant le formulaire (car c'est à cet endroit que l'utilisateur a son attention, vu qu'il vient de cliquer sur ce bouton).
 - Tu as vu tout ce qui est nécessaire pour réaliser cet exercice. Si tu es calé(e), revois le code des projets précédents, refais le parcours PHP. 
-- Terminé? Fais-le circuler autour de toi / tes réseaux sociaux.
+- Terminé? Fais-le circuler autour de toi / tes réseaux sociaux afin de récolter des réponses.
+- Afin de le faire évaluer par les coachs, [remplis ce formulaire](https://goo.gl/forms/T3jxf0w1FAhrkMn53).
+
 
 ### Bonus, si tu trouves ceci trop facile
 - géolocalise le visiteur ( propose lui de sélectionner sa commune (données à convertir en SQL [ici](http://www.bpost2.be/zipcodes/files/zipcodes_num_fr.xls) )
