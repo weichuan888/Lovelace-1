@@ -27,6 +27,27 @@ Lorsqu'il envoie le formulaire, ton script doit calculer les points et afficher 
 - Propose un autre graphique, cette fois-ci en fonction de l'année de naissance (donc l'âge). Quels sont les tranches d'âge les plus atteintes par la nomophobie?
 
 
+## Evaluation du travail
+Le travail sera évalué (lorsque remis dans les temps via le formulaire indiqué ci-dessus) selon ces critères et indicateurs:
+
+### critère: Correction
+- est-ce qu'il y a des bugs? 
+- Organisation des fichiers est-elle optimale ?
+- Le code html est-il séparé autant que possible du code php (via include)?
+- Dans un fichier contenant du html et du PHP, le PHP est-il bien placé au maximum AVANT le html ?
+- Le principe DRY est-il bien respecté ?
+- Le code est-il bien organisé de manière à respecter le principe de l'amélioration progressive?
+### critère: Pertinence
+- Le travail livré répond-t-il à la demande ?
+### critère: Gestion de projet
+- respect des consignes?   
+- respect de la deadline? 
+### critère: UX
+- UX: page simple et propre 
+
+_____________
+
+
 ## Voici l'article en question
 (original: http://blogues.radio-canada.ca/triplex/2015/09/08/catherine-mathys-77/ )
 
