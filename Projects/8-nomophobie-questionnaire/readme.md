@@ -1,6 +1,6 @@
 # Exercice PHP: questionnaire "suis-je nomophobiaque?"
 
-
+## Deadline: 16 aout 2017, 10h00 précise.
 
 ## Mission
 Voici un article terminant par un test permettant au lecteur de vérifier s'il est atteint de nomophobie ou pas.
