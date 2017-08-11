@@ -20,15 +20,16 @@ Lorsqu'il envoie le formulaire, ton script doit calculer les points et afficher 
 - Afin de le faire évaluer par les coachs, [remplis ce formulaire](https://goo.gl/forms/T3jxf0w1FAhrkMn53).
 
 
-### Bonus, si tu trouves ceci trop facile
+### Propositions de bonus, si tu as encore du temps
 - géolocalise le visiteur ( propose lui de sélectionner sa commune (données à convertir en SQL [ici](http://www.bpost2.be/zipcodes/files/zipcodes_num_fr.xls) )
 - Stocke les réponses dans une base de données et modifie le formulaire de manière à générer un écran statistique permettant d'afficher un "chart" des villes ayant le plus de nomophobes.
 - Affiche ce graphique uniquement lorsque l'utilisateur a répondu au formulaire, pour qu'il puisse situer sa condition personnelle par rapport à sa commune et voir quelles sont les communes où le phénomène est plus important.
 - Propose un autre graphique, cette fois-ci en fonction de l'année de naissance (donc l'âge). Quels sont les tranches d'âge les plus atteintes par la nomophobie?
+- ...
 
 
 ## Evaluation du travail
-Le travail sera évalué (lorsque remis dans les temps via le formulaire indiqué ci-dessus) selon ces critères et indicateurs:
+Le travail sera évalué (pour autant qu'il ait été remis avant la deadline via le formulaire indiqué ci-dessus) selon ces critères et indicateurs:
 
 ### critère: Correction
 - est-ce qu'il y a des bugs? 
@@ -37,13 +38,15 @@ Le travail sera évalué (lorsque remis dans les temps via le formulaire indiqu�
 - Dans un fichier contenant du html et du PHP, le PHP est-il bien placé au maximum AVANT le html ?
 - Le principe DRY est-il bien respecté ?
 - Le code est-il bien organisé de manière à respecter le principe de l'amélioration progressive?
+- Le code HTML est-il sémantique et valide?
 ### critère: Pertinence
-- Le travail livré répond-t-il à la demande ?
+- Le travail livré répond-t-il entièrement à la demande ?
 ### critère: Gestion de projet
 - respect des consignes?   
 - respect de la deadline? 
 ### critère: UX
 - UX: page simple et propre 
+- UX: pas de fautes d'orthographe introduites par le/la dévelopeur/se.
 
 _____________
 
