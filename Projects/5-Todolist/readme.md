@@ -1,16 +1,16 @@
 # To-do list, en php
 
-Crée un outil de gestion de tâches basique et fiable. Il contient deux écrans:  
+Crée un outil de gestion de tâches basique et fiable. Il contient deux écrans :  
 
-- écran 1: un petit formulaire permettant d'ajouter une tâche (un champ "textarea" et le bouton "submit").
-- écran 2: la liste des tâches à faire, avec pour chaque tâche, une checkbox. Lorsqu'une tâche est effectuée, on coche la tâche puis on appuye sur un bouton "Enregistrer" qui rafraichit la liste en barrant la tâche terminée et en la mettant dans la zone "archivée".
+- écran 1 : un petit formulaire permettant d'ajouter une tâche (un champ "textarea" et le bouton "submit").
+- écran 2 : la liste des tâches à faire, avec pour chaque tâche, une checkbox. Lorsqu'une tâche est effectuée, on coche la tâche puis on appuye sur un bouton "Enregistrer" qui rafraichit la liste en barrant la tâche terminée et en la mettant dans la zone "archivée".
 
 ![Prototype](todolist.png)
 
 ## Objectif principal
 
-- Fichier "formulaire.php": Lorsqu'on traite le formulaire il faut, après sanitization et validation, stocker les tâches au format JSON dans un fichier TXT ( par exemple `todo.json`)
-- Fichier "contenu.php": il lit le contenu du fichier json, et affiche chaque entrée dans la bonne zone ("A Faire" ou "Archive") avec le contenu html nécessaire pour avoir une checkbox.
+- Fichier "formulaire.php" : Lorsqu'on traite le formulaire il faut, après sanitization et validation, stocker les tâches au format JSON dans un fichier TXT ( par exemple `todo.json`)
+- Fichier "contenu.php" : il lit le contenu du fichier json, et affiche chaque entrée dans la bonne zone ("A Faire" ou "Archive") avec le contenu html nécessaire pour avoir une checkbox.
 
 ## Bonus
 - Via Javascript, cacher le bouton "Enregistrer" et sauvegarder la liste via ajax lorsqu'une checkbox change d'état (selected / unselected).
@@ -29,7 +29,7 @@ Crée un outil de gestion de tâches basique et fiable. Il contient deux écrans
 - Ce qu'est une fonction et comment l'utiliser
 
 ## Remise
-- nom du repository: `projet-6-todolist`
+- nom du repository : `projet-6-todolist`
 - publie ton app sur Heroku pour qu'on puisse la tester
 - envoie l'URL de ton repository + heroku via ryver
 
