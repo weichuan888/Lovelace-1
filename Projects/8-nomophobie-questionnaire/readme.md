@@ -1,6 +1,6 @@
 # Exercice PHP: questionnaire "suis-je nomophobiaque?"
 
-
+## Deadline: 16 aout 2017, 10h00 précise.
 
 ## Mission
 Voici un article terminant par un test permettant au lecteur de vérifier s'il est atteint de nomophobie ou pas.
@@ -16,13 +16,39 @@ Lorsqu'il envoie le formulaire, ton script doit calculer les points et afficher 
 - Au niveau du design visuel, n'en fais pas des caisses: on veut juste une page simple, propre, facile à lire et à utiliser. Il s'agit d'une page web proposant un article destiné à être lu, pas une oeuvre d'art exposée au Louvre dans la galerie "Art Conceptuel". **Donc :** utilise un framework CSS au choix, retouche juste les couleurs et les polices de caractères. Vise à faciliter la lecture (donc attention au bruit visuel, à la hiérarchie visuelle (titres, sous-titres...). Propre et simple.
 - Le résultat du test doit s'afficher à proximité du bouton envoyant le formulaire (car c'est à cet endroit que l'utilisateur a son attention, vu qu'il vient de cliquer sur ce bouton).
 - Tu as vu tout ce qui est nécessaire pour réaliser cet exercice. Si tu es calé(e), revois le code des projets précédents, refais le parcours PHP. 
-- Terminé? Fais-le circuler autour de toi / tes réseaux sociaux.
+- Terminé? Fais-le circuler autour de toi / tes réseaux sociaux afin de récolter des réponses.
+- Afin de le faire évaluer par les coachs, [remplis ce formulaire](https://goo.gl/forms/T3jxf0w1FAhrkMn53).
 
-### Bonus, si tu trouves ceci trop facile
+
+### Propositions de bonus, si tu as encore du temps
 - géolocalise le visiteur ( propose lui de sélectionner sa commune (données à convertir en SQL [ici](http://www.bpost2.be/zipcodes/files/zipcodes_num_fr.xls) )
 - Stocke les réponses dans une base de données et modifie le formulaire de manière à générer un écran statistique permettant d'afficher un "chart" des villes ayant le plus de nomophobes.
 - Affiche ce graphique uniquement lorsque l'utilisateur a répondu au formulaire, pour qu'il puisse situer sa condition personnelle par rapport à sa commune et voir quelles sont les communes où le phénomène est plus important.
 - Propose un autre graphique, cette fois-ci en fonction de l'année de naissance (donc l'âge). Quels sont les tranches d'âge les plus atteintes par la nomophobie?
+- ...
+
+
+## Evaluation du travail
+Le travail sera évalué (pour autant qu'il ait été remis avant la deadline via le formulaire indiqué ci-dessus) selon ces critères et indicateurs:
+
+### critère: Correction
+- est-ce qu'il y a des bugs? 
+- Organisation des fichiers est-elle optimale ?
+- Le code html est-il séparé autant que possible du code php (via include)?
+- Dans un fichier contenant du html et du PHP, le PHP est-il bien placé au maximum AVANT le html ?
+- Le principe DRY est-il bien respecté ?
+- Le code est-il bien organisé de manière à respecter le principe de l'amélioration progressive?
+- Le code HTML est-il sémantique et valide?
+### critère: Pertinence
+- Le travail livré répond-t-il entièrement à la demande ?
+### critère: Gestion de projet
+- respect des consignes?   
+- respect de la deadline? 
+### critère: UX
+- UX: page simple et propre 
+- UX: pas de fautes d'orthographe introduites par le/la dévelopeur/se.
+
+_____________
 
 
 ## Voici l'article en question
