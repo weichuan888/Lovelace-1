@@ -11,7 +11,7 @@
 - [Troisième série d'exercices](jquery-exercises-base3)
 - [Quatrième série d'exercices](jquery-exercises-base4)
 
-[Télécharger les exercices](jQuery.zip)
+[Télécharger les exercices](https://github.com/becodeorg/BXLCentral/blob/master/Parcours/jQuery/jQuery.zip)
 
 ### Exercices (optionel)
 
