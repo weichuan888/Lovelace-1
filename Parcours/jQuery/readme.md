@@ -11,7 +11,9 @@
 - [Troisième série d'exercices](jquery-exercises-base3)
 - [Quatrième série d'exercices](jquery-exercises-base4)
 
-### Exercices
+[Télécharger les exercices](jQuery.zip)
+
+### Exercices (optionel)
 
 - [Exercice de Slider](jquery-slider) - Simple jQuery picture carousel
 - [Exercice de formulaire](jquery-form) - Simple jQuery interactive form
