@@ -45,7 +45,7 @@ Pour en faire un produit compétitif, on peut aussi imaginer d'implémenter des 
 - voir les iframe html
 
 ## Remise
-- nom du repository: `9-php-chat-db`
+- nom du repository: `php-chat-db`
 - Dans le readme.md de ton repo, indique l'url nous permettant de tester le Chat.
 
 ## Planning
