@@ -16,7 +16,7 @@ Si tu as encore du temps, on pourrait imaginer que l'interface indique discrète
 ![](phpchat.png)
 
 ## remise
-- nom du repository: `10-php-chat-jquery`  
+- nom du repository: `php-chat-jquery`  
 - publie ton chat sur un espace disposant de mysql+php pour qu'on puisse tester l'UX.
 - envoie l'URL de ton repository + URL de l'UX via un formulaire qu'on va t'envoyer...
 
