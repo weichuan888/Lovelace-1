@@ -24,7 +24,7 @@ Pour minimiser cela, nous pouvons créer une classe Form qui gère la générati
 
 
 ```php
-echo $form = new Form();
+$form = new Form();
 echo $form->create($action); // créer le début du formulaire
 echo $form->text('nom',$nom); // créer un input de type texte avec comme valeur par défaut $nom
 echo $form->text('prenom',$prenom); // créer un input de type texte avec comme valeur par défaut $prenom
