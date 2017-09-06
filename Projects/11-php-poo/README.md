@@ -1,7 +1,6 @@
 # PHP POO
 
 **OOP** : Object-oriented programming :gb:
-
 **POO** : Programmation orientée objets :fr:
 
 ## Courses
@@ -40,4 +39,8 @@ qui permet de :
 - De mettre à jour son email dans la base de donnée
 - De le supprimer de la base de donnée
 
+## Liens utiles
+- [Introduction à la POO](https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php/introduction-a-la-poo)
+- [La POO en PHP](https://www.grafikart.fr/formations/programmation-objet-php)
+- [autoload](https://www.grafikart.fr/formations/programmation-objet-php/autoload)
 
