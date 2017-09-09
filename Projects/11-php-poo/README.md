@@ -22,8 +22,8 @@
 
 ## Exercice 3 
 
-Crée une `class DataBase` qui a une méthode pour se connecter à une base de donnée
-Crée une `class User` qui a les propriétés suivantes
+Crée une `class DataBase` qui a une méthode pour se connecter à une base de données.  
+Crée une `class User` qui a les propriétés suivantes :  
 
 - id
 - username
@@ -33,12 +33,12 @@ Crée une `class User` qui a les propriétés suivantes
 
 qui permet de :
 
-- Enregistrer un nouvel utilisateur dans la base de donnée avec validation
-- De connecter un utilisateur (sessions)
-- De déconnecter un utilisateur (sessions)
-- De mettre à jour son nom dans la base de donnée
-- De mettre à jour son email dans la base de donnée
-- De le supprimer de la base de donnée
+- enregistrer un nouvel utilisateur dans la base de donnée avec validation
+- connecter un utilisateur (sessions)
+- déconnecter un utilisateur (sessions)
+- mettre à jour son nom dans la base de données
+- mettre à jour son email dans la base de données
+- le supprimer de la base de données
 
 ## Liens utiles
 - [Introduction à la POO](https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php/introduction-a-la-poo)
