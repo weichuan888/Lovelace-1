@@ -26,12 +26,12 @@ Un véhicule est caractérisé par : 
 Faire de sorte que si :
 
 - Le kilométrage change, la `class` doit refaire la condition pour savoir si elle a beaucoup servi
-- Que l'on ne puisse **pas changer** la date de mise en circulation
-- Que l'on ne puisse **pas changer** numéro d'immatriculation
-- Que l'on ne puisse **pas changer** le modèle
-- Que l'on ne puisse **pas changer** la marque
+- Que l'on ne puisse **pas changer** la date de mise en circulation ('private')
+- Que l'on ne puisse **pas changer** numéro d'immatriculation ('private')
+- Que l'on ne puisse **pas changer** le modèle ('private') 
+- Que l'on ne puisse **pas changer** la marque ('private')
 
-Crée un fonction `rouler` qui fait "avancer la voiture de 100 000 km" et que l'usure passe de `low` à `high`
+Crée un fonction `drive` qui fait "avancer la voiture de 100 000 km" et que l'usure passe de `low` à `high`
 
 ### Affichage
 
