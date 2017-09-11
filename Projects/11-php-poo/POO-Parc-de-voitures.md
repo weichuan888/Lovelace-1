@@ -37,7 +37,7 @@ Crée un fonction `rouler` qui fait "avancer la voiture de 100 000 km" et que l'
 
 Crée une méthode `display` qui permet d'afficher la photo de la voiture et ses caractéristiques dans un tableau HTML
 
-- [Tu trouvera ici des images et des modèles de voitures](http://www.cars-data.com/)
+- [Tu trouveras ici des images et des modèles de voitures](http://www.cars-data.com/)
 
 
 
