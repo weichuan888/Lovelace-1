@@ -18,3 +18,7 @@ Becode / BXL Central Main Repository
 1. PHP/ Todolist + MySQL
 1. FRONTEND/ Design Components (+ SASS)
 1. Holidays break Briefing
+1. Chat (sans javascript)
+1. Chat (avec jQuery)
+1. Programmation Orienté-Objet
+1. MVC
