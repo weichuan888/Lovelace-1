@@ -29,7 +29,7 @@ Faire de sorte que si :
 - Que l'on ne puisse **pas changer** la date de mise en circulation
 - Que l'on ne puisse **pas changer** numéro d'immatriculation
 - Que l'on ne puisse **pas changer** le modèle
-- Que l'on ne puisse **pas changer** la une marque
+- Que l'on ne puisse **pas changer** la marque
 
 Crée un fonction `rouler` qui fait "avancer la voiture de 100 000 km" et que l'usure passe de `low` à `high`
 
