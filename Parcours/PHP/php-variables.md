@@ -28,7 +28,7 @@ Et bien, réalisons-le.
 
 1. Lance ton serveur local
 (rappel: il suffit de taper ceci dans le Terminal: ``` php -S localhost:8000 -t /chemin/vers/le/dossier/a/servir ``` )
-2. Dans ton dossier de travail servi par PHP, crée un fichier `humans.php` contenant ce code HTML: 
+2. Dans ton dossier de travail servi par PHP, crée un fichier `humans.php` contenant ce code : 
 
 ```php
 <html>
