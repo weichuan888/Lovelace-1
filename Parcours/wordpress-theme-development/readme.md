@@ -3,7 +3,7 @@
 
 WordPress est le CMS le plus répandu actuellement sur le web ([source](https://trends.builtwith.com/cms)). On parle de plus de 30% de parts de marché. Cette popularité en fait un outil intéressant pour le déploiement rapide. De plus, il n'est pas rare que votre client aie déjà utilisé WordPress, ce qui a l'avantage qu'il connaisse déjà son futur outil.   
 
-WordPress nécessite PHP et MySQL. À l'origine, c'était surtout un outil pour gérer un blog, donc un journal personnel, en ligne. C'est pourquoi, quand on installe WordPress, on peut par défaut créer des **articles** et des **pages**, et avoir des **commentaires** sous ses articles. Avec le temps, l'outil est devenu hyper flexible et on peut à peu près tout faire.
+WordPress nécessite PHP et MySQL. À l'origine, c'était surtout un outil pour gérer un blog, donc un journal personnel, en ligne. C'est pourquoi, quand on installe WordPress, on peut par défaut créer des **articles** et des **pages**, et avoir des **commentaires** sous ses articles. Avec le temps, l'outil est devenu hyper flexible et si on sait coder, on peut à peu près tout faire.
 
 L'objectif ici est de t'amener à créer un premier site "custom" sur WordPress et à ce que tu te familiarise avec son écosystème.
 
