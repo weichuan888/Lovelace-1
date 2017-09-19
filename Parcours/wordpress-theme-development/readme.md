@@ -5,7 +5,7 @@ WordPress est le CMS le plus répandu actuellement sur le web ([source](https://
 
 WordPress nécessite PHP et MySQL. À l'origine, c'était surtout un outil pour gérer un blog, donc un journal personnel, en ligne. C'est pourquoi, quand on installe WordPress, on peut par défaut créer des **articles** et des **pages**, et avoir des **commentaires** sous ses articles. Avec le temps, l'outil est devenu hyper flexible et si on sait coder, on peut à peu près tout faire.
 
-L'objectif ici est de t'amener à créer un premier site "custom" sur WordPress et à ce que tu te familiarise avec son écosystème.
+Au terme de ce parcours, tu seras capable de créer un premier site "custom" sur WordPress et son écosystème commencera à t'être familier. Ce n'est que du php, du SQL, du html, du css et du javascript après tout ! 
 
 ## Créer un site sur WordPress
 
