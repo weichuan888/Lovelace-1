@@ -22,4 +22,4 @@ Becode / BXL Central Main Repository
 1. Chat (sans javascript)
 1. Chat (avec jQuery)
 1. Programmation Orienté-Objet
-1. MVC
+1. MVC   |  Faire un site "custom" sur WordPress
