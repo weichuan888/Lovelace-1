@@ -62,7 +62,7 @@ $ symfony new my_project
 ## Projets pratiques
 
 - Fais en sorte de disposer d'un CMS pour mettre à jour le contenu du mini-site "Interview d'un·e Web Developer". Tu dois donc construire le site de sorte à ce qu'un utilisateur puisse se connecter, et une fois loggué, puisse modifier, ajouter et effacer des pages.
-- Briefings de projets pour s'entraîner (par Simplon).
+- Briefings de projets pour s'entraîner (par Simplon):
 
 	* [Symfony project](https://github.com/simplonco/symfony-project) _Use the Giphy API to retreive funny images from simple keywords._
 	* [Is it raining today?](https://github.com/simplonco/is-it-raining-today) _Build a simple Weather app with PHP Symfony!_
