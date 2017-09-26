@@ -1,5 +1,9 @@
 # La Prairie
 
+## Instalation de Linux
+
+- [Exercice : Configuration Git](git/exercice-git-configuration.md)
+
 ## Git
 
 - [Exercice : Configuration Git](git/exercice-git-configuration.md)
