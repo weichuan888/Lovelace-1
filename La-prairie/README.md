@@ -1,5 +1,12 @@
 # La Prairie
 
+## Git
+
+- [Exercice : Configuration Git](git/exercice-git-configuration.md)
+- [Exercice : Cadavre exquis](git/exercice-git-cadavre-exquis.md)
+- [Exercices : Git training](git/exercice-git-training.md)
+
+
 ## Markdown
 
 - Faire un groupe  
@@ -18,12 +25,6 @@
 - Joue avec [CSS Diner](http://flukeout.github.io)
 - [Exercice : Introduction à CSS](html-css/exercice-markdown-to-html-and-css.md)
 - [Exercice : Créer un CV personnalisé et interactif en HTML et en CSS](html-css/exercice-creer-un-cv.md)
-
-## Git
-
-- [Exercice : Configuration Git](git/exercice-git-configuration.md)
-- [Exercice : Cadavre exquis](git/exercice-git-cadavre-exquis.md)
-- [Exercices : Git training](git/exercice-git-training.md)
 
 ## HTML & CSS Avancé
 
