@@ -12,22 +12,23 @@ Inscription sur Github : [https://github.com/join](https://github.com/join)
 
 ### Utiliser GitHub avec le terminal pour **Linux**
 
-Pour se logguer à votre compte GitHub vous devez avoir un clé SSH, voici les étapes qui vous permettrons de la crée et de l'envoyer à GitHub
-1. Generating a new SSH key
-1. Open Terminal.
-1. Paste the text below, substituting in your GitHub email address.
+Pour se logguer à votre compte GitHub vous devez avoir un clé SSH, voici les étapes qui vous permettrons de la créer et de l'envoyer à GitHub
+
+1. Ouvre ton Terminal.
+1. Copie/colle le texte ci-dessous, en changeant l'email par l' email de ton compte GitHub.
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
-This creates a new ssh key, using the provided email as a label.
+Cela crée une clef ssh, avec l'email comme identifiant.
+
 1. Generating public/private rsa key pair.
 When you're prompted to "Enter a file in which to save the key," press `Enter`. This accepts the default file location.
 
 1. Enter a file in which to save the key (/home/user/*my-key-name*): [Press enter]
-1. Enter passphrase (empty for no passphrase): [Type a passphrase]
-1. Enter same passphrase again: [Type passphrase again]
+1. Enter passphrase (empty for no passphrase): [Laisse vide]
+1. Enter same passphrase again: [Laisse vide]
 1. cat ~/*my-key-name*/*my-key-name*.pub
-1. copier la clé ssh ( commence par ssh-rsa ......)
+1. copier la clé ssh ( commence par `ssh-rsa ......`)
 1. Suivre ce tuto à partir du point 2 : https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 ### Utiliser GitHub avec le terminal pour **Mac**
@@ -86,7 +87,7 @@ When you're prompted to "Enter a file in which to save the key," press `Enter`. 
 
 * If you have a _"This branch has conflicts that must be resolved"_ on the merge of a GitHub Pull-request, you can read that: [syncing-a-fork](https://help.github.com/articles/syncing-a-fork/) ! :uk:
 
-### Contribuer à un dépot san être contributeur
+### Contribuer à un dépot sans être contributeur
 
 [create-pull-request](https://services.github.com/on-demand/intro-to-github/create-pull-request)
 
