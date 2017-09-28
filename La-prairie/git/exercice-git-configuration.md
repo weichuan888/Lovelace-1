@@ -3,6 +3,8 @@
 ## Qu’est-ce que Git & Github ?
 Git est un logiciel de gestion de versions. C’est un outil incontournable pour tout développeur qui se respecte pour stocker, collaborer et connaitre dans les détails toutes les modifications de code d’un projet commun.
 
+Lis d'abord notre [introduction made in BeCode](https://github.com/becodeorg/BeCode/wiki/Git-&-Github).
+
 Tutoriel complet d’utilisation : [https://try.github.io](https://try.github.io)
 Inscription sur Github : [https://github.com/join](https://github.com/join)
 
