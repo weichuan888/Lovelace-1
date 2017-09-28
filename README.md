@@ -1,5 +1,5 @@
 # BXLCentral
-Becode / __ Ada Lovelace 2 __ Main Repository
+Becode / __Ada Lovelace 2__ Main Repository
 
 ## Programme
 
