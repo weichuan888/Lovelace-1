@@ -3,7 +3,6 @@
 ### objectif
 - apprendre le [MarkDown](https://guides.github.com/features/mastering-markdown/) et comprendre à quoi il sert
 - utiliser Git pour son travail
-- jeter les bases du projet suivant: l'html.
 - suivre les instructions d'un briefing à la lettre.
 
 ### Instruction
@@ -13,9 +12,9 @@
 - Contenu : un pense-bête (un memo) de soit:
    - ce que vous avez retenu de la journée 1 de l'atelier Google (synthèse de vos différentes notes).
    - ce qu'est le MarkDown et un inventaire de sa syntaxe, le plus complet possible.
--  Organisez le contenu dans au moins deux document(s) en MarkDown (extension des fichiers : `.md`).
+-  Organisez le contenu dans au moins deux documents en MarkDown (extension des fichiers : `.md`).
 - Chaque fichier contient un menu permettant d'accéder à tous les autres.
-- le Readme du repo décrit ce qu'il contient et liste les personnes du groupe. Inspirez-vous de[ces conseils](https://medium.com/becode/comment-faire-un-readme-sur-github-cc11f3df606a)
+- le Readme du repo décrit ce qu'il contient et liste les personnes du groupe. Inspirez-vous de [ces conseils](https://medium.com/becode/comment-faire-un-readme-sur-github-cc11f3df606a)
 
 ### Critères minimum
 - une liste à puces
