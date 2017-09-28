@@ -16,7 +16,7 @@
 - Chaque fichier contient un menu permettant d'accéder à tous les autres.
 - le Readme du repo décrit ce qu'il contient et liste les personnes du groupe. Inspirez-vous de [ces conseils](https://medium.com/becode/comment-faire-un-readme-sur-github-cc11f3df606a)
 
-### Critères minimum
+### Il y aura au minimum
 - une liste à puces
 - une liste numérotée
 - 2 ou 3 niveaux de titres et sous-titres
