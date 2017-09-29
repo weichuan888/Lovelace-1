@@ -1,4 +1,4 @@
-# Travail imposé pour ce week-end à Lovelace2
+# Travail à domicile
 
 ## objectif
 - Ce lundi, vous vous serez tou(te)s inscrit(e)s à au moins une veille, en utilisant Git. Idéalement, via le terminal, comme les pros.
