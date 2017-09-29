@@ -1,14 +1,12 @@
-# BXLCentral
-Becode / __Ada Lovelace 2__ Repository principal.
+# startup Ada Lovelace 2
 
-On y met tout ce qui concerne ton activité à BeCode : briefings, parcours, etc.
-
+Ce repo est pour tout ce qui concerne ton activité à BeCode : briefings, parcours, etc.
 Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises à jour.
 
 ## Tes sources d'information pour respecter les règles de BeCode
 
 1. Lis le [livret de l'apprenant](./Livret-apprenant-A_LIRE.pdf).
-1. L'agenda de ta startup : [html](https://calendar.google.com/calendar/embed?src=becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com&ctz=Europe/Brussels)  [iCal](https://calendar.google.com/calendar/ical/becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com/public/basic.ics)
+1. L'agenda de ta startup : au format [html](https://calendar.google.com/calendar/embed?src=becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com&ctz=Europe/Brussels) et au format  [iCal](https://calendar.google.com/calendar/ical/becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com/public/basic.ics)
 1. Le [Wiki de BeCode](https://github.com/becodeorg/BeCode/wiki)
 
 ## Retards et absences
