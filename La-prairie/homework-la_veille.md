@@ -1,10 +1,9 @@
 # Travail imposé pour ce week-end à Lovelace2
 
 ## objectif
-Ce lundi, vous vous serez tou(te)s inscrit(e)s à au moins une veille, en utilisant Git.
-Idéalement, via le terminal, comme les pros.
-Autre chose, vous allez commencer à bosser sur des projets bien réel et histoire de gagner du temps, installer déjà un logiciel de maquettage (balsamiq mockup).
-Et parce que vous avez fais les deux homework en deux minutes, faites une release du logo sur un logicel ou site de vectorisation (framavectoriel,  editor.method)
+- Ce lundi, vous vous serez tou(te)s inscrit(e)s à au moins une veille, en utilisant Git. Idéalement, via le terminal, comme les pros.
+- Autre chose, vous allez commencer à bosser sur des projets bien réel et histoire de gagner du temps, installer déjà un logiciel de maquettage (balsamiq mockup).
+- Et parce que vous avez fais les deux homework en deux minutes, faites une release du logo sur un logicel ou site de vectorisation (framavectoriel,  editor.method)
 
 
 
