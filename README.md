@@ -5,6 +5,10 @@ On y met tout ce qui concerne ton activité à BeCode : briefings, parcours, etc
 
 Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises à jour.
 
+## D'abord
+
+Lis le [livret de l'apprenant](./Livret-apprenant-A_LIRE.pdf).
+
 ## Programme
 
 - [La-prairie](/La-prairie/)
