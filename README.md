@@ -5,7 +5,7 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 
 ## Tes sources d'information pour respecter les règles de BeCode
 
-1. Lis le [livret de l'apprenant](./Livret-apprenant-A_LIRE.pdf).
+1. Lis le [livret de l'apprenant](https://www.dropbox.com/s/wmvx9vxys2678tf/Livret-apprenant-A_LIRE.pdf?dl=1).
 1. L'agenda de ta startup : au format [html](https://calendar.google.com/calendar/embed?src=becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com&ctz=Europe/Brussels) et au format  [iCal](https://calendar.google.com/calendar/ical/becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com/public/basic.ics)
 1. Le [Wiki de BeCode](https://github.com/becodeorg/BeCode/wiki)
 
