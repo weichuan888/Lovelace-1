@@ -5,7 +5,7 @@
 
 ## Instructions
 
-- Rends toi dans ton projet "Learning Environment" 
+- Créer toi un projet GitHub "Learning Environment" 
 - Crée un fichier `index.html`
-- Convertis le markdown réalisé précédemment dans le fichier `index.html`
+- Convertis le dernier markdown réalisé précédemment dans le fichier `index.html`
 - Publie sur ton dépôt le fichier HTML
