@@ -15,7 +15,6 @@
 - Citer la source de ta citation.
 - Faire en sorte que si l'on clique dessus, on y arrive dans une nouvelle fenêtre.
 - Faire un sous-titre "D'autre association".
-- Sur la page "D'autre association" inclure 10 autres association avec une illustration et un résumer des opérations que celle-ci met en place.
 
 ## Bonus
 
