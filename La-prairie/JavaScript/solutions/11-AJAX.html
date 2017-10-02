@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+
+</head>
+<body>
+
+    <p>Regarde la console</p>
+    <p>Pour que l'exemple fonctionne, il faut l'executer soit sur Firefox, soit sur un serveur.</p>
+        
+    <script>
+        // déclare qu'on va faire une requête
+        let request = new XMLHttpRequest();
+            /*
+                prépare la requête
+                query.open(méthode ?, url ?, asyncrone ?);
+            */
+            request.open('GET', 'data.json', true);
+            // j'envoie la requête
+            request.send();
+            // quand la requête est finie on execute cette fonction
+            request.onload = function() {
+                // vérifie si tout s'est bien passé  
+              if (request.status >= 200 && request.status < 400) {
+                // je recois le JSON sous forme de texte
+                let response = request.responseText;
+                // je transforme le texte en JSON
+                let reponse_to_JSON = JSON.parse(response);
+
+                /*
+                    pour éviter d'avoir plein de code dans mon 'if' 
+                    - execute le fonction 'manipulate_data'
+                    - je donne 'reponse_to_JSON' en argument
+                */
+                manipulate_data(reponse_to_JSON);
+
+              } else {
+                console.log("l'URL a bien été atteinte mais elle a retourné un érreur");
+              }
+            };
+
+            // si il y a eu une érreur pendant l'envoie de la requête
+            request.onerror = function() {
+              console.log("Il y a eu une érreur quelque part...");
+            };
+
+        // re reçois mon json en argument
+        let manipulate_data = function(json_data){
+
+            // ajouter un score aléatoire (0 -> 1000) à toutes ces personnes
+            json_data.map(function(person, key){
+                person.score = Math.round( Math.random() * 1000 );
+            })
+
+            // classer l'odre du tableau selon les scores
+            json_data.sort(function(personA, personB){
+                return personA.score - personB.score;
+            })
+
+            // création des 3 categories
+            let category_a = [];
+            let category_b = [];
+            let category_c = [];
+
+            // pour chaque personne (boucle) je mets la pousse dans le bon tableau selon son score
+            json_data.forEach(function(person, key){
+                if(person.score > 750){
+                    category_a.push(person);
+                } else if( person.score > 500 ){
+                    category_b.push(person);
+                } else {
+                    category_c.push(person);
+                }
+            })
+
+            console.log("Category A");
+            console.log(category_a);
+            console.log("Category B");
+            console.log(category_b);
+            console.log("Category C");
+            console.log(category_c);
+
+            //  crécupère les personne qui viennent du "Bahrain"
+            let bahrain_people = json_data.filter(function(person, key){
+                if (person.country == "Bahrain") {
+                    return true;
+                } else {
+                    return false;
+                }
+            })
+
+            //  compter le nombre de personne qu'il y a dans le tableau 'bahrain_people'
+            let bahrain_people_count = bahrain_people.length;
+
+            console.log("bahrain people count : " + bahrain_people_count);
+
+            // Ayant déjà utilisé 'array.sort' pour classer les personnes par score
+            // le plus grand score
+            let person_with_highest_score = json_data[json_data.length - 1];
+            let highest_score = person_with_highest_score.score;
+
+            // le plus petit score
+            let person_with_lowest_score = json_data[0];
+            let lowest_score = person_with_lowest_score.score;
+
+            console.log("highest score : " + highest_score);
+            console.log("lowest score : " + lowest_score);
+
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mouse</title>
+	<style>
+		.square-red {
+			width: 100px;
+			height: 100px;
+			background: red;
+			margin: 20px;
+			opacity: 1;
+			transition: opacity 0.5s;
+		}
+		.hide {
+			opacity: 0;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="reset">Reset</div>
+
+	<div class="square-red"></div>
+	<div class="square-red"></div>
+	<div class="square-red"></div>
+
+	<div id="x-axis"></div>
+	<div id="y-axis"></div>
+	
+	
+	
+	<script>
+
+		// Évènements de la souris
+		// click, ctextmenu, dblclick, mousedown, mouseenter, mouseleave, mousemove, mouseover, mouseout, mouseup
+
+		/****************
+			EXERCICE 1
+		*****************/
+
+		let square_red_elements = document.querySelectorAll(".square-red");
+
+		var mouseEntered_square_Red = function(event){
+			let target_element = event.target;
+				target_element.classList.add("hide");
+		}
+		square_red_elements.forEach(function(square_red_element){
+			square_red_element.addEventListener("mouseenter", mouseEntered_square_Red);
+		})
+
+		/****************
+			EXERCICE 2
+		*****************/
+
+		let reset_element = document.querySelector("#reset");
+
+		let display_square_red_elements = function(){
+			square_red_elements.forEach(function(square_red_element){
+				square_red_element.classList.remove("hide");
+			})
+		}
+
+		reset_element.addEventListener("click", display_square_red_elements);
+
+
+		/****************
+			EXERCICE 3
+		*****************/
+
+		let xAxis_element = document.querySelector("#x-axis");
+		let yAxis_element = document.querySelector("#y-axis");
+
+		let displayCooDinates = function(event){
+			xAxis_element.innerText = "X : " + event.clientX;
+			yAxis_element.innerText = "Y : " + event.clientY;
+		}
+
+		window.addEventListener("mousemove", displayCooDinates);
+
+
+
+	</script>
+</body>
+</html>

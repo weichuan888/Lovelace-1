@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maths</title>
+
+	<style>
+		#character {
+			width: 100px;
+			height: 100px;
+			background: red;
+			margin: 20px;
+			text-align: center;
+			line-height: 100px;
+		}
+		.arrows {
+			width: 100px;
+			height: 100px;
+			background: blue;
+			margin: 20px;
+			float: left;
+			text-align: center;
+			line-height: 100px;
+		}
+		.highlight {
+			background: yellow;
+		}
+		.rounded {
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="character">0 - 10</div>
+	
+	<br>
+
+	<div id="up" class="arrows">Up</div>
+	<div id="down" class="arrows">Down</div>
+	<div id="left" class="arrows">Left</div>
+	<div id="right" class="arrows">Right</div>
+	
+	
+	<script>
+
+		/****************
+			EXERCICE 1
+		*****************/
+
+		let character = document.querySelector("#character");
+
+		let change_character_color = function(event){
+			let bg_color = "";
+			switch(event.key){
+				case "0" : bg_color = "red"; break;
+				case "1" : bg_color = "blue"; break;
+				case "2" : bg_color = "green"; break;
+				case "3" : bg_color = "cyan"; break;
+				case "4" : bg_color = "magenta"; break;
+				case "5" : bg_color = "yellow"; break;
+				case "6" : bg_color = "orange"; break;
+				case "7" : bg_color = "purple"; break;
+				case "8" : bg_color = "olive"; break;
+				case "9" : bg_color = "black"; break;
+			}
+			character.style.background = bg_color;
+		}
+
+		window.addEventListener("keyup", change_character_color);
+
+
+		/****************
+			EXERCICE 2
+		*****************/
+
+		let up = document.querySelector("#up");
+		let down = document.querySelector("#down");
+		let left = document.querySelector("#left");
+		let right = document.querySelector("#right");
+
+		let show_arrow_key = function(event){
+
+			switch(event.key){
+				case "ArrowUp" :
+					up.classList.add("highlight");
+				break;
+				case "ArrowDown" :
+					down.classList.add("highlight");
+				break;
+				case "ArrowLeft" :
+					left.classList.add("highlight");
+				break;
+				case "ArrowRight" :
+					right.classList.add("highlight");
+				break;
+			}
+		}
+		let hide_arrow_key = function(event){
+
+			switch(event.key){
+				case "ArrowUp" :
+					up.classList.remove("highlight");
+				break;
+				case "ArrowDown" :
+					down.classList.remove("highlight");
+				break;
+				case "ArrowLeft" :
+					left.classList.remove("highlight");
+				break;
+				case "ArrowRight" :
+					right.classList.remove("highlight");
+				break;
+			}
+		}
+
+		window.addEventListener("keydown", show_arrow_key);
+		window.addEventListener("keyup", hide_arrow_key);
+
+
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maths</title>
+</head>
+<body>
+
+	<p>Regarde la console</p>
+	
+	
+	<script>
+
+		/****************
+			LE JUSTE PRIX
+		*****************/
+
+		let message = "";
+		let trials = 0;
+		let min_value = 20;
+		let max_value = 80;
+
+		// fonction qui retourne un numéro aléatoire arondi entre la variable minimale et la variable maximale
+		let random_range = function(min, max){
+			return Math.round( Math.random() * (max - min) + min );
+		}
+
+		let price = random_range(min_value, max_value);
+
+		console.log("Bienvenu au juste prix !");
+        console.log("Le prix de mon drone va de " + min_value + " à " + max_value + " euros");
+        console.log("Écris dans la console \"guessNumber(20)\" pour demander si le prix est de 20 euros.");
+
+		let guessNumber = function(number){
+
+			trials = trials + 1;
+
+			if(number < price){
+				message = "C'est plus";
+			} else if(number > price){
+				message = "C'est moins";
+			} else {
+				message = "C'est juste tu as trouvé en " + trials + " coups";
+			}
+			return message;
+		}
+
+	</script>
+</body>
+</html>

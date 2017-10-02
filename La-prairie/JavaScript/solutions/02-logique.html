@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logique</title>
+</head>
+<body>
+	
+	<p>Regarde la console</p>
+	
+	<script>
+		// afficher la console pour voir le résultat 
+
+		/****************
+			EXERCICE 1
+		*****************/
+
+		var lang = "fr";
+		var message = "";
+
+		if(lang == "fr"){
+			message = "Bonjour tout le monde";
+		} else if(lang == "en"){
+			message = "Hello world";
+		} else {
+			message = "Hola, Mundo";
+		}
+		console.log( message );
+
+		/****************
+			EXERCICE 2
+		*****************/
+
+		var score = 120;
+		var result = "";
+
+		if( score >= 90){
+			result = "A";
+		} else if( score > 50 ){
+			result = "B";
+		} else {
+			result = "C";
+		}
+
+		console.log( "Vous avez le rang " + result );
+
+		/****************
+			EXERCICE 3
+		*****************/
+
+		var item = "pomme";
+ 		var item_count = 2;
+ 		var result = "Je possède " + item_count + " " + item;
+
+ 		if(item_count > 1){
+ 			result = result + "s";
+ 		}
+
+ 		console.log(result);
+
+	</script>
+</body>
+</html>

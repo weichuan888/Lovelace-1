@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+        .container {
+            width: 600px;
+            margin: 40px auto;
+        }
+        .shadow {
+            text-shadow: 2px 2px 2px rgba(0,0,0, .5);
+        }
+        /* from : https://github.com/mrmrs/colors */
+        /* Backgrounds */
+        .bg-navy { background-color: #001F3F; }
+        .bg-blue { background-color: #0074D9; }
+        .bg-aqua { background-color: #7FDBFF; }
+        .bg-teal { background-color: #39CCCC; }
+        .bg-olive { background-color: #3D9970; }
+        .bg-green { background-color: #2ECC40; }
+        .bg-lime { background-color: #01FF70; }
+        .bg-yellow { background-color: #FFDC00; }
+        .bg-orange { background-color: #FF851B; }
+        .bg-red { background-color: #FF4136; }
+        .bg-fuchsia { background-color: #F012BE; }
+        .bg-purple { background-color: #B10DC9; }
+        .bg-maroon { background-color: #85144B; }
+        .bg-white { background-color: #FFFFFF; }
+        .bg-gray { background-color: #AAAAAA; }
+        .bg-silver { background-color: #DDDDDD; }
+        .bg-black { background-color: #111111; }
+        /* Colors */
+        .navy { color: #001F3F; }
+        .blue { color: #0074D9; }
+        .aqua { color: #7FDBFF; }
+        .teal { color: #39CCCC; }
+        .olive { color: #3D9970; }
+        .green { color: #2ECC40; }
+        .lime { color: #01FF70; }
+        .yellow { color: #FFDC00; }
+        .orange { color: #FF851B; }
+        .red { color: #FF4136; }
+        .fuchsia { color: #F012BE; }
+        .purple { color: #B10DC9; }
+        .maroon { color: #85144B; }
+        .white { color: #FFFFFF; }
+        .silver { color: #DDDDDD; }
+        .gray { color: #AAAAAA; }
+        .black { color: #111111; }
+        /* Border colors 
+    </style>
+</head>
+<body class="bg-aqua">
+
+    <main class="container">
+
+        <h1>HTML Ipsum Presents</h1>
+
+        <p id="first-paragraph" class="bg-lime gray"><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+        <h2 class="bg-white">Header Level 2</h2>
+
+        <ol class="bg-fuchsia">
+           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+           <li>Aliquam tincidunt mauris eu risus.</li>
+        </ol>
+
+        <blockquote class="bg-silver"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+        <h3>Header Level 3</h3>
+
+        <ul>
+           <li class="fuchsia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+           <li>Aliquam tincidunt mauris eu risus.</li>
+        </ul>
+
+        <pre class="maroon"><code>
+        #header h1 a {
+          display: block;
+          width: 300px;
+          height: 80px;
+        }
+        </code></pre>
+
+        <p id="second-paragraph">Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+        <ul class="orange">
+           <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+           <li>Aliquam tincidunt mauris eu risus.</li>
+           <li>Vestibulum auctor dapibus neque.</li>
+        </ul>
+
+
+        <table id="my-table" class="white">
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+        </table>
+    </main>
+
+        
+    
+    <script>
+
+        /****************
+            EXERCICE 1 : Manipulation de classes
+        *****************/
+
+        // sélectionner le body est très simple vu qu'il n'y en a qu'un
+        let body_element = document.body;
+
+            // retirer une classe à un élément
+            body_element.classList.remove("bg-aqua");
+            // ajoute une classe à un élément
+            body_element.classList.add("bg-olive");
+
+        // sélectionne un élément par son ID
+        let first_paragraph = document.getElementById("first-paragraph");
+            // retirer une classe à un élément
+            first_paragraph.classList.remove("bg-lime", "gray");
+            // ajoute une classe à un élément
+            first_paragraph.classList.add("aqua");
+
+        // sélection tous les éléments qui ont la classe 'bg-silver'
+        let silver_elments = document.getElementsByClassName("bg-silver");
+
+        // modifier tout ces éléments
+        for (let i = 0; i < silver_elments.length; i++) {
+            // ajoute une classe à chaque élément
+            silver_elments[i].classList.add("bg-teal");
+            // retirer une classe à chaque élément
+            silver_elments[i].classList.remove("bg-silver");
+        }
+
+        // sélection tous les éléments de type 'blockquote'
+        let blockquotes_elements = document.getElementsByTagName("blockquote");
+        // fais le tour de tout les éléments dans mon NodeList
+        for (let i = 0; i < blockquotes_elements.length; i++) {
+            // ajoute une classe à chaque élément
+            blockquotes_elements[i].classList.add("bg-white");
+        }
+
+
+        /****************
+            EXERCICE 2 : Selecteurs CSS
+        *****************/
+
+        // sélectioner un seul élément
+        let my_table_element = document.querySelector("#my-table");
+            my_table_element.classList.add("bg-purple");
+
+        // sélectioner plusieur éléments
+        let paragraphs_inside_container = document.querySelectorAll(".container p");
+        // fais le tour de tout les éléments dans mon NodeList
+        for (var i = 0; i < paragraphs_inside_container.length; i++) {
+            // ajoute une classe à chaque élément
+            paragraphs_inside_container[i].classList.add("shadow");
+        }
+
+        /****************
+            EXERCICE 3
+        *****************/
+        // sélectionne tout les tags 'pre'
+        let pre_element = document.getElementsByTagName("pre");
+            // change la couleur de texte
+            pre_element[0].style.color = "red";
+            // ne pouvant pas mettre de tiret dans le nom d'un propriété je suis obligé de faire camel case
+            pre_element[0].style.backgroundColor = "white";
+
+            // style étant un objet je peux accéder a ses propriétés comme ceci: ["prop"]
+            pre_element[0].style["border-top"] = "3px solid red";
+            pre_element[0].style["border-bottom"] = "3px solid red";
+
+        // sélectionne tout les tags 'h3'
+        let h3_element = document.getElementsByTagName("h3");
+            h3_element[0].innerHTML = "<em>Itelic title ! yeah !</em>";
+
+        // sélectionne tout les tags 'h2'
+        let h2_element = document.getElementsByTagName("h2");
+            h2_element[0].innerText = "<strong>HTML doens't work !</strong>";
+
+
+        /****************
+            EXERCICE 4 : Création d'éléments
+        *****************/
+
+        // sélection du premier 'ul'
+        let first_ul_element = document.querySelector("ul");
+        
+        // création d'un élément 
+        let li_element = document.createElement("li");
+            // ajout de texte et de HTML dans le 'li'
+            li_element.innerHTML = "Mon meilleur ami est <a href='http://www.google.com'>Google</a>";
+
+            // ajout de l'élément dans le ul
+            first_ul_element.appendChild(li_element);
+
+            // sélection de tout les liens dans 'li_element'
+            link_elements = li_element.getElementsByTagName("a");
+            // 'link_elements' est un tableau donc on sélection le premier
+            link_element = link_elements[0];
+            // modification css
+            link_element.style.color = "white";
+
+
+        /****************
+            EXERCICE 4 : Création et suppression de plusieurs éléments
+        *****************/
+
+        // déclare un tableau
+        let coding_platform = ["Silent Teacher","Code Monkey", "CodeCombat"];
+        // sélection du premier 'ol'
+        let first_ol_element = document.querySelector("ol");
+        
+        // fait le tour de chaque enfant
+        for (let i = 0; i < first_ol_element.children.length; i++) {
+            // sélectionne l'enfant courrant
+            let current_child = first_ol_element.children[i];
+            // supprime l'enfant de son parent. que c'est triste...
+            first_ol_element.removeChild(current_child);
+        }
+        
+        // fait le tour chaque élément de du tableau
+        for (let i = 0; i < coding_platform.length; i++) {
+            // création d'un élément 
+            let li_element = document.createElement("li");
+                // ajout de texte et de HTML dans le 'li'
+                li_element.innerHTML = coding_platform[i];
+            // ajout de l'élément dans le ul
+            first_ol_element.appendChild(li_element);
+        }
+        
+
+
+
+
+    </script>
+</body>
+</html>
