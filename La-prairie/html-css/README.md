@@ -1,14 +1,6 @@
-# La Prairie
+# Projet
+Créer le dossier "Learning environement" et pour chaque exercice, créer un dossier au nom de l'exercice avec vos fichiers dedans.
 
-## Instalation de Linux
-
-- [Exercice : Configuration Git](git/exercice-git-configuration.md)
-
-## Git
-
-- [Exercice : Configuration Git](git/exercice-git-configuration.md)
-- [Exercice : Cadavre exquis](git/exercice-git-cadavre-exquis.md)
-- [Exercices : Git training](git/exercice-git-training.md)
-
-
-## Markdown
+- N'oubliez pas de commenter votre code
+- N'oubliez pas de l'indenter
+- Coder proprement, quelque personne ne passera derrière ;)
