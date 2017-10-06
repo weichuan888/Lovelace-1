@@ -10,7 +10,7 @@
 
 ## Objectifs
 
-- Réaliser une page pour vous présenter
+- Réaliser une page sur Tim Berner Lee
 - Comprendre les principes du HTML et du CSS
 - Présenter votre page et votre code
 
