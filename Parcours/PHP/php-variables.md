@@ -27,8 +27,8 @@ Tu te rappelles [ce petit script PHP](php-introduction.md) que tu voulais addres
 Et bien, réalisons-le.
 
 1. Lance ton serveur local
-(rappel: il suffit de taper ceci dans le Terminal: ``` php -S localhost:8000 -t /chemin/vers/le/dossier/a/servir ``` )
-2. Dans ton dossier de travail servi par PHP, crée un fichier `humans.php` contenant ce code : 
+
+2. Dans ton dossier de travail servi par PHP, crée un dossier variable et crée un fichier `humans.php` contenant ce code : 
 
 ```php
 <html>
@@ -39,9 +39,9 @@ Et bien, réalisons-le.
 </html>
 ```
 3. Une fois fait, visite les urls suivants et observe ce qui se passe:
-  - [http://localhost:8000/humans.php?nom=Alexandre](http://localhost:8000/humans.php?nom=Alexandre)
-  - [http://localhost:8000/humans.php?nom=Pierre](http://localhost:8000/humans.php?nom=Pierre)
-  - [http://localhost:8000/humans.php?nom=Jennifer](http://localhost:8000/humans.php?nom=Jennifer)
+  - [http://localhost:80/variable/humans.php?nom=Alexandre](http://localhost:80/variable/humans.php?nom=Alexandre)
+  - [http://localhost:80/variable/humans.php?nom=Pierre](http://localhost:80/variable/humans.php?nom=Pierre)
+  - [http://localhost:80/variable/humans.php?nom=Jennifer](http://localhost:80/variable/humans.php?nom=Jennifer)
   - teste d'autres variations.
 4. Relis le script, essaye de comprendre ce qu'il fait.
 
