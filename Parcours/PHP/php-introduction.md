@@ -68,9 +68,19 @@ Cela tombe bien, PHP inclut un petit serveur de développement local. Il te suff
 
 Allons chez nous, dans le terminal.
 
-#### 1. Instalation: ` sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql ` n'oublie pas d'installer xampp ` sudo chmod 755 xampp-linux-*-installer.run `
+#### 1. Instalation:
 
-1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: ``` cd opt/jenesaisplus/apache2 stop ``` ``` cd opt/jenesaisplus/mysql stop ``` ``` cd etc/xampp/xampp start ```
+` sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql ` 
+
+n'oublie pas d'installer xampp 
+
+` sudo chmod 755 xampp-linux-*-installer.run `
+
+1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: 
+
+ ``` cd opt/jenesaisplus/apache2 stop ``` 
+ ``` cd opt/jenesaisplus/mysql stop ``` 
+ ``` cd etc/xampp/xampp start ```
 
 2. Pour créer ton premier fichier php, il te faudra aller dans le dossier htacess et le chmoder comme un bourain en 777 et par la suite tu pourras aller créer un dossier nomé comme ton projet et y mettre un index.php
 
