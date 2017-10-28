@@ -67,30 +67,14 @@ Il y a énormément de manière de faire cela, mais pour ces premiers exercices,
 Cela tombe bien, PHP inclut un petit serveur de développement local. Il te suffit donc d'installer PHP sur ta machine et c'est fait!
 
 Allons chez nous, dans le terminal.
-#### 1. vérifie que tu n'as pas déjà PHP installé en demandant la version de php (`-v`):
 
-` php -v `
+#### 1. Instalation: ` sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql ` n'oublie pas d'installer xampp ` sudo chmod 755 xampp-linux-*-installer.run `
 
-Si le terminal te retourne quelque chose comme ceci:
-```
-PHP 7.1.1 (cli) (built: Feb  8 2017 00:39:50) ( NTS )
-Copyright (c) 1997-2017 The PHP Group
-Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
-```
+1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: ``` cd opt/jenesaisplus/apache2 stop ``` ``` cd opt/jenesaisplus/mysql stop ``` ``` cd etc/xampp/xampp start ```
 
-C'est que php est déjà installé. Rendez-vous au point 3.
+2. Pour créer ton premier fichier php, il te faudra aller dans le dossier htacess et le chmoder comme un bourain en 777 et par la suite tu pourras aller créer un dossier nomé comme ton projet et y mettre un index.php
 
-#### 2. Sinon, installe-le: ` sudo apt-get install php7.0 ` et puis réessaye `php -v`
-
-1. Pour lancer le serveur, il suffit de taper ceci dans le Terminal: ``` php -S localhost:8000 -t /chemin/vers/le/dossier/a/servir ```
-
-1. Va dans le dossier que tu viens de spécifier pour y créer un fichier:
-```
-cd /chemin/vers/le/dossier/a/servir
-echo "<h1>hello!</h2>" > index.php
-```
-
-#### 3. A présent, ouvre ton navigateur à l'adresse [http://localhost:8000](http://localhost:8000)
+#### 2. A présent, ouvre ton navigateur à l'adresse http://localhost:80/tondossier
 
 Tu devrais voir le sympathique message "Hello!" que tu t'es adressé. Tu viens de créer ton premier script en PHP. Fais-toi un gros câlin, tu l'as bien mérité.
 
