@@ -10,9 +10,9 @@
 
 1. **Contenu** :Nous allons simplement reproduire la page d'accuille avec la card, une page de présentation, une page de contact et une page de stock donc on vas faire une maquettes pour shématiser tout ça.
 
-2. Réflexion sur **l'UX** : Nous allons avoir besoin d'une OnePage et d'un multi site. Le OnePage sera composé des informations élémentaire du projets avec quelques éléments du stocks.
+2. Réflexion sur **l'UX** : Nous allons avoir besoin d'une OnePage et d'un multi site. Le OnePage sera composé des informations élémentaire du site (C'est quoi cette entreprise, qui est la patron,... ) avec quelques éléments du stocks. (N'oubliez pas de mettre un boutton pour acceder au site multipage).
 
-3. **Développement** du site en utilisant une architecture MVC pour la gestion des pages  
+3. **Développement** du site multipage en utilisant une architecture MVC pour la gestion des pages  
 	1. Comprendre le MVC [(lire ces slides en pdf)](./MVC.pdf),
 	2. Gérer certains éléments répété avec les include PHP,
 	3. Site responsive (framework) et design,
