@@ -8,7 +8,7 @@
 
 ## Planning
 
-1. **Contenu** :Nous allons simplement reproduire la page d'accuille avec la card, une page de présentation, une page de contact et une page de stock
+1. **Contenu** :Nous allons simplement reproduire la page d'accuille avec la card, une page de présentation, une page de contact et une page de stock donc on vas faire une maquettes pour shématiser tout ça.
 
 2. Réflexion sur **l'UX** : Nous allons avoir besoin d'une OnePage et d'un multi site. Le OnePage sera composé des informations élémentaire du projets avec quelques éléments du stocks.
 
