@@ -20,7 +20,7 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 - [Projets & exercices](/Projects) : les projets sont conçus pour t'amener à découvrir par toi-même des problématiques spécifiques de code, en auto-apprentissage. Ils servent également, bien sûr, à t'entraîner sur des projets réalistes.
 - [Missions](/Missions) : projets externes, commandités par de vrais clients.
 
-## Briefings de Projets
+## Historique
 Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te sont proposés.
 
 1. [La-prairie : git, markdown, html, css](/La-prairie/)
