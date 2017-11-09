@@ -23,7 +23,13 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 ## Briefings de Projets
 Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te sont proposés.
 
-1. [La-prairie](/La-prairie/)
+1. [La-prairie : git, markdown, html, css](/La-prairie/)
+2. Javascript (parcours)[./Parcours/JavaScript]
+3. PHP (parcours)[./Parcours/PHP], MySQL (parcours)[./Parcours/MySQL]
+4. Projet multipage site en MVC
+5. POO en PHP
+6. fullstack JS : nodejs, react, meteor, redux, react native
+7. Learn what you want.
 
 ## Ressources 
 - [Grafikart](https://www.youtube.com/user/grafikarttv)
