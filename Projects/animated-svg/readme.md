@@ -18,6 +18,14 @@ Design and develop an animation based on the BeCode logo.
 - [Have a Beer](https://codepen.io/alistairtweedie/pen/GgPBqP)
 - [Gravity](https://codepen.io/pnowell/pen/xZpdqR)
 
+## The logo
+Choose one of these : 
+![Logo BeCode](./LogoBecode-BlueBackground.png)
+![Logo BeCode](./LogoBecode-Small.png)
+![Logo BeCode](./LogoBecode-Tiny.png)
+
+You will first need to vectorize it.
+
 ### Inspiration
 First, you need to plan and scenarize your animation. Feel free to use pen and paper. 
 
