@@ -26,7 +26,10 @@ Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te
 1. [La-prairie : git, markdown, html, css](/La-prairie/)
 2. Javascript [parcours](./Parcours/JavaScript)
 3. PHP [parcours](./Parcours/PHP), MySQL [parcours](./Parcours/MySQL)
-4. Projet multipage site en MVC
+4. Projet multipage site en MVC [parcours](./Parcours/MVC)
+
+Coming soon...
+
 5. POO en PHP
 6. fullstack JS : nodejs, react, meteor, redux, react native
 7. Learn what you want.
