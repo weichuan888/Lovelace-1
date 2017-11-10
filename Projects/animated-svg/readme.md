@@ -32,6 +32,8 @@ First, you need to plan and scenarize your animation. Feel free to use pen and p
 Here is [a gallery of animated logos](http://bpando.org/2014/10/14/the-best-of-bpo-animated-logos/
 ) to inspire your own research. 
 
+Here is a great selection of codepens of [15 interesting animated text effects](http://www.hongkiat.com/blog/css-text-effects/).
+
 ### Start by learning the techniques
 
 Here are two useful tutorials :
