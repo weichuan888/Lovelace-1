@@ -2,7 +2,7 @@
 
 ## Table des matières
 
-- [installation](./Installation.md)   ←
+- [installation](./Installation.md) ←
 - [Introduction](./introduction.md)
 
 
