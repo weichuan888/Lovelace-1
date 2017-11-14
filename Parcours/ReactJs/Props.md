@@ -38,7 +38,7 @@ export default class List extends React.Component {
   render() {
     return (
         <div className="liste">
-            {this.props.todos}
+            {this.props.todos.length}
         </div>
     );
   }
@@ -55,7 +55,7 @@ export default class List extends React.Component {
     }
     return (
         <div className="liste">
-            {this.props.todos}
+            {this.props.todos.length}
             {test()}
         </div>
     );
@@ -135,3 +135,37 @@ AddTodo(event){
     })
 }
 ```
+
+Alors on va sur notre page et test formulaire. Si tout va bien, il doit afficher: {title: "test", createdAt: Tue Nov 14 2017 15:30:56 GMT+0100 (CET)}.
+Pour récapituler:
+- On envoie en props la function onNewTodo vers le component TodoForm.
+- TodoForm recoit la fonction
+- On met à jours notre variable txt lorsqu'on click sur le boutton grace à la fonction AddTodo
+- On appel la fonction onNewTodo depuis le props
+- On lui passe les paramètres nescessaire
+- On execute la function donc le console.log
+
+Bon c'est certain, c'est trop cool mais en vrai ça sert à rien ^^, Maintenant le but va bien sur d'envoyer le tout dans notre autre component List.
+
+Un truc tout simple aurais pu être d'envoyer un table vers l'autre component (nosTodo.push(todo)) mais React à fais quelque chose d'autre pour nous. Un composent à deux types de données:
+- Les données propres au composants -> State
+- Les donnée qui lui sont passée -> Props
+Ce qu'on va faire à la place, c'est que nous allons mettre à jour ce fameux state.
+Le state est donc un objet interne à notre component et pour l'utiliser on dois utilisé un constructor et la fonction setState(). Le constructor est une foncion qui va mettre en place les premiers paramètre de notre component.
+
+```JS
+constructor(props){
+    super(props);
+    this.state = {
+        todos:[]
+    };
+}
+
+onNewTodo(todo){
+    let newTodoList = this.state.todos;
+    newTodoList.push(todo);
+    this.setState({ todos: newTodoList });
+}
+```
+Mais alors pourquoi on a fais this.state.todos.push(todo) tout de suite ? La seul manière que react nous donne pour modifier de state, est la fonction setState(), toute autre tentative sera ignoré. Et maintenant que nous avons un state, nous pouvons le passer dans le component List en props: <List todos={this.state.todos} />
+Si on test, on remarquera que ça ne fonctionne pas parce que ça ne fonctionne pas... Cannot read property 'todos' of undefined. On n'envoie pas le bon "this" a notre fonction et pour se faire, il faut bind(this) pour la fonction. 
