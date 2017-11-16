@@ -169,3 +169,11 @@ onNewTodo(todo){
 ```
 Mais alors pourquoi on a fais this.state.todos.push(todo) tout de suite ? La seul manière que react nous donne pour modifier de state, est la fonction setState(), toute autre tentative sera ignoré. Et maintenant que nous avons un state, nous pouvons le passer dans le component List en props: <List todos={this.state.todos} />
 Si on test, on remarquera que ça ne fonctionne pas parce que ça ne fonctionne pas... Cannot read property 'todos' of undefined. On n'envoie pas le bon "this" a notre fonction et pour se faire, il faut bind(this) pour la fonction. 
+
+```JS
+<TodoForm onNewTodo={this.onNewTodo.bind(this)} />
+```
+
+Gardez bien en tête le state et le props qui sont deux éléments très très important dans react. Le props permet de passé des informations d'un component à un autre que ce soit un objet, une variable, une fonction, le state, ... Le state lui est un objet qui reste juste à portée de notre component et on peut le modifier uniquement avec le setState().
+
+Avant de passé à la suite, il existe une extention pour react qui permet de voir comment il fabrique notre vue. C'est le react dev tools. Une fois installer, dans l'inspecteur, il y a un nouvel onglet qui est apparut (c'est le dernier donc il est peut être cacher). Avec ça, on peut voir les components de la vue et les props qui lui sont passé et aussi l'état du state :)

@@ -7,7 +7,7 @@
 - [Dom](./Dom.md) ←
 
 
-## Introduction
+## le Dom
 Alors, on n'a vu comment créer un component et en créer un deuxième les uns dans les autres mais on ne sais toujours pas comment et pourquoi les afficher.
 
 React utilise un principe utilisant le "virtual dom". En fait, il va simplement créer une page virtuellement puis seulement l'afficher quand on lui demande.
