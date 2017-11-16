@@ -88,8 +88,9 @@ Forcement lorsque qu'une valeur est vrai, on l'ajoute au state mais lorsqu'on la
 ```JS
 addToList(index, event){
     let _list = this.state.selectedTodos;
+    let _todo = this.props.todos[index];
     if(event){
-      _list.push(this.props.todos[index])
+      _list.push(_todo)
     }
     this.setState({
       selectedTodos: _list
@@ -102,14 +103,33 @@ Mais tout ça ne résout pas encore totalement notre affaire... Il faut encore r
 ```JS
 addToList(index, event){
     let _list = this.state.selectedTodos;
+    let _todo = this.props.todos[index];
     if(event){
-      _list.push(this.props.todos[index])
+      _list.push(_todo)
     }else{
-      _list.splice(this.state.selectedTodos.indexOf(this.props.todos[index]), 1);
+      _list.splice(_list.indexOf(_todo), 1);
     }
     this.setState({
       selectedTodos: _list
     })
   }
 ```
-Ce que nous allons faire maintenant, c'est que si on n'a au moins un seul élément selectionner, on affiche un boutton qui nous permettra de faire une action en fonction de cette list.
+Ce que nous allons faire maintenant, c'est que si on n'a au moins un seul élément selectionner, on affiche un boutton qui nous permettra de faire une action en fonction de cette liste. A la place d'avoir juste le nombre de selected todo vous aurez compris que si on n'a todo.length plus grand que 0 on affiche un boutton, alors allons-y !
+
+```JS
+const afficher = this.state.selectedTodos.length > 0;
+
+{ afficher ? <button> Traiter </button> : null }
+```
+
+Donc en théorie, on n'a un button qui s'affiche si on à au moins une todo cochée. On va maintenant faire une fonction qui s'execute lorsque l'on click sur notre button. Dans la fonction on va avoir besoin du state et on va le comparer à notre liste d'élément selectionner pour les toggles et les renvoyer dans le state.
+
+```JS
+processTodo(){
+  let list = this.state.selectedTodos;
+  list.forEach(item => item.done = !item.done)
+  this.setState({
+    selectedTodos: list
+  })
+}
+```
