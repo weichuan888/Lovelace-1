@@ -31,7 +31,7 @@ class Welcome extends React.Component {
 ```
 Ici, nous avons la toute première syntaxe à react, qui dit que le composant est un objet qui implémante la method render et qui retourne quelque chose qui ressemble à de l'HTML mais qui ne l'est pas. Normalement en HTML on a la class pour donner un nom à notre élément et pour pouvoir le sélectionner, pour le modifier ou en faire autre chose. Ici on utilisera non pas class mais className parce que react utilise déjà la Class et donc pour le pas le confondre, utiliser className (de toute façon si ce n'est pas le cas ça fera une bonne grosse erreur ;) ). L'HTMl que vous voyez là s'appelle donc le JSX (Javascript Extension) Nous allons voir en détail pourquoi react fonctionne de la sorte avec de l'HTML dans du JS.
 
-On va créer un fichier Welcome.js dans le dossier component préalablement créer et mettre le petit bout de code juste au dessus dans se fichier et regarder ce qu'il se passe dans notre navigateur.
+On va créer un fichier Welcome.js dans le dossier component préalablement créer sans scource et mettre le petit bout de code juste au dessus dans se fichier et regarder ce qu'il se passe dans notre navigateur.
 
 Rien ne se passe et c'est normal ! On n'a crée un component mais on n'a pas dis à notre application de l'afficher. Pour faire ça, on va retourner à la base de notre component de base qui est App.js et appeler le component Welcome.
 
@@ -40,7 +40,7 @@ Pour faire ça, rien de plus simple, pour appeler un component, on va ajouter
 <Welcome/> 
 ```
 
-à l'endroit où l'on veux qu'il s'ajoute (en quelque sorte comme un include)
+à l'endroit où l'on veux qu'il s'ajoute (en quelque sorte comme un include) mais dans le render. Tout ce qu'il se passe dans le render sera tout ce qu'il s'affiche à l'écran.
 
 Et là c'est le bug... 
 

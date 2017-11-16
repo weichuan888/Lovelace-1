@@ -6,7 +6,7 @@
 - [Introduction](./introduction.md) ←
 
 
-## Introduction
+## Props et State
 
 Un element huper important de react, c'est les props ! Le props est un paramètre qui nous permets de faire passer des informations d'un élément à un autre.
 

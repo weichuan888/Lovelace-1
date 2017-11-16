@@ -22,3 +22,4 @@ Quand on est dans un objet javascript, l'execution se porte toujours dans le cad
 ## Dans le prochaine chapitre
 
 On verra comment faire en sorte mettre une checkbox devant chaque todo, lorqu'on coche sur au moins une checkbox on affiche un bouton et si on en selectionne plusieurs, on pourra toute les validées en même temps.
+Essayer de le faire vous même aussi et on corrige à l'exo suivant.

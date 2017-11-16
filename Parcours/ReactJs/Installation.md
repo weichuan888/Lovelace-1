@@ -24,7 +24,7 @@ On va utiliser npm pour installer create-react-app en global. Cette commande est
 npm install -g create-react-app
 ```
 
-Une fois que le package est installé on va créer le projet dans notre dossier react.
+Une fois que le package est installé on va créer un dossier là ou on veux stocker notre appli et faire la commande :
 
 ```create-react-app
 create-react-app serie
