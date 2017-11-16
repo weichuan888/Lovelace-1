@@ -6,9 +6,9 @@ Here's what Google's official introduction says:
 
 > Progressive Web Apps are user experiences that have the reach of the web, and are:
 >
-> Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
-Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.
-Engaging - Feel like a natural app on the device, with an immersive user experience.
+> Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.  
+Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.  
+Engaging - Feel like a natural app on the device, with an immersive user experience.  
 This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.
 
 Basically, a PWA is a website that, when visited on a mobile phone, can be saved on the user's mobile and behaves just as a Native application: if the connection is lost, it still displays content.
