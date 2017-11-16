@@ -50,7 +50,7 @@ Just do the [UpUp tutorial](https://www.talater.com/upup/getting-started-with-of
 6. Iterate until you get 100 everywhere.
 7. Test on your mobile phone and see what happens. With chance, on Android you'll see a popup at the bottom, inviting you to save the website onto your phone homescreen!  
 ![](./assets/add-to-homescreen.jpg)
-Alibaba, the Chinese Amazon, notices a 48% increase in user engagement thanks to this invite. This is worth fighting for !
+Alibaba, the Chinese Amazon, notices a 48% increase in user engagement thanks to this invite ([source](https://developers.google.com/web/showcase/2016/alibaba)). This is worth fighting for !
 
 
 ## Going further
