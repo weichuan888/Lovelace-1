@@ -69,7 +69,7 @@ Chaque image est décrite par :
 - Html de chaque URL est validé par le W3C Validator
 - Formulaire accessible
 - CSS Responsive
-- Score d'au moins 60/100 au Lighthouse Test.
+- Score d'au moins 60/100 au [Lighthouse Test](https://developers.google.com/web/tools/lighthouse/).
 - Les fonctionnalités fonctionnent... (pas de bug)
 - interactions avec la DB via PDO et requêtes préparées (pour éviter les injections SQL)
 - Code source organisé en MVC
@@ -153,7 +153,7 @@ En fonction de cela, désignez les frontend et les backend.
 1. backend: Admin Controller
 1. backend: addImage Controller
 1. frontend: addImage View
-1. frontend/backend: lighthouse test
+1. frontend/backend: utiliser le [lighthouse test](https://developers.google.com/web/tools/lighthouse/) pour améliorer son site
 1. frontend: Progressive Web App
 1. backend: créer un système de pagination (20 images par page)
 1. backend: création et structuration d'une base de données SQL.
