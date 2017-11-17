@@ -1,7 +1,7 @@
 # Projet : Pinterest
 
 - Durée : 7 jours ouvrables
-- par groupe de 4 : 
+- par groupe de 4 :  
 	- 2 frontend developers (1 surtout visual designer, 1 surtout intégrateur) 
 	- 2 backend developers (1 surtout responsable Database et déploiement, 1 surtout responsable business code )
 - Repository [GitHub](https://github.com/) intitulé "`projet-pinterest`" 
