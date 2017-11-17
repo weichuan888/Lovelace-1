@@ -144,6 +144,7 @@ En fonction de cela, désignez les frontend et les backend.
 1. UX:  prototypage + maquette interactive (balsamiq + invision.com) + user testing
 1. UX: branding
 2. frontend: sélection et mise en place d'un framework CSS
+3. backend: UML charting des différents scripts
 1. backend: login Controller
 1. frontend: login View
 1. backend: accueil Controller
