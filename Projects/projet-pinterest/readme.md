@@ -3,7 +3,7 @@
 - Durée : 7 jours ouvrables
 - par groupe de 4 :  
 	- 2 frontend developers (1 surtout visual designer, 1 surtout intégrateur) 
-	- 2 backend developers (1 surtout responsable Database et déploiement, 1 surtout responsable business code )
+	- 2 backend developers (1 surtout responsable Database et déploiement sur heroku, 1 surtout responsable du code php )
 - Repository [GitHub](https://github.com/) intitulé "`projet-pinterest`" 
 - Git: stratégie des mousquetaires
 - Utiliser une structure de fichiers MVC 
@@ -43,6 +43,7 @@ Chaque image est décrite par :
 - Envoyer aussi l'URL heroku sur notre channel Ryver (pour montrer votre bébé)
 
 ## Fonctionnalités clefs
+
 1. formulaire d'upload en html sémantique
     - sécurité: limiter l'upload uniquement aux formats d'images les plus courants (jpg, jpeg, png, gif, WebP)
     - upload fonctionnel ([référence](https://www.w3schools.com/php/php_file_upload.asp))
@@ -75,9 +76,12 @@ Chaque image est décrite par :
 - Bonus si PHP codé en OOP
 
 ## Pour commencer...
+
+- Discutez en groupe, en laissant à chacun(e) l'opportunité d'exprimer ce qui l'intéresse dans ce projet en terme d'objectifs d'apprentissage.
+--> Voir Animation des "petits papiers".
 - Etude de la demande: 
 	- as-tu tout compris? Pour le savoir, reformule la demande avec un(e) collègue et comparez votre compréhension mutuelle.
-	- Réalise un prototype papier de l'écran à construire.
+	- Réalise un prototype papier, puis balsamiq/invision.com, des écrans à construire.
 	- Clarifie pour toi-même ce que doit faire chacune des composantes de ton application, via de l'Unified Modelling Language (UML) ([example 1](http://astah.net/features/uml-features/uml-features-class.png), [example 2](http://msoe.us/taylor/tutorial/se1021/exceptionUML.png))
 - Crée un repository sur GitHub "`projet-pinterest`"
 - Désignez un(e) coordinateur/trice du projet, qui tiendra à jour le Project Board de suivi des tâches et qui sera aussi le lieutenant du repo.
@@ -110,6 +114,51 @@ Chaque image est décrite par :
 
 
 ## Teamwork mode !
-Vous avez des rôles, mais entraidez-vous. Vous n'êtes pas que backend/frontend, vous êtes d'abord membre d'une équipe. Communiquez, vérifiez, critiquez de manière constructive. Et rappelez-vous:  "cela dépend...".
+Vous avez des rôles, mais entraidez-vous. Vous n'êtes pas que backend/frontend, vous êtes d'abord membre d'une équipe. Communiquez, vérifiez, critiquez de manière constructive. Pensez, lorsque vous communiquez, à appliquer les [principes de la communication non violente](https://github.com/becodeorg/BeCode/wiki/CNV-:-Communication-non-violente). 
 
-![Giphy](https://media3.giphy.com/media/l3vQXn15dRVNMru7e/giphy.gif)
+Et rappelez-vous:  "cela dépend...".
+
+![Team1](https://media3.giphy.com/media/l3vQXn15dRVNMru7e/giphy.gif)
+
+
+## Animation des "petits papiers" 
+(copyright Bertrand aka Tapir Ivre) 
+
+Recopiez sur des petits papiers chacun de ces objectifs d'apprentissage parmi la liste ci-dessous, puis répartissez-les entre vous en fonction de vos objectifs d'apprentissage personnel dans ce projet.
+Lorsque un objectif d'apprentissage est souhaité par plusieurs personnes, mettez le de côté, pour y revenir une fois que ceux qui ne font pas discussion aient d'abord été distribués.
+
+Au final, tâchez que les choses soient réparties de manière équilibrée et que tout le monde aie une part équivalente d'objectif et de charge de travail.
+
+Le/a coordinateur/trice du projet ajoute quels objectifs sont portés par quel membre de la team dans le Readme.
+
+En fonction de cela, désignez les frontend et les backend.
+
+### La liste
+
+*Grâce à ce projet, je voudrais apprendre:*
+
+1. backend: connection à la DB via PDO / Requêtes préparées
+1. backend: MVC
+1. backend: OOP
+1. groupe: Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
+1. UX:  prototypage + maquette interactive (balsamiq + invision.com) + user testing
+1. UX: branding
+2. frontend: sélection et mise en place d'un framework CSS
+1. backend: login Controller
+1. frontend: login View
+1. backend: accueil Controller
+1. frontend: accueil View
+1. frontend: Admin View
+1. backend: Admin Controller
+1. backend: addImage Controller
+1. frontend: addImage View
+1. frontend/backend: lighthouse test
+1. frontend: Progressive Web App
+1. backend: créer un système de pagination (20 images par page)
+1. backend: création et structuration d'une base de données SQL.
+1. groupe: être le capitaine du repos, qui gère les merge et les conflits
+1. groupe: rédaction d'un readme complet et professionnel
+1. frontend: utiliser du javascript pour améliorer l'UX
+1. backend: maitriser le déploiement sur Heroku
+
+![Team2](https://media3.giphy.com/media/l3q2Wl7Wpz09Z5hfi/giphy.gif)
