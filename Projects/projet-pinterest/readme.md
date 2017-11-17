@@ -52,7 +52,7 @@ Chaque image est décrite par :
 3. Présence d'un favicon
 
 ## Objectifs supplémentaires
-1. La déployer en Progressive Web App (voir le parcours sur les PWA)
+1. La déployer en Progressive Web App ([voir le parcours sur les PWA](https://github.com/becodeorg/Lovelace-promo-2/tree/master/Parcours/PWA%20-%20progressive%20web%20apps))
 1. Score d'au moins 80/100 au Lighthouse Test.
 2. Ajouter un moteur de recherche basique
 3. Ajouter une pagination (20 images  par page)
