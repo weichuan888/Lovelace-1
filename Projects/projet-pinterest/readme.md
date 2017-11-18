@@ -122,7 +122,7 @@ Si vous avez un pépin, mettez votre fierté de côté et communiquez simplement
 
 Et rappelez-vous:  "cela dépend...".
 
-![Team1](https://media3.giphy.com/media/l3vQXn15dRVNMru7e/giphy.gif)
+![Team1](./assets/team1.gif)
 
 
 ## Animation des "petits papiers" 
@@ -166,4 +166,4 @@ Le/a coordinateur/trice du projet ajoute quels objectifs sont portés par quel m
 1. frontend: utiliser du javascript pour améliorer l'UX
 1. backend: maitriser le déploiement sur Heroku
 
-![Team2](https://media3.giphy.com/media/l3q2Wl7Wpz09Z5hfi/giphy.gif)
+![Team2](./assets/team2.gif)
