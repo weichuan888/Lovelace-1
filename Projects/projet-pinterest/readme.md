@@ -96,9 +96,12 @@ Chaque image est décrite par :
 
 #### Qu'est-ce que je sais déjà faire?
 1. Créer un formulaire html
-1. Ecrire du html
-1. Utiliser un framework CSS 
+1. Ecrire du html et du CSS
+1. Utiliser un framework CSS
 1. Traiter un formulaire en php  
+1. Me connecter à une base de données en PHP via PDO
+1. Le principe du MVC
+1. Utiliser Git en groupe avec des branches
 
 #### Qu'est-ce qui est nouveau ?
 1. PHP: expérimenter avec l'upload
@@ -111,10 +114,11 @@ Chaque image est décrite par :
 ## Ressources
 
 - L'upload en utilisant les fonctions PHP natives est un peu alambiqué. Utilise plutôt la classe "[php upload](https://github.com/verot/class.upload.php)" de Verot.net.
-
+- Faire une pagination en php/mysql [tutoriel](https://zestedesavoir.com/tutoriels/351/paginer-avec-php-et-mysql/)
 
 ## Teamwork mode !
 Vous avez des rôles, mais entraidez-vous. Vous n'êtes pas que backend/frontend, vous êtes d'abord membre d'une équipe. Communiquez, vérifiez, critiquez de manière constructive. Pensez, lorsque vous communiquez, à appliquer les [principes de la communication non violente](https://github.com/becodeorg/BeCode/wiki/CNV-:-Communication-non-violente). 
+Si vous avez un pépin, mettez votre fierté de côté et communiquez simplement à l'équipe.
 
 Et rappelez-vous:  "cela dépend...".
 
@@ -125,17 +129,17 @@ Et rappelez-vous:  "cela dépend...".
 (copyright Bertrand aka Tapir Ivre) 
 
 Recopiez sur des petits papiers chacun de ces objectifs d'apprentissage parmi la liste ci-dessous, puis répartissez-les entre vous en fonction de vos objectifs d'apprentissage personnel dans ce projet.
-Lorsque un objectif d'apprentissage est souhaité par plusieurs personnes, mettez le de côté, pour y revenir une fois que ceux qui ne font pas discussion aient d'abord été distribués.
+Lorsque un objectif d'apprentissage est souhaité par plusieurs personnes, mettez le de côté, pour y revenir une fois que ceux qui ne font pas discussion aient d'abord été distribués. Discutez alors ensemble, à la limite mettez-vous d'accord pour par exemple, travailler ensemble sur ce point particulier, ou par exemple que la personne qui l'obtient fasse un petit cours à l'autre pour lui montrer.
 
 Au final, tâchez que les choses soient réparties de manière équilibrée et que tout le monde aie une part équivalente d'objectif et de charge de travail.
 
-Le/a coordinateur/trice du projet ajoute quels objectifs sont portés par quel membre de la team dans le Readme.
-
 En fonction de cela, désignez les frontend et les backend.
 
-### La liste
+Le/a coordinateur/trice du projet ajoute quels objectifs sont portés par quel membre de la team dans le Readme.
 
-*Grâce à ce projet, je voudrais apprendre:*
+### Liste des objectifs d'apprentissage (OA)
+
+*Grâce à ce projet, je voudrais apprendre (choisis environ 6 ou 7 OA ):*
 
 1. backend: connection à la DB via PDO / Requêtes préparées
 1. backend: MVC
@@ -155,7 +159,7 @@ En fonction de cela, désignez les frontend et les backend.
 1. frontend: addImage View
 1. frontend/backend: utiliser le [lighthouse test](https://developers.google.com/web/tools/lighthouse/) pour améliorer son site
 1. frontend: Progressive Web App
-1. backend: créer un système de pagination (20 images par page)
+1. backend: créer un système de pagination (20 images par page - [tutoriel](https://zestedesavoir.com/tutoriels/351/paginer-avec-php-et-mysql/))
 1. backend: création et structuration d'une base de données SQL.
 1. groupe: être le capitaine du repos, qui gère les merge et les conflits
 1. groupe: rédaction d'un readme complet et professionnel
