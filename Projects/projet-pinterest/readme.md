@@ -145,18 +145,17 @@ Le/a coordinateur/trice du projet ajoute quels objectifs sont portés par quel m
 1. backend: MVC
 1. backend: OOP
 1. groupe: Agile (manipulation tableau kanban) + tenue quotidienne du planning du groupe
-1. UX:  prototypage + maquette interactive (balsamiq + invision.com) + user testing
+1. UX:  prototypage + maquette interactive de l'application complète (balsamiq + invision.com) + user testing
 1. UX: branding
 2. frontend: sélection et mise en place d'un framework CSS
 3. backend: UML charting des différents scripts
-1. backend: login Controller
-1. frontend: login View
 1. backend: accueil Controller
 1. frontend: accueil View
-1. frontend: Admin View
-1. backend: Admin Controller
-1. backend: addImage Controller
-1. frontend: addImage View
+1. backend: Admin Setup
+1. backend: login Controller
+1. frontend: login View
+1. backend: Image Controller (CRUD)
+1. frontend: Image Views
 1. frontend/backend: utiliser le [lighthouse test](https://developers.google.com/web/tools/lighthouse/) pour améliorer son site
 1. frontend: Progressive Web App
 1. backend: créer un système de pagination (20 images par page - [tutoriel](https://zestedesavoir.com/tutoriels/351/paginer-avec-php-et-mysql/))
