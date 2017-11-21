@@ -82,6 +82,6 @@ todoToggleState(todo, index){
 
 Pour récap, si on veux modifier le state depuis un autre component, on peut créer une fonction dans le parents qui permet la modification (setState()), la passer en props à l'enfant, passé en parametre de cette fonction les information nescessaire pour les modifications.
 
-![Giphy](https://media.giphy.com/media/l378gxtNQaXcsqY7K/giphy.gif)
+![Giphy](https://media.giphy.com/media/3oEjI1JmchoJMbIJYQ/giphy.gif)
 
 Rendez-vous à la prochaine leçon: [Interaction entre les components P2](./InteractionEntreComponentPartie2.md).
