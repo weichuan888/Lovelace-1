@@ -8,7 +8,7 @@
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) ← 
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
-7. [Bindinf](./Binding.mb)
+7. [Binding](./Binding.mb)
 
 
 ## Interaction entre component
@@ -81,3 +81,7 @@ todoToggleState(todo, index){
 ```
 
 Pour récap, si on veux modifier le state depuis un autre component, on peut créer une fonction dans le parents qui permet la modification (setState()), la passer en props à l'enfant, passé en parametre de cette fonction les information nescessaire pour les modifications.
+
+![Giphy](https://gph.is/28ZplIv)
+
+Rendez-vous à la prochaine leçon: [Interaction entre les components P2](./InteractionEntreComponentPartie2.md).

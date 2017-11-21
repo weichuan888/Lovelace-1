@@ -2,8 +2,13 @@
 
 ## Table des matières
 
-- [installation](./Installation.md) ←
-- [Introduction](./introduction.md)
+1. [installation](./Installation.md) ←
+2. [Introduction](./introduction.md) 
+3. [Dom](./Dom.md)
+4. [Props et State](./PropsEtState.md)
+5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
+6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
+7. [Binding](./Binding.mb)
 
 
 ## Installation
@@ -42,4 +47,6 @@ Dès qu'on lance la commande, nodejs star l'application sûre [localhost:3000](l
 
 Simplement pour tester, on va aller modifier une ligne dans App.js. On va modifier "Welcome To React" par un autre titre puis checker dans le navigateur que tout ce change automatiquement sans refresh.
 
+![Giphy](https://media.giphy.com/media/pt0EKLDJmVvlS/giphy.gif)
 
+Rendez-vous à la prochaine leçon: [introduction](./introduction.md).

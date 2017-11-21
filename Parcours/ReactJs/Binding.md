@@ -8,7 +8,7 @@
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
-7. [Bindinf](./Binding.mb) ←
+7. [Binding](./Binding.mb) ←
 
 ## Binding et Proptypes
 
@@ -141,3 +141,5 @@ processTodo(){
 La traduction de cette fonction est donc que à chaque todo, on check item.done et on lui inverse sa valeur.
 
 Votre job à présent, c'est de faire en sorte de pouvoir supprimer une todo.
+
+![Giphy](https://gph.is/2gg1tRO)

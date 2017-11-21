@@ -8,7 +8,7 @@
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md)
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
-7. [Bindinf](./Binding.mb)
+7. [Binding](./Binding.mb)
 
 
 ## Introduction
@@ -114,6 +114,6 @@ Si tout va bien on devrais avoir notre application qui tourne correctement avec 
 ![Giphy](https://www.acsu.buffalo.edu/~cas7/gifs/react.gif)
 
 
-Rendez-vous à la prochaine leçon: [props](./props.md).
+Rendez-vous à la prochaine leçon: [Dom](./Dom.md).
 
 

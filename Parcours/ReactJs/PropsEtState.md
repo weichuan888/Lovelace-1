@@ -2,8 +2,13 @@
 
 ## Table des matières
 
-- [installation](./Installation.md)   
-- [Introduction](./introduction.md) ←
+1. [installation](./Installation.md)
+2. [Introduction](./introduction.md) 
+3. [Dom](./Dom.md)
+4. [Props et State](./PropsEtState.md) ←
+5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md)
+6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
+7. [Binding](./Binding.mb)
 
 
 ## Props et State
@@ -177,3 +182,7 @@ Si on test, on remarquera que ça ne fonctionne pas parce que ça ne fonctionne 
 Gardez bien en tête le state et le props qui sont deux éléments très très important dans react. Le props permet de passé des informations d'un component à un autre que ce soit un objet, une variable, une fonction, le state, ... Le state lui est un objet qui reste juste à portée de notre component et on peut le modifier uniquement avec le setState().
 
 Avant de passé à la suite, il existe une extention pour react qui permet de voir comment il fabrique notre vue. C'est le react dev tools. Une fois installer, dans l'inspecteur, il y a un nouvel onglet qui est apparut (c'est le dernier donc il est peut être cacher). Avec ça, on peut voir les components de la vue et les props qui lui sont passé et aussi l'état du state :)
+
+![Giphy](https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif)
+
+Rendez-vous à la prochaine leçon: [Interaction entre les components P1](./InteractionEntreComponentPartie1.md).
