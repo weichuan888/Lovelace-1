@@ -133,3 +133,7 @@ processTodo(){
   })
 }
 ```
+
+La traduction de cette fonction est donc que à chaque todo, on check item.done et on lui inverse sa valeur.
+
+Votre job à présent, c'est de faire en sorte de pouvoir supprimer une todo.
