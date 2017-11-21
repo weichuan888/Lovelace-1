@@ -142,4 +142,4 @@ La traduction de cette fonction est donc que à chaque todo, on check item.done 
 
 Votre job à présent, c'est de faire en sorte de pouvoir supprimer une todo.
 
-![Giphy](https://gph.is/2gg1tRO)
+![Giphy](https://media.giphy.com/media/xT9IgCeofc0uGTBNYI/giphy.gif)
