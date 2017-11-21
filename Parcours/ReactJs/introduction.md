@@ -8,7 +8,7 @@
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md)
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
-7. [Binding](./Binding.mb)
+7. [Binding](./Binding.md)
 
 
 ## Introduction
