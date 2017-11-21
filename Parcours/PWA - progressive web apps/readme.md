@@ -6,9 +6,9 @@ Here's what Google's official introduction says:
 
 > Progressive Web Apps are user experiences that have the reach of the web, and are:
 >
-> Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
-Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.
-Engaging - Feel like a natural app on the device, with an immersive user experience.
+> Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.  
+Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.  
+Engaging - Feel like a natural app on the device, with an immersive user experience.  
 This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.
 
 Basically, a PWA is a website that, when visited on a mobile phone, can be saved on the user's mobile and behaves just as a Native application: if the connection is lost, it still displays content.
@@ -50,7 +50,7 @@ Just do the [UpUp tutorial](https://www.talater.com/upup/getting-started-with-of
 6. Iterate until you get 100 everywhere.
 7. Test on your mobile phone and see what happens. With chance, on Android you'll see a popup at the bottom, inviting you to save the website onto your phone homescreen!  
 ![](./assets/add-to-homescreen.jpg)
-Alibaba, the Chinese Amazon, notices a 48% increase in user engagement thanks to this invite. This is worth fighting for !
+Alibaba, the Chinese Amazon, notices a 48% increase in user engagement thanks to this invite ([source](https://developers.google.com/web/showcase/2016/alibaba)). This is worth fighting for !
 
 
 ## Going further
