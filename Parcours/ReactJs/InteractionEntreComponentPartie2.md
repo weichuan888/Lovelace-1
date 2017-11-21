@@ -2,9 +2,13 @@
 
 ## Table des matières
 
-- [installation](./Installation.md)   
-- [Introduction](./introduction.md) ←
-
+1. [installation](./Installation.md)
+2. [Introduction](./introduction.md) 
+3. [Dom](./Dom.md)
+4. [Props et State](./PropsEtState.md)
+5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
+6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) ←
+7. [Bindinf](./Binding.mb)
 
 ## Interaction entre component
 
