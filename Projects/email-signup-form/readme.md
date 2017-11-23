@@ -25,7 +25,7 @@ Deadline: today, 16h45.  #sprint_mode.
 
 ## Project steps
 - work in a team of two
-- assign each other one of these roles : "fronted" (focus on clean html/css integration) / "backend" (focus on functionality and data correctedness).
+- assign each other one of these roles : "frontend" (focus on clean html/css integration) / "backend" (focus on functionality and data correctedness).
 - create a repo, set its collaborators
 - discuss your working plan
 - get to work.
