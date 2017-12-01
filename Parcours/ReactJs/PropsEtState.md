@@ -85,7 +85,7 @@ On va faire un formulaire dans une div dans lequel il va y avoir deux choses (un
 
 Pour le moment rien ne se passe. L'idéal serais que à chaque fois que l'on execture notre button qu'il ajoute une todo donc que à chaque fois qu'on appuie sur le boutton il l'ajoute à notre todoApp. On va lui passer un props aussi nomé onNewTodo. Dans ce props on peut passer aussi des fonctions.
 
-```JS
+````JS
 class App extends Component {
   onNewTodo(todo){
     console.log(todo);
@@ -106,7 +106,7 @@ class App extends Component {
     );
   }
 }
-```
+````
 
 Dans le component ToDoForm, nous avons un input et un boutton pour ajouter. Ce qu'on veux c'est que lorsque l'on click sur le boutton, on recupère la valeur dans le input et que nous la passons au component parent. On va utilisé le "ref" dans le input. C'est un attribut qui va recevoir une fonction, un objet, une simple chaine de caractère,...  qui va donner un nom pour permettre de l'utiliser plus tard.
 
