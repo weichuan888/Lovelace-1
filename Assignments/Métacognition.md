@@ -2,7 +2,7 @@
 
 La méta-cognition décrit le fait de réfléchir sur ses actes, ses paroles, ses processus de pensée. Autrement dit: en apprendre plus sur soi-même, comprendre qui on est, comment l'on fonctionne, ce qui nous tire vers le haut ou vers le bas, par une remise en question constructive et bienveillante. 
 
-**Objectifs :** Réfléchir, remettre en question, se remettre en question. Transformer des problèmes en des opportunités d'apprentissage. Ici, faire une première application de la CNV.
+**Objectifs :** Réfléchir, remettre en question, se remettre en question. Transformer des problèmes en  opportunités d'apprentissage. Faire une première application de la CNV.
 
 **Deadline :** lundi matin.
 
