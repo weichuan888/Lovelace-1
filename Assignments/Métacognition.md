@@ -8,7 +8,7 @@ La méta-cognition décrit le fait de réfléchir sur ses actes, ses paroles, se
 
 **Déroulement :** Rédige en MarkDown (`pinterest-prenom-nom.md`) un document auto-réflexif, listant une série de faits qui se sont déroulés durant les interactions en équipe, et qui t'ont impactés, en positif, ou en négatif. Ces informations seront en priorité lues par les coachs. Nous déciderons de ce qui peut faire l'objet d'un partage.
 
-Ce debrief est pour toi l'occasion de s'initier à une technique de communication qui est très utile pour la vie en entreprise voire avec des clients : la communication non-violente (CNV). 
+Ce debrief est l'occasion de s'initier à une technique de communication qui est très utile pour la vie en entreprise ou avec des clients et des collègues : la communication non-violente (CNV). 
 
 1. Lis [ce bref mémo sur la CNV](https://github.com/becodeorg/BeCode/wiki/CNV-:-Communication-non-violente). 
 2. Rédige pour toi-même et sans filtre les faits que tu souhaites partager. 
@@ -18,7 +18,7 @@ Ce debrief est pour toi l'occasion de s'initier à une technique de communicatio
 
 Donc par exemple, ne dis pas : 
 
-> "Joseph ne supporte la critique et est vulgaire."
+> "Joseph ne supporte pas la critique et est vulgaire."
 
 Cette formulation pointe la personne et la réduit.
 
