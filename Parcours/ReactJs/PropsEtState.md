@@ -13,7 +13,23 @@
 
 ## Props et State
 
-Un element huper important de react, c'est les props ! Le props est un paramètre qui nous permets de faire passer des informations d'un élément à un autre.
+Un element huper important de react, c'est les props ! Le props est un paramètre qui nous permets de faire passer des informations d'un élément à un autre. Les paramètres que l'on peut envoyer peuvent être simplement une variable ou même une fonction.
+
+La syntaxe de base pour envoyer un props:
+
+```JS
+var valeur = 'bonjour';
+<List NomDuProps={valeur}/>
+```
+
+Donc on appel le component puis on lui passe des paramètres comme une balise en html. Ici le nom du props est : "NomDuProps" et sa valeur est le contenu de la variable valeur.
+
+pour récupérer la valeur du props, une fois dans le component List appelé juste au dessus, n'importe où dans la class, on utilisera:
+```JS
+var test = this.props.NomDuProps;
+console.log(test);
+```
+Pour finir, dans la console, il affiche "bonjour".
 
 Pour notre application, on va créer une ToDoList et donc poru ce faire dans le component App on va ajouter un component List qui n'affiche pas grand chose pour le moment.
 
