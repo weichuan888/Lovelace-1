@@ -29,6 +29,15 @@ Cloner le projet et tape un coup de npm install pour initialiser le projet puis 
 Bien entenfu vu que maitenant vous êtes des pros en React, faites le premier component vous même pour faire le formulaire du chat ;-) 
 (N'oubliez pas le CSS qui est déjà fourni, juste l'importer dans index.js)
 
+```JS
+<div className="connexionBox">
+    <form className="connexion">
+        <input type="text" placeholder="Pseudo" required />
+        <button type="submit">Go</button>
+    </form> 
+</div>     
+```
+
 
 ![Giphy](https://ressources.blogdumoderateur.com/2013/02/gif-anime.gif)
 
