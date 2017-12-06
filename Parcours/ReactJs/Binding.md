@@ -79,7 +79,7 @@ constructor(props){
 }
 ```
 
-Mon state pour le moment les selectedTodos qui est un tableau vide. Histoire de tester ça, on va afficher le nombre de `selectedTodos` sur notre page de la même façon que pour les Todos créés. Et bien sûr, il ne faut pas oublier de modifier la valeur de `selectedTodos` en fonction du nombre de todo selected. Comme d'habitude, dans notre fonction `addToList`, `this.setState()` pour modifier le state et on va concatener l'ancienne valeur du state avec la valeur du todo qui vient du props en fonction de son index.
+Les selectedTodos de mon state sont pour le moment un tableau vide. Histoire de tester ça, on va afficher le nombre de `selectedTodos` sur notre page de la même façon que pour les Todos créés. Et bien sûr, il ne faut pas oublier de modifier la valeur de `selectedTodos` en fonction du nombre de todo selected. Comme d'habitude, dans notre fonction `addToList`, `this.setState()` pour modifier le state et on va concatener l'ancienne valeur du state avec la valeur du todo qui vient du props en fonction de son index.
 
 ```JS
 addToList(index, event){
