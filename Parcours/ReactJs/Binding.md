@@ -2,7 +2,7 @@
 
 ## Table des matières
 
-1. [installation](./Installation.md) 
+1. [Installation](./Installation.md) 
 2. [Introduction](./introduction.md) 
 3. [Dom](./Dom.md) 
 4. [Props et State](./PropsEtState.md)
