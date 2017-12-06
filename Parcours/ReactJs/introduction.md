@@ -53,7 +53,8 @@ Et là c'est le bug...
 
 Il y a quelques règles de base à retenir pour mettre un component dans notre vue :
 - Un component doit toujours contenir une method render dans laquelle se trouve un return
-- Dans le return, c'est ici qu'on met le JSX mais il ne peut y avoir qu'une seule div principale : que<br/>
+- Dans le return, c'est ici qu'on met le JSX mais il ne peut y avoir qu'une seule div principale : 
+
 ```<div className="main">```<br/>
     ```<div className="container">```<br/>
         bonjour<br/>
