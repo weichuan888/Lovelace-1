@@ -12,7 +12,7 @@
 
 
 ## Le DOM
-Alors, on a vu comment créer un component, comment en créer un deuxième les uns dans les autres. Pourtant, on ne sait toujours pas comment et pourquoi les afficher.
+Alors, on a vu comment créer un component, comment en créer un deuxième, comment les mettre les uns dans les autres. Pourtant, on ne sait toujours pas comment et pourquoi les afficher.
 
 React utilise un principe utilisant le "virtual DOM". En fait, il va simplement créer une page virtuelle puis seulement l'afficher quand on lui demande.
 
