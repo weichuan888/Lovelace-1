@@ -1,6 +1,6 @@
 # ReactJs
 
-Lisez bien ceci à font avant de commencer à bosser !
+Lisez bien ceci à fond avant de commencer à bosser !
 
 ## Table des matières
 
@@ -12,12 +12,12 @@ Lisez bien ceci à font avant de commencer à bosser !
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
 7. [Binding](./Binding.md)
 
-## Regles de bases
+## Règles de bases
 
-- Analysé bien tout avant de vous lancer à étapes d'après.
-- Ne copier coller pas, vous allez perdre énormement de temps...
-- Les bouts de code mis un peut partout ne sont pas à prendre simplement comme ça, les exemples donnés sont souvent pas à mettre au même endroit (revenir à la première règle)
+- Analysez bien tout avant de vous lancer dans les étapes suivantes
+- Ne copiez collez pas, vous allez perdre énormement de temps...
+- Les bouts de code mis un peu partout ne sont pas à prendre simplement comme ça, les exemples donnés sont souvent pas à mettre au même endroit (revenir à la première règle)
 - Si vous ne comprenez pas c'est que vous allez trop vite, prenez votre temps
--  Amusez vous !
+- Amusez-vous !
 
 ![Giphy](http://www.fredzone.org/wp-content/uploads/2014/11/daft1_2.gif)

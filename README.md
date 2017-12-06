@@ -11,8 +11,21 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 
 ## Retards et absences
 - Si tu dois fixer un rendez-vous quelconque, fixe-le le **mardi matin** (sois de retour pour 13h25).
-- Si vraiment tu ne peux faire autrement, préviens nous **au moins un jour à l'avance** en envoyant un email à bertrand@becode.org  ET alexandre@becode.org . Nous l'ajouterons à l'agenda, de sorte que tout le monde sache qu'il ne peut compter sur toi à ce moment-là.
+- Si vraiment tu ne peux faire autrement, préviens nous **au moins un jour à l'avance** en envoyant un email à admin@becode.org, bertrand@becode.org  ET alexandre@becode.org . Nous l'ajouterons à l'agenda, de sorte que tout le monde sache qu'il ne peut compter sur toi à ce moment-là.
 - Malade ? Montre un certificat médical valide et préviens-nous par email aussitôt que possible.
+
+## Congés
+
+|How is it called? | Dates |
+|---|---|
+| Educational Break (Swartz/Hamilton) | Friday 8/12/2017 | 
+| Christmas Holidays | From Monday 25/12/2017 to Friday 05/01/2018 | 
+| Eastern | Monday 02/04/2018 | 
+| Internship (Lovelace/Cycorp) | End of April 2018 | 
+| Labour Day | Tuesday 01/05/2018 | 
+| Ascension | Thursday 10/05/2018 | 
+| Pentecost Monday | Monday 21/05/2018 | 
+| Internship (Hamilton/Swartz) | June 2018 | 
 
 ## Contenus pédagogiques
 
