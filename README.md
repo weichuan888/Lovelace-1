@@ -41,10 +41,12 @@ Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te
 3. PHP [parcours](./Parcours/PHP), MySQL [parcours](./Parcours/MySQL)
 4. Projet multipage site en MVC [parcours](./Parcours/MVC)
 5. POO en PHP [parcours](./Parcours/PHP-POO)
+6. NodeJs [nodejs](./Parcours/NodeJs)
+7. React [React](./Parcours/ReactJs)
 
 Coming soon...
 
-6. fullstack JS : nodejs, react, meteor, redux, react native
+6. fullstack JS : meteor, redux, react native
 7. Learn what you want.
 
 ## Ressources 
