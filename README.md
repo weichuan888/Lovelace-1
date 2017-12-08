@@ -42,7 +42,7 @@ Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te
 4. Projet multipage site en MVC [parcours](./Parcours/MVC)
 5. POO en PHP [parcours](./Parcours/PHP-POO)
 6. NodeJs [nodejs](./Parcours/NodeJs)
-7. React [React](ReactJs)
+7. React [React](./Parcours/ReactJs)
 
 Coming soon...
 
