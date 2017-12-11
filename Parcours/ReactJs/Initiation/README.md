@@ -3,8 +3,8 @@
 ## Initiation
 
 ## React.JS, c'est quoi ?
-Rapidement, React.JS est bibliothéque créée par facebook, sa première version date de 2013. La bibliothèque **permet de créer des interfaces utilisateur performantes** . Elle est décrite comme étant MVC.
-
+React.JS est une bibliothéque type MVC créée en 2013 par facebook, **permetant de créer des interfaces utilisateur performantes** 
+.
 ## C’est quoi React ? A quoi ça sert ? Pourquoi c’est bien ?
 
 Avec l’avènement des [SPA](https://fr.wikipedia.org/wiki/Application_web_monopage), les applications web quasi « temps réel » telles que Gmail, Airbnb, Soundcloud ou encore Netflix, les frameworks et bibliothèques JS n’ont jamais eu autant la cote.
