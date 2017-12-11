@@ -5,7 +5,7 @@ Lisez bien ceci à fond avant de commencer à bosser !
 ## Table des matières
 
 ### Initiation
-1. [Initiation](./Initation/README.md)
+1. [Initiation](./Initiation/README.md)
 2. [Commencement](./Initiation/Commencement.md)
 
 Résultat du cours [Application](./InitiationApplication)
