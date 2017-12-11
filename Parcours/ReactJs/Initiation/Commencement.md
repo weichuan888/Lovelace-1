@@ -62,10 +62,11 @@ Pour l'instant, sur la page, rien ne s'affiche parce que react n'a pas l'instruc
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Welcome from './Welcome';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Welcome />, document.getElementById('root'));
 ````
+A partir d'ici vous pouvez démarrer le serveur. (n'oubliez pas de créer un index.css)
 
 Pour décomposer encore une fois : 
 - import React from 'react'; -> différent que la première fois parce que react n'a pas besoin des components ici
@@ -73,6 +74,7 @@ Pour décomposer encore une fois :
 - import './index.css'; -> import du css (en général c'est le seul endroit où le css s'importe)
 - import App from './App'; -> import du componant créer précédement (Il n'est pas écrit App.js et c'est normal, par défaut nodejs le comprend mais si l'extention est différente, il faut le présiser)
 - ReactDOM.render(<App />, document.getElementById('root')); -> ReactDOM.render() -> fonction pour afficher quelque chose et prend deux paramètre : 1 : Le composant à rendre, 2 : l'endroit où le rendu ce fera. Dans le dossier public du projet ce trouve un index.html dans le quel il y a qu'une div id root et c'est elle que react selectionne pour afficher l'application.
+- './Welcome' ou 'react' -> la différence est que si il n'y a pas de ./, react va chercher dans lees node modules tandis que ./ dis qu'il y a un fichier à la même hauteur. 
 
 ## Tout l'interet de react réside dans l'imbrication des composants.
 
@@ -97,7 +99,7 @@ Maintenant que le deuxième composant est créer, il faut l'importer et l'appele
 
 ```Js
 import React, { Component } from 'react';
-import Hello from 'Hello';
+import Hello from './Hello';
 
 export default class Welcome extends Component {
   render() {
@@ -115,7 +117,7 @@ Ce que react permet aussi, c'est d'envoyer des paramètres d'un composant à un 
 
 ```Js
 import React, { Component } from 'react';
-import Hello from 'Hello';
+import Hello from './Hello';
 
 export default class Welcome extends Component {
   render() {
@@ -143,6 +145,7 @@ export default class Hello extends Component {
   }
 }
 ```
+
 ## Let's go to the real react project !
 
 [ReactStart](../readme.md)
