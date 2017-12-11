@@ -2,29 +2,34 @@
 
 ## Table des matières
 
-1. [Installation](./Installation.md)
-2. [Introduction](./introduction.md) ←
-3. [DOM](./Dom.md)
+1. [installation](./Installation.md) 
+2. [Introduction](./introduction.md) 
+3. [Dom](./Dom.md)
 4. [Props et State](./PropsEtState.md)
-5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md)
-6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
+5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
+6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
 7. [Binding](./Binding.md)
+8. [LifeCycle](./LifeCycle.md)
+9. [Deploiment](./Deploiment.md)
+10. [Animation](./Animations.md)
 
 
 ## Introduction
-React est une view library créée par Facebook et Instagram. Ca signifie que React se limite à modifier la vue. React utilise principalement un system avec des components. Un component n'est qu'un bout de code qui peut faire un simple boutton ou même toute une application.
+React est une view library créer par Facebook et Instagram, React se limite à modifier la vue et utilise principalement un système avec des components. 
+### Qu'est-ce qu'un component? 
+Un component n'est qu'un bout de code qui peut être un simple bouton ou même toute une application.
 
 ![alt text](http://nitrajka.com/wp-content/uploads/2016/08/uimockscript.png)
 
 Dans l'image ci-dessus, on peut voir les différents components de notre application, qui va du simple EmployeeList jusqu'à L'app.
 
-Donc dans cette interface de gestion professionnelle qui est à la fois, sur la partie de gauche est un composant avec un boutton, un header et une liste et chaque element sont un composant mais on peut aussi encore décomposer la liste d'employer par exemple avec le composant EmployeeListItem qui contient un component Profil Photo, Profil nom, Profil post.
-On va voir avec react comment on peut partir des petits composants tout simples pour en faire une interface complète.
+Donc dans cette interface de gestion professionnelle qui est à la fois, sur la gauche un component avec un boutton, un header et une liste dont chaque element est un component. Mais on peut encore décomposer la liste d'employé avec le component EmployeeListItem qui contient trois components: Profil Photo, Profil nom, Profil post.
+On va voir avec React comment on peut partir de petit component tout simple pour en faire une interface complète.
 
 React n'est pas le seul dans sa catégorie, et d'autres font parfois beaucoup plus que lui. Par exemple Angular ou Backbone qui sont de "vrais" framework MVC. Il y a aussi le nouvel ELM.
 
 ## Créer un composant React
-Parce que cela vous permet de créer des views de manière **dynamique** plutôt que **statique**.
+React permet de créer des views de manière **dynamique** plutôt que **statique**.
 
 Pour notre premier composant, on va créer une class :
 ```JS
@@ -34,15 +39,13 @@ class Welcome extends React.Component {
   }
 }
 ```
-Ici, nous avons la toute première syntaxe de React. Elle dit que le composant est un objet qui implémante la method render et qui retourne quelque chose qui ressemble à de l'HTML mais qui ne l'est pas. 
+Nous avons la notre premier component React qui est en faite un objet, qui implémente la methode render, et retourne 
+quelque chose qui ressemble à du HTML mais qui ne l'est pas. Normalement en HTML on utilise la class pour donner un nom à notre élément et pour pouvoir le sélectionner. Ici on utilisera dans le HTML non pas class mais className, parce que React utilise déjà Class. Donc pour ne pas le confondre, utilise className lorsque tu veux faire du HTML dans une class React (de toute façon si ce n'est pas le cas ça te fera une bonne grosse erreur ;) ). Le HTML que vous voyez s'appelle donc le JSX (Javascript Extension) Nous allons voir en détail pourquoi React fonctionne de la sorte avec HTML.
 
-Normalement en HTML, on a la class pour donner un nom à notre élément et pour pouvoir le sélectionner, pour le modifier ou en faire autre chose. Ici on utilisera non pas class mais className parce que React utilise déjà la Class et donc pour le pas le confondre, utiliser className (de toute façon si ce n'est pas le cas ça fera une bonne grosse erreur ;) ). L'HTML que vous voyez là s'appelle donc le JSX (Javascript Extension). Nous allons voir en détails pourquoi React fonctionne de la sorte avec de l'HTML dans du JS.
+Crée un fichier Welcome.js dans le dossier component préalablement créer par tes soins, et met le petit bout de code juste au dessus dans ce fichier. Regarde ce qu'il se passe dans ton navigateur.
 
-On va créer un fichier Welcome.js dans le dossier component préalablement créé sans scource et mettre le petit bout de code juste au dessus dans se fichier et regarder ce qu'il se passe dans notre navigateur.
+Rien ne se passe et c'est normal ! On n'a créée un component mais on n'a pas dis à notre application de l'afficher. Pour faire ça, on va retourner à la base de notre component qui est App.js et appeler le component Welcome.
 
-Rien ne se passe et c'est normal ! On a crée un component mais on n'a pas dit à notre application de l'afficher. Pour faire ça, on va retourner à la base de notre component de base qui est App.js et appeler le component Welcome.
-
-Pour appeler un component, rien de plus simple, on va ajouter : 
 ```JS
 <Welcome/> 
 ```
@@ -104,7 +107,7 @@ export default class Welcome extends React.Component {
 }
 ```
 
-Et là il nous reste qu'une seule étape qui est simplement de dire à notre projet que notre component est un component en ajoutant au-dessus :
+Et là il nous reste qu'une seule étape qui est simplement de dire à notre projet que notre component est un component en ajoutant au-dessus dans Welcome.js :
 
 ```JS
 import React from 'react';

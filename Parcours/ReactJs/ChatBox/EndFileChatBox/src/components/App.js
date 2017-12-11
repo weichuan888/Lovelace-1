@@ -41,18 +41,18 @@ class App extends React.Component {
 
 	render() {
 		const messages = Object
-										.keys(this.state.messages)
-										.map(key => <Message key={key} details={this.state.messages[key]} isUser={this.isUser} />);
+			.keys(this.state.messages)
+			.map(key => <Message key={key} details={this.state.messages[key]} isUser={this.isUser} />);
 		return (
 			<div className="box">
 				<div>
 					<div className="messages" ref={input => this.messages = input} >
 						<ReactCSSTransitionGroup 
-						component="div"
-						className="message"
-						transitionName="message"
-						transitionEnterTimeout={200}
-						transitionLeaveTimeout={200}
+							component="div"
+							className="message"
+							transitionName="message"
+							transitionEnterTimeout={200}
+							transitionLeaveTimeout={200}
 						>
 							{messages}
 						</ReactCSSTransitionGroup>

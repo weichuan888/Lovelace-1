@@ -4,13 +4,32 @@ Lisez bien ceci à fond avant de commencer à bosser !
 
 ## Table des matières
 
-1. [Installation](./Installation.md)
-2. [Introduction](./introduction.md)
-3. [DOM](./Dom.md)
+### Initiation
+1. [Initiation](./Initation/README.md)
+2. [Commencement](./Initiation/Commencement.md)
+
+Résultat du cours [Application](./InitiationApplication)
+
+### Projet
+1. [installation](./Installation.md) 
+2. [Introduction](./introduction.md) 
+3. [Dom](./Dom.md)
 4. [Props et State](./PropsEtState.md)
-5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md)
-6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md)
+5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
+6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
 7. [Binding](./Binding.md)
+8. [LifeCycle](./LifeCycle.md)
+9. [Deploiment](./Deploiment.md)
+10. [Animation](./Animations.md)
+
+Fichier du cours [Application](./TodoList)
+
+### Exercice
+
+1. [Brief d'exercice](/.ChatBox/ChatBox.md)
+
+Fichier de début de cours[ChatBox](./ChatBox/StartFileChatBox)
+Fichier de fin de cours[ChatBox](./ChatBox/EndFileChatBox)
 
 ## Règles de bases
 

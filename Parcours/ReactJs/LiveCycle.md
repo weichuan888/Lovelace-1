@@ -4,11 +4,14 @@
 
 1. [installation](./Installation.md) 
 2. [Introduction](./introduction.md) 
-3. [Dom](./Dom.md) ←
+3. [Dom](./Dom.md)
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
 7. [Binding](./Binding.md)
+8. [LifeCycle](./LifeCycle.md)
+9. [Deploiment](./Deploiment.md)
+10. [Animation](./Animations.md)
 
 
 ## Le cycle de vie d'un component
