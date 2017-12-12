@@ -116,7 +116,7 @@ Ce que react permet aussi, c'est d'envoyer d'un composant √† un autre des param√
 
 ```JS
 import React, { Component } from 'react';
-import Hello from 'Hello';
+import Hello from './Hello';
 
 export default class Welcome extends Component {
   render() {
