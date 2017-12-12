@@ -56,23 +56,23 @@ Histoire de décomposer un peu ce qu'il se passe, pour commencer:
 - <div className="App"> -> className est la même chose que class en html mais react utilise deja le mot class donc petit changement (le comportement est le même)
 - (Par convention, le nom du composant, le nom du fichier, le nom de l'import,... s'appel de la même manière et commence par une majuscule pour faire plus simple)
 
-Pour l'instant, sur la page, rien ne s'affiche parce que react n'a eu aucune instruction. Pour ce faire, il faut créer un composant qui va récupérer le composant principal pour l'afficher grace au React-dom le tout dans le fichier index.js que vous créez aussi: 
+Pour l'instant, sur la page, rien ne s'affiche parce que react n'a eu aucune instruction. Pour ce faire, il faut créer un composant qui va récupérer le composant principal pour l'afficher grace au React-dom le tout dans le fichier index.js que vous créez aussi ainsi que le fichier index.css (dans le quel vous mettez ce que vous voulez en CSS): 
 
 ````JS
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Welcome from './Welcome';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Welcome />, document.getElementById('root'));
 ````
 
 Pour décomposer encore une fois : 
 - import React from 'react'; -> différent que la première fois parce que react n'a pas besoin des components ici
 - import ReactDOM from 'react-dom'; -> C'est lui qui gère l'affichage dans le DOM
 - import './index.css'; -> import du css (généralement c'est le seul endroit où le css doit être importer)
-- import App from './App'; -> import du composant créé précédement (Il n'est pas écrit App.js et c'est normal, par défaut nodejs le comprend, mais si l'extention est différente, il faut le préciser)
-- ReactDOM.render(<App />, document.getElementById('root')); -> ReactDOM.render() -> fonction pour afficher quelque chose et prend deux paramètre : Le premier est le composant à rendre, et le deuxième, l'endroit où le rendu ce fera. 
+- import Welcome from './Welcome'; -> import du composant créé précédement (Il n'est pas écrit Welcome.js et c'est normal, par défaut nodejs le comprend, mais si l'extention est différente, il faut le préciser)
+- ReactDOM.render(<Welcome />, document.getElementById('root')); -> ReactDOM.render() -> fonction pour afficher quelque chose et prend deux paramètre : Le premier est le composant à rendre, et le deuxième, l'endroit où le rendu ce fera. 
 Dans le dossier public du projet se trouve un index.html dans lequel il n'y a qu'une div avec un id root, et c'est elle que react sélectionne pour afficher l'application.
 
 ## Tout l'interet de react réside dans l'imbrication des composants.
@@ -149,5 +149,4 @@ export default class Hello extends Component {
 [ReactStart](../readme.md)
 
 ![Giphy](https://media1.tenor.com/images/00ecffdc7134e3fa132ebe3505d73ae4/tenor.gif?itemid=6117320)
-
 
