@@ -38,8 +38,8 @@ Fichier du cours [Application](./TodoList/App)
 
 1. [Brief d'exercice](/.ChatBox/ChatBox.md)
 
-Fichier de début de cours [ChatBox](./ChatBox/StartFileChatBox) <br/>
-Fichier de fin de cours [ChatBox](./ChatBox/EndFileChatBox)
+- Fichier de début de cours [ChatBox](./ChatBox/StartFileChatBox) <br/>
+- Fichier de fin de cours [ChatBox](./ChatBox/EndFileChatBox)
 
 ## Règles de bases
 
