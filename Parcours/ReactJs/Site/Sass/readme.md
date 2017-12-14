@@ -7,13 +7,13 @@ Il est bien sure possible de faire du Sass avec React mais pour faire ça, il va
 (Dans une application React fonctionnel)
 
 ```BASH
-npm install node-sass --save
-npm install npm-run-all --save
-```
-
-```
 cd your-app
 mkdir Assets
+```
+
+```BASH
+npm install node-sass --save
+npm install npm-run-all --save
 ```
 
 - Créer un fichier style.scss dans le dossier Assets
