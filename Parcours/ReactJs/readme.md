@@ -26,6 +26,14 @@ Lisez bien ceci à fond avant de commencer à bosser !
 
 Fichier du cours [Application](./TodoList/App)
 
+### Backend
+
+1. [FireBase](./Backend/readme.md)
+
+### Router
+
+1: [Router](./Router/readme.md)
+
 ### Exercice
 
 1. [Brief d'exercice](/.ChatBox/ChatBox.md)
