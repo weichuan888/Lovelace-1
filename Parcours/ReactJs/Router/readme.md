@@ -52,10 +52,10 @@ registerServiceWorker();
 
 En gros on fais les imports dont on à besoin et par après, dans le router, le patern à suivre est très simple :
 
-- <Router> </Router> -> Tout ce qu'on met à propos des routes
-- <Link to="/">Home</Link> -> Lien vers en fonction de l'url
-- <Switch> </Switch> -> Les différentes directions
-- <Route exact path='/' component={ App } /> -> les différentes routes
-- <Route component={ NotFound } /> Une route sans path pour le 404
+- ```<Router> </Router>``` -> Tout ce qu'on met à propos des routes
+- ```<Link to="/">Home</Link>``` -> Lien vers en fonction de l'url
+- ```<Switch> </Switch>``` -> Les différentes directions
+- ```<Route exact path='/' component={ App } />``` -> les différentes routes
+- ```<Route component={ NotFound } />``` Une route sans path pour le 404
 
 Voilà tout :)
