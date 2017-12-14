@@ -8,7 +8,7 @@ Il est bien sure possible de faire du Sass avec React mais pour faire ça, il va
 
 ```BASH
 cd your-app
-mkdir Assets
+mkdir src/Assets
 ```
 
 ```BASH
