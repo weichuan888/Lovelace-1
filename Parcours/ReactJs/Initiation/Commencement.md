@@ -21,7 +21,7 @@ npm install
 Pour commencer sans base de fichier et pour bien comprendre, on va retirer toute la base de l'application, donc tout ce qu'il y a dans src.
 
 ````BASH
-cd my-app
+cd my-app-name
 rm -f src/*
 ````
 
