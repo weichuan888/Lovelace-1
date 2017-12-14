@@ -1,17 +1,14 @@
 # React
 
-## Le DOM
-Alors, on n'a vu comment créer un component et en créer un deuxième les uns dans les autres mais on ne sais toujours pas comment les afficher.
+## Premier site
 
-React utilise un principe le "virtual dom". En fait, il va simplement créer une page virtuellement et seulement l'afficher quand on lui demande.
+Pour ce premier projet, vous allez reproduire un onepage à l'identique de celui ci : [OnePage](https://html5up.net/photon)
 
-Ici, dans index.js on import le component App et il y a un "ReactDOM.render(<App />", document.getElementById('root'));
+L'objectif est de s'habituer à créer des components et à les imbriquers de la bonne façon, CAD de cette manière :
+![image](http://maketea.co.uk/images/2014-03-05-robust-web-apps-with-react-part-1/wireframe_deconstructed.png)
 
-Pour faire simple, il créé notre vue et l'affiche à l'emplacement de l'ID root qui se trouve dans index.html
+L'interet n'es pas de faire transiter des informations mais jsute d'imbriquer les components donc on va utilisé QUE 5% de ce que React est capable de faire. Ne reproduisé que l'aspect graphique.
 
-![Giphy](https://ressources.blogdumoderateur.com/2013/02/gif-anime.gif)
-
-
-Rendez-vous à la prochaine leçon : [props](./PropsEtState.md).
+A vous de jouer !
 
 
