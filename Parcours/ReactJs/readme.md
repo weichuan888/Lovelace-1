@@ -8,8 +8,6 @@ Lisez bien ceci à fond avant de commencer à bosser !
 1. [Initiation](./Initiation/README.md)
 2. [Commencement](./Initiation/Commencement.md)
 
-Résultat du cours [Application](./InitiationApplication)
-
 ## Premier Site
 1. [SiteWeb](./Site/readme.md)
 
