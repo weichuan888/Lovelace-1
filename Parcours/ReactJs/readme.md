@@ -32,7 +32,7 @@ Fichier du cours [Application](./TodoList/App)
 
 ### Router
 
-1: [Router](./Router/readme.md)
+1. [Router](./Router/readme.md)
 
 ### Exercice
 
