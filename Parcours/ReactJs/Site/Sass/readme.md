@@ -16,7 +16,7 @@ npm install node-sass --save
 npm install npm-run-all --save
 ```
 
-- Créer un fichier style.scss dans le dossier Assets
+- Créer un fichier style.scss dans le dossier Assets qui est dans le dossier src
 - Modifier le package.json manuelement : 
 
 ```JSON
@@ -32,5 +32,6 @@ npm install npm-run-all --save
 ```
 
 une fois les modifications apportée, il va faloir aussi modifier le fichier css que react va chercher (normalement dans index.js) et modifier l'import "import './App.css';" par "import './Assets/style.css';"
+Supprimer le "import './App.css';" dans le App.js.
 
 Si tout est fais correctement, maintenant vous pouvez faire du Sass dans votre projet react !
