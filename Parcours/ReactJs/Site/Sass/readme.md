@@ -2,7 +2,7 @@
 
 ## Sass
 
-Il est bien sure possible de faire du Sass avec React mais pour faire ça, il va faloir faire quelque manipulation : 
+Il est bien sure possible de faire du Sass avec React mais pour faire ça, il va falloir faire quelque manipulation : 
 
 (Dans une application React fonctionnel)
 
@@ -31,7 +31,7 @@ npm install npm-run-all --save
 }
 ```
 
-une fois les modifications apportée, il va faloir aussi modifier le fichier css que react va chercher (normalement dans index.js) et modifier l'import "import './App.css';" par "import './Assets/style.css';"
+une fois les modifications apportée, il va falloir aussi modifier le fichier css que react va chercher (normalement dans index.js) et modifier l'import "import './App.css';" par "import './Assets/style.css';"
 Supprimer le "import './App.css';" dans le App.js.
 
 Si tout est fais correctement, maintenant vous pouvez faire du Sass dans votre projet react !
