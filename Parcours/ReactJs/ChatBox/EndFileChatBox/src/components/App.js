@@ -30,7 +30,7 @@ class App extends React.Component {
   	const timestamp = Date.now();
   	messages[`message-${timestamp}`] = message;
   	// On ne garde que les 10 derniers messages
-		Object.keys(messages).slice(0, -10).map(key => messages[key] = null);
+	Object.keys(messages).slice(0, -10).map(key => messages[key] = null);
   	// 3 Set State
   	this.setState({ messages });
   }
