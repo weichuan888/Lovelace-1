@@ -23,6 +23,7 @@ Pour commencer sans base de fichier et pour bien comprendre, on va retirer toute
 ````BASH
 cd my-app-name
 rm -f src/*
+npm start
 ````
 
 Vous pouvez également tester avec JSFiddle:
