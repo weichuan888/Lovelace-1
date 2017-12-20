@@ -74,14 +74,15 @@ Ici nous avons afficher quelque chose de dynamique dans le render avec l'HTML. L
 
 ```JS
 export default class List extends React.Component {
+  test(){
+    return 'bonjour';
+  }
+
   render() {
-    function test(){
-      return 'bonjour';
-    }
     return (
         <div className="liste">
             {this.props.todos.length}
-            {test()}
+            {this.test()}
         </div>
     );
   }
