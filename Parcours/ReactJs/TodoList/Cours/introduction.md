@@ -2,9 +2,9 @@
 
 ## Table des matières
 
-1. [installation](./Installation.md) 
+1. [Installation](./Installation.md) 
 2. [Introduction](./introduction.md) 
-3. [Dom](./Dom.md)
+3. [DOM](./Dom.md)
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
@@ -15,7 +15,7 @@
 
 
 ## Introduction
-React est une view library créer par Facebook et Instagram, React se limite à modifier la vue et utilise principalement un système avec des components. 
+React est une view library créée par Facebook et Instagram, React se limite à modifier la vue et utilise principalement un système avec des components. 
 ### Qu'est-ce qu'un component? 
 Un component n'est qu'un bout de code qui peut être un simple bouton ou même toute une application.
 
@@ -23,10 +23,10 @@ Un component n'est qu'un bout de code qui peut être un simple bouton ou même t
 
 Dans l'image ci-dessus, on peut voir les différents components de notre application, qui va du simple EmployeeList jusqu'à L'app.
 
-Donc dans cette interface de gestion professionnelle qui est à la fois, sur la gauche un component avec un boutton, un header et une liste dont chaque element est un component. Mais on peut encore décomposer la liste d'employé avec le component EmployeeListItem qui contient trois components: Profil Photo, Profil nom, Profil post.
+Dans cette interface de gestion professionnelle : sur la gauche il y a un component avec un boutton, un header et une liste dont chaque élement est un component. On peut encore décomposer la liste d'employés avec le component `EmployeeListItem` qui contient trois components : `Profil Photo`, `Profil nom`, `Profil post`.
 On va voir avec React comment on peut partir de petit component tout simple pour en faire une interface complète.
 
-React n'est pas le seul dans sa catégorie, et d'autres font parfois beaucoup plus que lui. Par exemple Angular ou Backbone qui sont de "vrais" framework MVC. Il y a aussi le nouvel ELM.
+React n'est pas le seul dans sa catégorie. Angular ou Backbone qui sont de "vrais" framework MVC, au même titre que le nouvel ELM.
 
 ## Créer un composant React
 React permet de créer des views de manière **dynamique** plutôt que **statique**.
@@ -39,12 +39,16 @@ class Welcome extends React.Component {
   }
 }
 ```
-Nous avons la notre premier component React qui est en faite un objet, qui implémente la methode render, et retourne 
-quelque chose qui ressemble à du HTML mais qui ne l'est pas. Normalement en HTML on utilise la class pour donner un nom à notre élément et pour pouvoir le sélectionner. Ici on utilisera dans le HTML non pas class mais className, parce que React utilise déjà Class. Donc pour ne pas le confondre, utilise className lorsque tu veux faire du HTML dans une class React (de toute façon si ce n'est pas le cas ça te fera une bonne grosse erreur ;) ). Le HTML que vous voyez s'appelle donc le JSX (Javascript Extension) Nous allons voir en détail pourquoi React fonctionne de la sorte avec HTML.
+Nous avons là notre premier component React. C'est un objet qui implémente la methode render et retourne 
+quelque chose qui ressemble à du HTML mais qui ne l'est pas. 
 
-Crée un fichier Welcome.js dans le dossier component préalablement créer par tes soins, et met le petit bout de code juste au dessus dans ce fichier. Regarde ce qu'il se passe dans ton navigateur.
+Normalement en HTML, on utilise la class pour donner un nom à notre élément et pour pouvoir le sélectionner. Ici on utilisera dans le HTML non pas `class` mais `className`, parce que React utilise déjà Class. 
 
-Rien ne se passe et c'est normal ! On n'a créée un component mais on n'a pas dis à notre application de l'afficher. Pour faire ça, on va retourner à la base de notre component qui est App.js et appeler le component Welcome.
+Le HTML que vous voyez s'appelle le JSX (Javascript Extension). Nous allons voir en détail pourquoi React fonctionne de la sorte avec HTML.
+
+Crée un fichier `Welcome.js` dans le dossier component préalablement créé par tes soins dans le dossier `src`, et met le petit bout de code juste au-dessus dans ce fichier. Regarde ce qu'il se passe dans ton navigateur.
+
+Rien ne se passe et c'est normal ! Il faut l'afficher. Pour se faire, nous allons appeler le component Welcome dans App.js.
 
 ```JS
 <Welcome/> 
