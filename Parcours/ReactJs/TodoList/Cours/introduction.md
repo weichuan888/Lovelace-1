@@ -62,27 +62,29 @@ Il y a quelques règles de base à retenir pour mettre un component dans notre v
 - Un component doit toujours contenir une method render dans laquelle se trouve un return
 - Dans le return, c'est ici qu'on met le JSX mais il ne peut y avoir qu'une seule div principale : 
 
-```<div className="main">```<br/>
-    ```<div className="container">```<br/>
-        bonjour<br/>
-    ```</div>```<br/>
-    ```<div className="container">```<br/>
-        Aurevoir<br/>
-    ```</div>```<br/>
-```</div>``` -> c'est bon <br/><br/>
+``<div className="main">
+    <div className="container">
+        bonjour
+    </div>
+    <div className="container">
+        Aurevoir>
+    </div>
+</div>``
+-> c'est bon
 
-    mais que <br/>
-```<div className="main">```<br/>
-    bonjour<br/>
-```</div>```<br/> 
-```<div className="container">```<br/>
-    Aurevoir<br/>
-```</div>```<br/>-> c'est pas bon
+
+``<div className="main">
+    bonjour
+</div>
+<div className="container">
+    Aurevoir
+</div>``
+-> c'est pas bon
 
 - Il faut aussi qu'on importe notre componant dans le fichier où l'on veut qu'il apparaisse
-- Il faut qu'on exporte le componenet qu'on doit afficher
+- Il faut qu'on exporte le component qu'on doit afficher
 
-Donc, dans App.js on ajoute
+Donc, dans `App.js` on ajoute
 ```JS
     import Welcome from './component/Welcome';
 ```
