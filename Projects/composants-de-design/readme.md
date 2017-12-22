@@ -1,7 +1,12 @@
 # Composants de design
 
+## Objectifs d'apprentissage
+
+1. terminer le parcours frontend par des jobs d'intégration "pixel-perfect" tels que demandés dans les agences de web : l'input reçu est une image statique, l'output à produire à chaque fois est une template html/(s)css.
+1. s'aguerrir en sass et de son approche modulaire. À ce sujet, si tu te destines au frontend development, ces lectures t'intéresseront : [BEM (en)](https://css-tricks.com/bem-101/) / [BEM (fr)](https://www.alsacreations.com/article/lire/1641-bonnes-pratiques-en-css-bem-et-oocss.html) ou l'approche [SMACSS](https://smacss.com/). 
+
 ## Mission
-Dans ce repo se trouvent 22 composants interfaces. 
+Dans ce repo se trouvent 22 composants d'interfaces que l'on rencontre typiquement de nos jours (La nuit aussi, d'ailleurs). 
 
 Intègre-les en html+css en suivant l'ordre numérique (de 1 à ...). 
 
@@ -18,7 +23,7 @@ Pour chaque composant, crée un dossier du même nom que l'image, contenant cett
         L img
 ```
 
-**Nom du repository à créer sur github:** `7-composants-de-design`  
+**Nom du repository à créer sur github:** `composants-de-design`  
 
 ## Installer un compilateur de SASS
 
@@ -70,6 +75,7 @@ Les photos peuvent être différentes et tu peux en trouver ici : [Unsplash](htt
 ### Extention Chrome 
 
 - [pix-to-pix-pixel-perfect](https://chrome.google.com/webstore/detail/pix-to-pix-pixel-perfect/binboaimbgchaamickjnhgjdccohndin?hl=fr)
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) pour vérifier votre score en PWA, bonnes pratiques, accessibilité et performances
 
 
 
