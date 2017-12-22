@@ -60,26 +60,30 @@ Et là c'est le bug...
 
 Il y a quelques règles de base à retenir pour mettre un component dans notre vue :
 - Un component doit toujours contenir une method render dans laquelle se trouve un return
-- Dans le return, c'est ici qu'on met le JSX mais il ne peut y avoir qu'une seule div principale : 
+- On met le JSX dans le return mais il ne peut y avoir qu'une seule div principale : 
 
-``<div className="main">
+```
+<div className="main">
     <div className="container">
         bonjour
     </div>
     <div className="container">
         Aurevoir>
     </div>
-</div>``
+</div>
+```
 -> c'est bon
 
 
-``<div className="main">
+```
+<div className="main">
     bonjour
 </div>
 <div className="container">
     Aurevoir
-</div>``
--> c'est pas bon
+</div>
+```
+-> c'est pas bon, car ici, il y a deux div principales (au même niveau)
 
 - Il faut aussi qu'on importe notre componant dans le fichier où l'on veut qu'il apparaisse
 - Il faut qu'on exporte le component qu'on doit afficher
@@ -92,7 +96,7 @@ Donc, dans `App.js` on ajoute
 
 Si on ajoute le import ça fait une erreur de moins mais il nous en reste encore deux. 
 
-Dans Welcome.js il faut qu'on lui dise qu'on veut exporter. Il y a 2 manières de faire :
+Dans `Welcome.js` il faut qu'on lui dise qu'on veut exporter. Il y a 2 manières de faire :
 ```JS
 class Welcome extends React.Component {
     render() {
@@ -113,7 +117,7 @@ export default class Welcome extends React.Component {
 }
 ```
 
-Et là il nous reste qu'une seule étape qui est simplement de dire à notre projet que notre component est un component en ajoutant au-dessus dans Welcome.js :
+Et là il nous reste qu'une seule étape qui est simplement de dire à notre projet que notre component est un component en ajoutant au-dessus dans `Welcome.js` :
 
 ```JS
 import React from 'react';
