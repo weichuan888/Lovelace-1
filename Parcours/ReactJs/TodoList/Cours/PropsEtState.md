@@ -56,6 +56,10 @@ Pour passer des valeurs d'un component à un autre, il faut simplement ajouter u
 // Dans le render de App.js :
 <List todos={['vaiselle','cuisiner']} NomDeMaProps2={valeur2} />
 ```
+Pour décomposer: 
+- todos={['vaiselle','cuisiner']} -> une props qui s'appel todos dans laquel on envoie un array avec deux éléments
+- NomDeMaProps2={valeur2} -> une props qui s'appel NomDeMaProps2 dans la quel on envoie une variable valeur2 qui contient la valeur que l'on veut. (celle-ci est un exemple)
+
 Pour afficher les données qui sont passées d'un component à un autre, il faut faire un return dans le component List :
 
 ```JS
