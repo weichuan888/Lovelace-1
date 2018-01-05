@@ -48,7 +48,7 @@ export default class List extends React.Component {
 }
 ```
 
-(N'oubliez pas de l'importer dans App et d'importer React dans la list ; ) )
+(N'oubliez pas de l'importer dans App et d'importer React dans la List ; ) )
 
 Pour passer des valeurs d'un component à un autre, il faut simplement ajouter une ou plusieurs props :
 
@@ -57,10 +57,10 @@ Pour passer des valeurs d'un component à un autre, il faut simplement ajouter u
 <List todos={['vaiselle','cuisiner']} NomDeMaProps2={valeur2} />
 ```
 Pour décomposer : 
-- todos={['vaiselle','cuisiner']} -> une props qui s'appelle todos dans laquelle on envoie un array avec deux éléments
-- NomDeMaProps2={valeur2} -> une props qui s'appelle NomDeMaProps2 dans laquelle on envoie une variable valeur2 qui contient la valeur que l'on veut. (celle-ci est un exemple)
+- todos={['vaiselle','cuisiner']} -> une props qui s'appelle `todos` dans laquelle on envoie un array avec deux éléments
+- NomDeMaProps2={valeur2} -> une props qui s'appelle `NomDeMaProps2` dans laquelle on envoie une variable `valeur2` qui contient la valeur que l'on veut. (celle-ci est un exemple)
 
-Pour afficher les données qui sont passées d'un component à un autre, il faut faire un return dans le component List :
+Pour afficher les données qui sont passées d'un component à un autre, il faut faire un return dans le component `List` :
 
 ```JS
 export default class List extends React.Component {
@@ -93,7 +93,7 @@ export default class List extends React.Component {
 }
 ```
 
-Donc les informations passées en paramètres sont accessibles avec l'attribut props. 
+Les informations passées en paramètres sont accessibles avec l'attribut props. 
 
 Pour notre App, on a un component pour afficher le nombre de tâches à réaliser (todos), actuellement il n'affiche que la taille, mais il nous faut aussi un component pour les créer et garder une logique de séparation des components. Appelons le `<TodoForm />` dans App.
 
@@ -108,7 +108,7 @@ Crée un nouveau component appelé `TodoForm`, dans lequel tu vas faire un formu
 </div>
 ```
 
-Tu dois voir un formulaire apparaître avec un bouton et un input. L'idéal serait qu'à chaque fois que l'on exécute notre bouton, qu'il ajoute une todo, donc chaque fois qu'on appuie sur le bouton il l'ajoute à notre App. On va lui passer un props aussi nomé onNewTodo. Dans ce props on peut passer des fonctions.
+Tu dois voir un formulaire apparaître avec un bouton et un input. L'idéal serait qu'à chaque fois que l'on exécute notre bouton, il ajoute une todo, donc il l'ajoute à notre App. On va lui passer un props aussi nommé `onNewTodo`. Dans ce props, on peut passer des fonctions.
 
 ````JS
 class App extends Component {
@@ -133,13 +133,13 @@ class App extends Component {
 }
 ````
 
-Dans le component `TodoForm`, nous avons un input et un bouton pour ajouter des "todo". Ce qu'on veux c'est que lorsque l'on clique sur le boutton, on recupère la valeur dans l'input et nous la passons au component parent. Utilise le "ref" dans l'input, c'est un attribut qui va recevoir une fonction, un objet, une simple chaine de caractère,... Et va donner un nom pour permettre de s'en servir plus tard.
+Dans le component `TodoForm`, nous avons un input et un bouton pour ajouter des "todo". Ce qu'on veut c'est que lorsque l'on clique sur le bouton, on recupère la valeur dans l'input et nous la passons au component parent. Utilise le "ref" dans l'input, c'est un attribut qui va recevoir une fonction, un objet, une simple chaine de caractère,... Et va donner un nom pour permettre de s'en servir plus tard.
 
 ```JS
 <input type="text" ref={(input) => this.ToDoTitle = input} />
 ```
 
-On crée une propriété `ToDoTitle`, pour prendre la valeur que l'on rentre dans l'input. Mais pour le moment pour elle ne s'affiche nulle part, on utilise `this.ToDoTitle` pour pouvoir avoir accès à la variable dans le component parent. 
+On crée une propriété `ToDoTitle`, pour prendre la valeur que l'on rentre dans l'input. Mais pour le moment, elle ne s'affiche nulle part, on utilise `this.ToDoTitle` pour pouvoir avoir accès à la variable dans le component parent. 
 
 Le `(input)=>` est une nouvelle syntaxe pour faire une fonction en JavaScript ES6, faire `function input(){this.ToDoTitle = input}` revient à faire la même chose. On va ajouter une function au bouton qui va arrêter l'evenement en cours et nous afficher le contenu de la console.
 
@@ -173,19 +173,20 @@ Alors on va sur notre page et tester formulaire. Si tout va bien, il doit affich
 Pour récapituler :
 - On envoie en props la function `onNewTodo` vers le component `TodoForm`.
 - `TodoForm` reçoit la fonction
-- On met à jours notre variable txt lorsqu'on click sur le boutton grace à la fonction AddTodo
+- On met à jour notre variable txt lorsqu'on clique sur le bouton grâce à la fonction `AddTodo`
 - On appelle la fonction `onNewTodo` depuis le props
-- On lui passe les paramètres nescessaire
+- On lui passe les paramètres nescessaires
 - On execute la function donc le console.log
 
 Bon c'est certain, c'est trop cool mais en réalité ça sert à rien. Maintenant le but est d'envoyer le tout dans notre component `List`.
 
-Un truc tout simple aurait été d'envoyer un table vers l'autre component (nosTodo.push(todo)) mais React a fait quelque chose d'autre pour nous. Un composent à deux types de données :
+Un truc tout simple aurait été d'envoyer une table vers l'autre component (nosTodo.push(todo)) mais React a fait quelque chose d'autre pour nous. Un composent a 2 types de données :
 - Les données propres aux composants -> **State**
 - Les données qui lui sont passées -> **Props**
 
 Ce qu'on va faire à la place, c'est que nous allons mettre à jour ce fameux state.
-Le state est donc un objet interne à notre component et pour l'utiliser on doit utiliser un constructor pour le déclarer et la fonction setState() pour le modifier. Le constructor est une foncion qui va mettre en place les premiers paramètres de notre component. Donc dans le App.js : 
+Le state est donc un objet interne à notre component et pour l'utiliser on doit utiliser un constructor pour le déclarer et la fonction setState() pour le modifier. Le constructor est une foncion qui va mettre en place les premiers paramètres de notre component. Donc dans le `App.js` : 
+
 ```JS
 constructor(props){
     super(props);
@@ -200,16 +201,18 @@ onNewTodo(todo){
     this.setState({ todos: newTodoList });
 }
 ```
-Mais alors pourquoi on a fait `newTodoList.push(todo)` tout de suite ? La seule manière pour modifier le state est la fonction `setState()`, toute autre tentative sera ignoré. Et maintenant que nous avons un state, nous pouvons le passer dans le component List en props : `<List todos={this.state.todos} />`
+Mais alors pourquoi on a fait `newTodoList.push(todo)` tout de suite ? La seule manière pour modifier le state est la fonction `setState()`. 
+
+Et maintenant que nous avons un state, nous pouvons le passer dans le component List en props : `<List todos={this.state.todos} />`
 Si on test, on remarquera que ça ne fonctionne pas parce que ça ne fonctionne pas... Cannot read property 'todos' of undefined. On n'envoie pas le bon "this" à notre fonction et pour se faire, il faut `bind(this)` pour la fonction. (Un peu bizarre je vous l'accorde mais ça marche)
 
 ```JS
 <TodoForm onNewTodo={this.onNewTodo.bind(this)} />
 ```
 
-Gardez bien en tête le state et le props qui sont deux éléments très très important dans react. Le props permet de passer des informations d'un component à un autre, peu importe que ce soit un objet, une variable, une fonction, le state, ... Le state est un objet qui reste juste à portée de notre component et on peut le modifier uniquement avec le `setState()`.
+Le **state** et le **props** sont 2 éléments très très important dans React. Le props permet de passer des informations d'un component à un autre, peu importe que ce soit un objet, une variable, une fonction, le state, ... Le state est un objet qui reste juste à portée de notre component et on peut le modifier uniquement avec le `setState()`.
 
-Avant de passer à la suite, il existe une extention google pour React qui permet de voir comment il fabrique notre vue. C'est le react dev tools. Une fois installé, dans l'inspecteur, il y a un nouvel onglet qui est apparu (c'est le dernier donc il est peut être cacher). Avec ça, on peut voir les components de la vue et les props qui lui sont passé et aussi l'état du state sans devoir faire de console.log :)
+Avant de passer à la suite, il existe une extention google pour React qui permet de voir comment il fabrique notre vue. C'est le **[react dev tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)**. Une fois installé, dans l'inspecteur, il y a un nouvel onglet qui appara$it (c'est le dernier donc il est peut être caché). Avec ça, on peut voir les components de la vue et les props qui lui sont passé et aussi l'état du state sans devoir faire de console.log :)
 
 ![Giphy](https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif)
 
