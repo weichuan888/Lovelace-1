@@ -2,9 +2,9 @@
 
 ## Table des matières
 
-1. [installation](./Installation.md) 
+1. [Installation](./Installation.md) 
 2. [Introduction](./introduction.md) 
-3. [Dom](./Dom.md)
+3. [DOM](./Dom.md)
 4. [Props et State](./PropsEtState.md)
 5. [Interaction entre component P1](./InteractionEntreComponentPartie1.md) 
 6. [Interaction entre component P2](./InteractionEntreComponentPartie2.md) 
@@ -16,7 +16,7 @@
 
 ## Interaction entre component
 
-Grâce au **props** et au **state** on peut incrémenter la valeur du nombre de todos de notre app et les affichés avec un autre component. Maintenant on va faire en sorte d'afficher leurs noms et de les faire passer de "résolu" ou "à faire". 
+Grâce au **props** et au **state** on peut incrémenter la valeur du nombre de todos de notre app et les afficher avec un autre component. Maintenant on va faire en sorte d'afficher leurs noms et de les faire passer de "résolu" ou "à faire". 
 
 La première chose à faire va être de changer le comportement du component `List`. On peut procéder de différentes manières : 
 - Faire une boucle pour afficher à chaque fois le title et la date de nos todos.
@@ -35,7 +35,7 @@ On va plutôt fonctionner avec la deuxième méthode. Dans le JSX, on va appeler
   }
 ```
 
-Pour qu'on puisse gérer le fait qu'une todo est complétée ou non, on va rajouter au pattern de l'objet `todo` l'attribut `done` et lui assigner `false` de base. Ajouter dans la function "AddTodo", une nouvelle props avec le title et le createdAt, qui sera donc:
+Pour qu'on puisse gérer le fait qu'une todo est complétée ou non, on va rajouter au pattern de l'objet `todo` l'attribut `done` et lui assigner `false` de base. Ajouter dans la function "AddTodo", une nouvelle props avec le title et le createdAt, qui sera donc :
 
 ```JS
   AddTodo(event) {
@@ -62,9 +62,9 @@ Ensuite, lorsqu'on clique sur la todo, on veux changer l'attibut `done` et le pa
   }
 ```
 
-Ajoutons un event `onClick` sur la div qui pointe vers une fonction `toggleTodo()`. Une fonction appelée par un `onClick` possède un événement qu'il faut stopper, donc `preventDefault()`. On va passer en paramètre dans l'appel de la fonction; `todo.done`. 
+Ajoutons un event `onClick` sur la div qui pointe vers une fonction `toggleTodo()`. Une fonction appelée par un `onClick` possède un événement qu'il faut stopper, donc `preventDefault()`. On va passer en paramètre dans l'appel de la fonction ; `todo.done`. 
 
-Dans la fonction on va juste faire un console.log et normalement on obtient `false` dans la console du navigateur.
+Dans la fonction on va juste faire un `console.log` et normalement on obtient `false` dans la console du navigateur.
 
 ```JS
 toggleTodo(todoDone){
@@ -89,7 +89,7 @@ Dans la console, il y a aussi une autre erreur : *Each child in an array or iter
    {todo.title} {todo.done ? 'true': 'false'}
  </div>
 ```
-On va revenir dans App.js, qui envoie les données. Ce que nous allons faire, c'est d'envoyer la function todoToggleState depuis App vers List via la **props** (onTodoToggle) et cette fonction se chargera de faire les changements.
+On va revenir dans `App.js`, qui envoie les données. Ce que nous allons faire, c'est d'envoyer la function `todoToggleState` depuis `App` vers `List` via la **props** (onTodoToggle) et cette fonction se chargera de faire les changements.
 
 ```JS
 todoToggleState(todo, index){
