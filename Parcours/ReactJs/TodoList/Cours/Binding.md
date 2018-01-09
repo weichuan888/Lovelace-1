@@ -49,6 +49,8 @@ addToList(index, event){
 
 Alors, nous devons avoir une liste dans laquelle avec l'ensemble des todos qui select mais dès que l'on commence à modifier ou faire ces changement-là, on se rend compte qu'on les fait au mauvais endroit. On ne doit pas faire ce traitement `addToList` dans l'item lui-même. Ce n'est pas à lui de gérer ça. Est-ce que c'est la liste de todo qui va le gérer ou le composant qui appelle la liste des todos ? La première des choses sera de dire que `AddToList` vient des props. Vu que nous le passons en props, il faut aussi le récupérer dans le composant parent à `TodoItem`. Pour ce faire, on ajoute à l'appel du component `TodoItem`, notre fonction `addToList` et bien sûr, créer cette fameuse fonction.
 
+Remplacer le map dans List par celui ci qui boucle donc sur le component <TodoItem />
+
 ```JS
 todos.map((todo,index) => {
     return (
