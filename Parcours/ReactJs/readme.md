@@ -49,4 +49,8 @@ Fichier du cours [Application](./TodoList/App)
 - Si vous ne comprenez pas c'est que vous allez trop vite, prenez votre temps
 - Amusez-vous !
 
+## Ressources externes :
+- [Comment commencer avec React](https://sabe.io/tutorials/getting-started-with-react) :gb:
+- [Ce qu'il y a à savoir sur React](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know) :gb:
+
 ![Giphy](http://www.fredzone.org/wp-content/uploads/2014/11/daft1_2.gif)
