@@ -16,15 +16,15 @@
 
 ## le Deploy
 
-Après avoir créer un projet en react et que l'on est sur qu'il est complètement terminer, pour le deployer (donc le mettre en ligne) c'est très simple.
+Après avoir créé un projet en react et que l'on est certain qu'il est complètement terminé, pour le deployer (donc le mettre en ligne) c'est très simple.
 
-On va avoir besoin d'une ligne de commande qui nous permettra de "build" le projet. Le build est une commande qui va compiler tout notre projet en a peine quelque fichier.
+On va avoir besoin d'une ligne de commande qui nous permettra de "build" le projet. Le build est une commande qui va compiler tout notre projet en a peine quelques fichiers.
 
 ```
 npm run build
 ```
 
-Si on met le résultat du build sur un serveur, normalent tout devrait tourner sans installation et sans aucune manipulation mise à part mettre le projet sur le serveur.
+Si on met le résultat du build sur un serveur, normalement tout devrait tourner sans installation et sans aucune manipulation mise à part mettre le projet sur le serveur.
 
 
 ![Giphy](https://ressources.blogdumoderateur.com/2013/02/gif-anime.gif)
