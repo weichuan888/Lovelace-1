@@ -68,7 +68,7 @@ La phase précédente répondait à des scénarios d'urgence. À présent, entro
 - Le groupe se met d'accord sur le projet, en choisissant celui qui fait consensus parmi les 3 one-pager de la phase précédente.
 - brainstorming de groupe : quelles questions poser ?
 - Faire des recherches du style "web design questionnaire" et ramener un maximum de questions intéressantes à poser au client. Débriefer en groupe.
-- Contact avec le "[client](./ton-client.md)" : le groupe rencontre le “client” qui répond aux questions, dans chaque groupe.
+- Contact avec le "[client](./ton-client.md)" : le groupe rencontre le “client” lors d'un entretien unique de 10 minutes maximum durant lequel le groupe pose toutes ses questions au client.
 - Création d'un repos (nom commence par `filrouge-`).
 - Rédaction d'un briefing / cahier des charges dans ce repos.
 - Livraison du repos au team qui prendra le relai.
