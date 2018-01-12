@@ -5,7 +5,7 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 
 ## Tes sources d'information pour respecter les règles de BeCode
 
-1. Lis le [livret de l'apprenant](./contrat-pedagogique.md).
+1. Lis le [contrat pédagogique](../../../BeCode/blob/master/contratpedagogique.md).
 1. L'agenda de ta startup : au format [html](https://calendar.google.com/calendar/embed?src=becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com&ctz=Europe/Brussels) et au format  [iCal](https://calendar.google.com/calendar/ical/becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com/public/basic.ics)
 1. Le [Wiki de BeCode](https://github.com/becodeorg/BeCode/wiki)
 
