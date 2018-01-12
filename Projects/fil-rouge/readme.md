@@ -29,6 +29,8 @@ Les projets sont découpés en phases, dans un processus itératif (chaque phase
 
 ## Les phases
 
+[![](./Fil Rouge - visual structure.svg)](./Fil Rouge - visual structure.svg)
+
 ### kickoff: identifier des projets
 
 ### Phase 1 (guerilla style) : un one-pager en 24 heures.
