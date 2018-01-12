@@ -29,7 +29,7 @@ Les projets sont découpés en phases, dans un processus itératif (chaque phase
 
 ## Les phases
 
-[![Fil Rouge : timeline](./filrouge-timeline.png)](./filrouge-timeline.png)
+[![Fil Rouge : timeline](./filrouge-timeline.png)](https://docs.google.com/drawings/d/1kKAMz1jTaK0-8Glg136j3T1C3kCKaq-gFEju1FxsVCs/edit)
 
 ### kickoff: identifier des projets
 
