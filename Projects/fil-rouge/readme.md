@@ -61,6 +61,7 @@ La phase précédente répondait à des scénarios d'urgence. À présent, entro
 #### Séquences pédagogiques
 
 - Répartition des groupes (3 max par groupe)
+- Le groupe se met d'accord sur le projet, en choisissant celui qui fait consensus parmi les 3 one-pager de la phase précédente.
 - brainstorming de groupe : quelles questions poser ?
 - Faire des recherches du style "web design questionnaire" et ramener un maximum de questions intéressantes à poser au client. Débriefer en groupe.
 - Contact avec le "client" : le groupe rencontre le “client” qui répond aux questions, dans chaque groupe.
