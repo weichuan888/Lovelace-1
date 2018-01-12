@@ -50,7 +50,7 @@ Durant cette phase, le respect de la deadline est **primordial et non négociabl
 #### Objectifs d’apprentissage
 
 - Trouver les questions à élucider pour pouvoir produire un projet digital sur de bonnes bases et qui soit une réponse pertinente à un problème donné.
-- Utiliser Google Analytics
+- Explorer Google Analytics
 
 #### Déroulement
 
