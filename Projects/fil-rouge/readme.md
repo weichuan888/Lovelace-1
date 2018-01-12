@@ -1,4 +1,4 @@
-# projet "Fil Rouge"
+# Projet "Fil Rouge"
 
 Ces projets ont pour objectif :
 
@@ -44,6 +44,8 @@ Les projets sont découpés en phases, dans un processus itératif (chaque phase
 Tu reçois un projet. Réalise, en quelques heures un onepager (une **github page**) qui propose une meilleure version de ce projet, en utilisant soit un[ framework CSS](http://cssframeworks.org/), soit un template (par exemple :[ html5up.net](https://html5up.net/)). Veille à ce que cette page obtienne un **score maximum sur le lighthouse test**.
 
 Durant cette phase, le respect de la deadline est **primordial et non négociable**.
+______________
+
 
 ### Phase 1 : (managed style) : étude de la demande
 
@@ -65,7 +67,8 @@ La phase précédente répondait à des scénarios d'urgence. À présent, entro
 - brainstorming de groupe : quelles questions poser ?
 - Faire des recherches du style "web design questionnaire" et ramener un maximum de questions intéressantes à poser au client. Débriefer en groupe.
 - Contact avec le "client" : le groupe rencontre le “client” qui répond aux questions, dans chaque groupe.
-- Rédaction d'un briefing / cahier des charges dans un repos dédié.
+- Création d'un repos (nom commence par `filrouge-`).
+- Rédaction d'un briefing / cahier des charges dans ce repos.
 - Livraison du repos au team qui prendra le relai.
 
 #### À livrer
@@ -81,6 +84,8 @@ Le repos contenant les outils de gestion du projet et les informations glanées 
 #### Temps imparti
 
 2 jours, en groupe de 3 max.
+______________
+
 
 ### **Phase 2 : Design de la solution "one-pager v2" :**
 
@@ -113,6 +118,8 @@ Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def d
 Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 
 **Temps imparti**: 3 jours, en groupe de 3 max.
+______________
+
 
 ### **Phase 3 : Design d’un "multipage website"**
 
@@ -142,8 +149,7 @@ Possibilité d'obtenir les badges HTML sémantique + CSS, UX Prototyping, PHP ba
 
 **Temps imparti**: 5 jours, en groupe de 3 max.
 
-![Giphy](https://media2.giphy.com/media/bq6F8QYqBU7Yc/giphy.gif?cid=348844935a58c2fa7230594849cb5728)
-
+______________
 
 
 ### **Phase 4 : développement d'un Backoffice (CMS)**
@@ -170,9 +176,7 @@ Possibilité d'obtenir les badges : MVC dev / OOP / CRUD.
 
 **Temps imparti**: 7 jours, en groupe de 3 max.
 
-![Giphy](https://media0.giphy.com/media/4rjcEJpI6qfsI/giphy.gif?cid=348844935a58c2fa7230594849cb5728)
-
-
+______________
 
 ### **Phase 5 : Application mobile**
 
