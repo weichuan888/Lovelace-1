@@ -18,13 +18,16 @@ Laureen Bataille, Ilias Chergui, Axel FIOLLE
 
 ## groupe 5
 
-Weichuan Tran, Marvin Louis, Mutwakil Mohamed Osman Hamid
+Weichuan Tran, Marvin Louis, Kevin Flabat
 
 ## groupe 6
-Caroline Bieuvelet, Stéphane Dethy, Kevin Flabat
+Caroline Bieuvelet, Stéphane Dethy,  Mutwakil Mohamed Osman Hamid
 
 ## groupe 7
 Thomas Point, Gaëtan Ribonnet, Mehdi Trabelsi
  
 ## groupe 8
 Nicolas Belpois, Sylviane Alonsious, Delphine Braive
+
+## Réserve
+Ornella.
