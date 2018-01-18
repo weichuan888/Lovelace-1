@@ -1,33 +1,30 @@
-# Votre client
-- Alex = groupes pairs
+# Fil rouge les équipes
+## Votre client
+- Alexandre = groupes pairs
 - Bertrand = groupes impairs
 
 ## groupe 1
-Jimmy Goossens, Omar Aaiachi, Steve Gravy
-
-## groupe 2
-
-Valerian Thomas, Marie-Ange Bouchat, Vincent Nassaux
+Jimmy, Omar, Steve
 
 ## groupe 3
-Antoine Gjeloshaj, Mbele Somao, Nicolas Van Roost
+Antoine, Kevin S, Nicolas VR, Marie-Ange
 
 ## groupe 4
-
-Laureen Bataille, Ilias Chergui, Axel FIOLLE
+Laureen, Ilias, Axel
 
 ## groupe 5
-
-Weichuan Tran, Marvin Louis, Kevin Flabat
+Weichuan, Marvin, Kevin
 
 ## groupe 6
-Caroline Bieuvelet, Stéphane Dethy,  Mutwakil Mohamed Osman Hamid
+Valerian, Ornella, Stéphane,  Mutwakil 
 
 ## groupe 7
-Thomas Point, Gaëtan Ribonnet, Mehdi Trabelsi
+Caroline, Thomas, Gaëtan, Mehdi
  
 ## groupe 8
-Nicolas Belpois, Sylviane Alonsious, Delphine Braive
+Nicolas B, Syl, Delphine
 
-## Réserve
-Ornella.
+## Réserve de recrutement
+Vincent Nassaux 
+
+#filrouge
