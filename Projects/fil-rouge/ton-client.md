@@ -26,5 +26,3 @@ Nicolas B, Syl, Delphine
 
 ## Réserve de recrutement
 Vincent Nassaux 
-
-#filrouge
