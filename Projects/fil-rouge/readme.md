@@ -99,7 +99,7 @@ ______________
 * ce site contient une table MySQL permettant de recevoir les emails des gens s'inscrivant à la newsletter
 * Déploiement sur un hébergeur classique, par exemple [https://www.hostinger.fr/](https://www.hostinger.fr/) 
 
-**À livrer **
+**À livrer**
 
 Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def du onepager sur invision, ainsi que les fichiers du onepager v2.
 
