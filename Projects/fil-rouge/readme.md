@@ -64,7 +64,7 @@ La phase précédente répondait à des scénarios d'urgence. À présent, entro
 
 #### Séquences pédagogiques
 
-- Répartition des groupes (3 max par groupe)
+- Répartition des groupes (idéalement : 3 max par groupe)
 - Le groupe se met d'accord sur le projet, en choisissant celui qui fait consensus parmi les 3 one-pager de la phase précédente.
 - brainstorming de groupe : quelles questions poser ?
 - Faire des recherches du style "web design questionnaire" et ramener un maximum de questions intéressantes à poser au client. Débriefer en groupe.
@@ -86,7 +86,7 @@ Le repos contenant les outils de gestion du projet et les informations glanées 
 
 #### Temps imparti
 
-2 jours, en groupe de 3 max.
+2 jours, en groupe.
 ______________
 
 
@@ -114,7 +114,7 @@ Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def d
 
 Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 
-**Temps imparti**: 5 jours, en groupe de 3 max.
+**Temps imparti**: 5 jours, en groupe.
 ______________
 
 ### **Phase 3 : Design d’un "multipage website"**
@@ -138,7 +138,7 @@ ______________
 
 Possibilité d'obtenir les badges HTML sémantique + CSS, UX Prototyping, PHP basics
 
-**Temps imparti**: 5 jours, en groupe de 3 max.
+**Temps imparti**: 5 jours, en groupe.
 
 ______________
 
@@ -180,7 +180,7 @@ Conversion de multipage en app mobile native ou en Progressive Web App (au choix
 
 Possibilité d'obtenir les badges : Progressive Web App Builder / Mobile Native Builder.
 
-**Temps imparti estimé si cordova/ionic**: 3 jours, en groupe de 3 max.
+**Temps imparti estimé si cordova/ionic**: 3 jours, en groupe.
 
 
 
