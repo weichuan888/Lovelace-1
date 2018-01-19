@@ -89,37 +89,31 @@ Le repos contenant les outils de gestion du projet et les informations glanées 
 ______________
 
 
-### **Phase 2 : Design de la solution "one-pager v2" :**
+### Phase 2 : Design de la solution "one-pager v2"
 
 **Objectifs d’apprentissage**
 
 * UX study d'un onepager responsive, qui annonce l’arrivée prochaine de la solution. Cette page comporte obligatoirement un formulaire d'inscription à une newsletter, fonctionnel, dans une db) ---> UX prototyping via balsamiq et invision
-
 * intégration HTML/CSS de ce onepager
-
-* interaction client/serveur
-
+* une transaction client -> serveur -> client
 * ce site contient une table MySQL permettant de recevoir les emails des gens s'inscrivant à la newsletter
-
-* Déploiement sur un hébergeur classique : [https://www.hostinger.fr/](https://www.hostinger.fr/) 
+* Déploiement sur un hébergeur classique, par exemple [https://www.hostinger.fr/](https://www.hostinger.fr/) 
 
 **À livrer **
 
 Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def du onepager sur invision, ainsi que les fichiers du onepager v2.
 
 * prototype low-def (balsamiq + invision.com)
-
 * prototype high-def (figma.com)
-
 * le one-pager en HTML/CSS/JS 
-
 * la page doit obtenir le meilleur score possible au lighthouse test
+* implémenter Google Analytics et donner l'accès aux contacts du client
 
 **Badges**
 
 Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 
-**Temps imparti**: 3 jours, en groupe de 3 max.
+**Temps imparti**: 5 jours, en groupe de 3 max.
 ______________
 
 
@@ -128,21 +122,15 @@ ______________
 **Objectifs d’apprentissage**
 
 * interaction client/serveur
-
 * méthode de conception "mobile first"
-
 * utilisation de frameworks CSS
-
 * architecture MVC si ruby/php/python  ou si react/angular/vue.js -> SPA (Single Page Application) framework
 
 **À livrer**
 
 * un prototype interactif d'un site multipages, conçu selon l’approche "mobile first" et utilisant un framework css au choix.
-
 * Si MVC, réalisation de ce site statique à l'aide de HTML, CSS, JS + PHP include() et architecture MVC (sans le M).
-
 * Si SPA, penser à la sémantique (lire sur les [Fragments](https://blog.jmes.tech/react-fragment-and-semantic-html/)), bien séparer les components (1 composant  = 1 molécule en Atomic Design ([lire ceci](http://bradfrost.com/blog/post/atomic-web-design/)) )
-
 * chaque page du site doit obtenir le meilleur score possible au lighthouse test (si React, lire [ceci](https://medium.com/a-man-with-no-server/create-a-progressive-web-app-with-react-792ed8c69bc7) et pour l’accessibilité, lire [ceci](https://reactjs.org/docs/accessibility.html) )
 
 **Badges**
@@ -159,9 +147,7 @@ ______________
 **Objectifs d'apprentissage**
 
 * réaliser un CMS de A à Z via MVC framework (pour voir le CRUD)
-
 * base de données
-
 * ajax
 
 **À livrer** 
@@ -169,7 +155,6 @@ ______________
 Permettre au client de mettre à jour lui-même son site par l'ajout d'un CMS "custom", développé sur mesure.
 
 * Prototype (low-fi) de l'interface d'administration du CMS
-
 * interface HTML/CSS/JS de l'administration du CMS, utilisant de l'ajax pour fluidifier l'expérience
 
 **Badges**
