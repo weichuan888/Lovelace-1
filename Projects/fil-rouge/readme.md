@@ -77,11 +77,12 @@ La phase précédente répondait à des scénarios d'urgence. À présent, entro
 
 Le repos contenant les outils de gestion du projet et les informations glanées durant l'étude.
 
-- repository,  avec readme.md en markdown comme point de départ de la documentation du projet. ("le client", "le problème / l'opportunité", "objectifs", "publics-cible").
+- repository,  avec readme.md en markdown comme point de départ de la documentation du projet. ("le client", "le problème / l'opportunité", "objectifs", "publics-cible"),
 - la doc (wiki du repos ou sous-dossier avec markdown), 
 - les issues,
-- le kanban de gestion de projet ("github project").
-- définir les KPI (Key Performance Indicators) du projet (indicateurs clés de performance) et prévoir de faire leur suivi dans Google Analytics
+- le kanban de gestion de projet ("github project"),
+- le nom des membres de l'équipe sous un sous-titre "Contact client",
+- définir les KPI (Key Performance Indicators) du projet (indicateurs clés de performance) et prévoir de faire leur suivi dans Google Analytics.
 
 #### Temps imparti
 
@@ -107,7 +108,7 @@ Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def d
 * prototype high-def (figma.com)
 * le one-pager en HTML/CSS/JS 
 * la page doit obtenir le meilleur score possible au lighthouse test
-* implémenter Google Analytics et donner l'accès aux contacts du client
+* implémenter Google Analytics et donner l'accès aux contacts du client (l'équipe qui a rédigé le cahier des charges)
 
 **Badges**
 
@@ -115,7 +116,6 @@ Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 
 **Temps imparti**: 5 jours, en groupe de 3 max.
 ______________
-
 
 ### **Phase 3 : Design d’un "multipage website"**
 
