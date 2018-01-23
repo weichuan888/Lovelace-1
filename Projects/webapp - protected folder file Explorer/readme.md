@@ -1,8 +1,8 @@
 # Exercise: Protected folder file Explorer
 
 - Repository : `bcd-protected-folder-file-explorer`
-- Allowed time : 3 days for "functional", + 2 days for "pretty"
 - Mode: alone or in 2 : a frontend and a backend
+- Allowed time : 22 days for "functional", + 3 days for "pretty"
 
 ## Mission
 We have a folder full of interesting files : pdfs, epub, graphics, sometimes videos and audio files, zip and rar files.     
@@ -17,12 +17,14 @@ Could you provide us with a protected online place where our folks would have to
 	-  reading inside a folder
 	-  create a file &amp; folder navigation
 	-  possibly: database design and implementation
--  Frontend
+	-  dependancy management via composer
+-  Frontend :
 	-  Third-party CSS Framework
 	-  lighthouse test
 	-  bonus : PWA
 	-  icon fonts
 	-  sass workflow
+	-  dependency management (via yarn or npm)
 
 ## Specifics
 
@@ -69,4 +71,13 @@ Your own php/mysql hosting
 	- mockups
 - frontend: html/css prototype
 - backend: identify the functional implementation challenges
+
+## A last word.
+This may seem daunting at first. Don't worry. Face the challenge with an open spirit. Break the challenge into smaller problems that are easier to tackle.  
+
+Start with the login form. Make it pretty. Then move up. Make it functional. Once it is functional, learn how to read a folder to retrieve the content programmatically. Get comfortable with the problem. Don't try to get rid of it, get to know it.
+
+Still cared?  Try the haka dance.
+
+![Giphy](./haka.gif)
 
