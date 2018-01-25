@@ -141,7 +141,7 @@ ______________
 
 Possibilité d'obtenir les badges HTML sémantique + CSS, UX Prototyping, PHP basics
 
-**Temps imparti**: 5 jours, en groupe.
+**Temps imparti**: 7 jours, en groupe.
 
 ______________
 
@@ -165,7 +165,7 @@ Permettre au client de mettre à jour lui-même son site par l'ajout d'un CMS "c
 
 Possibilité d'obtenir les badges : MVC dev / OOP / CRUD.
 
-**Temps imparti**: 7 jours, en groupe de 3 max.
+**Temps imparti**: 14 jours, en groupe de 3 max.
 
 ______________
 
