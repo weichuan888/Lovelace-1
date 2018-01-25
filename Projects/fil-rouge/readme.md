@@ -101,7 +101,7 @@ ______________
 * intégration HTML/CSS de ce onepager
 * une transaction client -> serveur -> client
 * ce site contient une table MySQL permettant de recevoir les emails des gens s'inscrivant à la newsletter
-* Déploiement sur un hébergeur classique, par exemple [https://www.hostinger.fr/](https://www.hostinger.fr/) 
+* Déploiement sur un hébergeur classique, par exemple [https://www.hostinger.fr/](https://www.hostinger.fr/). Une autre possibilité gratuite : [heroku](http://heroku.com/) pour le php, [freemysqlhosting.net](https://www.freemysqlhosting.net) pour la base de données MySQL.
 
 **À livrer**
 
