@@ -118,6 +118,19 @@ Dans le repos, ajouter un lien vers les prototype low-def + prototype high-def d
 Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 
 **Temps imparti**: 5 jours, en groupe.
+
+**Etapes**
+- Consulter le tableau de suivi pour connaitre le projet à travailler pour cette phase.
+- Forker le repository du groupe en charge de l'étape précédente.
+- Activer les "Issues" du repo (voir "Settings")
+- L'équipe identifie les tâches et se les réparti en tenant compte des objectifs d'apprentissage de chaque membre sur cette phase.
+- Chaque tâche devient une Issue assignée au membre du groupe qui l'a obtenue
+- Utiliser le "Projects board" du repo pour la gestion des tâches / Issues (colonnes: todo / doing / Done)
+- Readme: ajouter les noms des membres de l'équipe pour cette phase.
+- inclure le lien vers la demo en ligne dans le readme file.
+- Le jour de la remise, envoyer le lien vers le readme sur Ryver.
+
+Utiliser cette même procédure à chaque relai entre les phases.
 ______________
 
 ### **Phase 3 : Design d’un "multipage website"**
@@ -143,6 +156,18 @@ Possibilité d'obtenir les badges HTML sémantique + CSS, UX Prototyping, PHP ba
 
 **Temps imparti**: 7 jours, en groupe.
 
+**Étapes**
+- Consulter le tableau de suivi pour connaitre le projet à travailler pour cette phase.
+- Forker le repository du groupe en charge de l'étape précédente.
+- Activer les "Issues" du repo (voir "Settings")
+- L'équipe identifie les tâches et se les réparti en tenant compte des objectifs d'apprentissage de chaque membre sur cette phase.
+- Chaque tâche devient une Issue assignée au membre du groupe qui l'a obtenue
+- Utiliser le "Projects board" du repo pour la gestion des tâches / Issues (colonnes: todo / doing / Done)
+- Readme: ajouter les noms des membres de l'équipe pour cette phase.
+- inclure le lien vers la demo en ligne dans le readme file.
+- Le jour de la remise, envoyer le lien vers le readme sur Ryver.
+
+Utiliser cette même procédure à chaque relai entre les phases.
 ______________
 
 
