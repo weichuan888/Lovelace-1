@@ -133,7 +133,7 @@ Possibilité d'obtenir les badges HTML sémantique + CSS + Lighthouse
 Utiliser cette même procédure à chaque relai entre les phases.
 ______________
 
-### **Phase 3 : Design d’un "multipage website"**
+### **Phase 3 : Création d’un "multipage website"**
 
 **Objectifs d’apprentissage**
 
@@ -144,7 +144,8 @@ ______________
 
 **À livrer**
 
-* un prototype interactif d'un site multipages, conçu selon l’approche "mobile first" et utilisant un framework css au choix.
+* un prototype interactif (en html/css/js) d'un site multipages, conçu selon l’approche "mobile first" et utilisant un framework css au choix.
+* le contenu est statique ( = ne vient pas d'une base de données)
 * Si MVC, réalisation de ce site statique à l'aide de HTML, CSS, JS + PHP include() et architecture MVC (sans le M).
 * Si SPA, penser à la sémantique (lire sur les [Fragments](https://blog.jmes.tech/react-fragment-and-semantic-html/)), bien séparer les components (1 composant  = 1 molécule en Atomic Design ([lire ceci](http://bradfrost.com/blog/post/atomic-web-design/)) )
 * chaque page du site doit obtenir le meilleur score possible au lighthouse test (si React, lire [ceci](https://medium.com/a-man-with-no-server/create-a-progressive-web-app-with-react-792ed8c69bc7) et pour l’accessibilité, lire [ceci](https://reactjs.org/docs/accessibility.html) )
@@ -167,7 +168,7 @@ Possibilité d'obtenir les badges HTML sémantique + CSS, UX Prototyping, PHP ba
 - inclure le lien vers la demo en ligne dans le readme file.
 - Le jour de la remise, envoyer le lien vers le readme sur Ryver.
 
-Utiliser cette même procédure à chaque relai entre les phases.
+Utiliser cette même procédure à chaque phase.
 ______________
 
 
@@ -185,12 +186,13 @@ Permettre au client de mettre à jour lui-même son site par l'ajout d'un CMS "c
 
 * Prototype (low-fi) de l'interface d'administration du CMS
 * interface HTML/CSS/JS de l'administration du CMS, utilisant de l'ajax pour fluidifier l'expérience
+* Le CMS est codé via un framework MVC
 
 **Badges**
 
 Possibilité d'obtenir les badges : MVC dev / OOP / CRUD.
 
-**Temps imparti**: 14 jours, en groupe de 3 max.
+**Temps imparti**: 30 jours, en groupe.
 
 ______________
 
@@ -202,7 +204,7 @@ ______________
 
 **À livrer** 
 
-Conversion de multipage en app mobile native ou en Progressive Web App (au choix) via un framework tel que Cordova / ionic.
+Conversion de multipage ou du frontend du CMS en app mobile native ou en Progressive Web App (au choix) via un framework tel que Cordova / ionic.
 
 **Badges**
 
