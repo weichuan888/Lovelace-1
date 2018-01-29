@@ -31,18 +31,18 @@ Quand on fait un formulaire, on pose des questions. Un peu comme une interview. 
 ### Choisir les bons inputs
 Afin de proposer une bonne UX et aussi d'avoir des bonnes données, bien valides (par ex: que l'âge soit toujours écrit avec des chiffres) on doit faire attention à utiliser les bons _inputs_.
 
-Réfléchis à chacune de ces questions. Quel serait l' input le plus adéquat ?
+#### Réfléchis à chacune de ces questions. Quel serait l' input le plus adéquat ?
 
-#### 1. Comment t'appelles-tu ?
+##### 1. Comment t'appelles-tu ?
 On s'attend à avoir... une brève chaîne de charactères. Quel(s) input correspond(ent) à cela ?
 
-#### 2. Quel âge as-tu ?
+##### 2. Quel âge as-tu ?
 On s'attend à avoir... un nombre fait de 1 à 3 chiffres. Quel(s) input correspond(ent) à cela ?
 
-#### 3. Préfères-tu Plastic Bertrand ou Charles Aznavour ?
+##### 3. Préfères-tu Plastic Bertrand ou Charles Aznavour ?
 Ici, on ne veut recevoir qu'une seule réponse parmi deux propositions. Quel(s) input correspond(ent) à cela ?
 
-#### 4. Raconte-moi ta vie.
+##### 4. Raconte-moi ta vie.
 Ici, on s'attend à recevoir un texte potentiellement très long.
 Quel(s) input correspond(ent) à cela ?
 
