@@ -25,7 +25,7 @@ Chaque projet est inspiré de situations et besoins réels, mais ne fera pas l'o
 
 Le focus doit donc être mis sur les objectifs d'apprentissage : qu'est-ce que je veux apprendre lors de cette phase ? Ces briefings doivent donc être vus comme des points de départ de réflexion, sur lesquels greffer vos propres objectifs d'apprentissage.
 
-Les projets sont découpés en phases, dans un processus itératif (chaque phase profite des acquis de la phase précédente). À chaque phase, le projet change de main, et de classe. Il faut donc que l'équipe menant le projet se discipline à mettre à jour les outils de gestion du projet (outils associés au repo github : le repos, le wiki, les issues, le kanban ("github project"). L'outil central étant le "readme.md" du repos du projet, qui pointera vers les différentes ressources et incluera un planning constamment mis à jour. Le repository passera donc de main en main au fur et à mesure de la réalisation de ses phases de développement.
+Les projets sont découpés en phases, dans un processus itératif (idéalement, chaque phase profite des acquis de la phase précédente). À chaque phase, le projet change de main. Il faut donc que chaque équipe se discipline à mettre à jour les outils de gestion du projet (outils associés au repo github : le repos, le wiki, les issues, le kanban ("github project") du mieux qu'elle le peut. L'outil central étant le "readme.md" du repos du projet, qui pointera vers les différentes ressources et incluera un planning constamment mis à jour. Le repository passera donc de main en main (donc de fork en fork) au fur et à mesure de la réalisation de ses phases de développement.
 
 **Temps nécessaire estimé** pour la réalisation des projets : 2 - 4 mois.
 
@@ -38,7 +38,7 @@ Ce [tableur](https://docs.google.com/spreadsheets/d/e/2PACX-1vTq7Kn5_MqXtTe2ymg3
 
 ### kickoff: identifier des projets
 
-### Phase 1 (guerilla style) : un one-pager en 24 heures.
+### Phase 1 (guerilla style) : un one-pager en 8 heures.
 
 **Objectifs d'apprentissage**
 
