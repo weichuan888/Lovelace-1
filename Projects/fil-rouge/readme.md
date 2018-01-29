@@ -21,7 +21,9 @@ Ces projets ont pour objectif :
 
 ## Modus operandi
 
-Chaque projet est inspiré de situations et besoins réels, mais ne fera pas l'objet d'une remise à un client "réel". Ce client sera interprété par un membre du staff de BeCode.
+Chaque projet est inspiré de situations et besoins réels, mais ne fera pas l'objet d'une remise à un client "réel". Ce client sera interprété par un membre du staff de BeCode pour la 1ère phase, puis par l'équipe qui aura réalisé la seconde étape (phase 1 bis) ensuite.
+
+Le focus doit donc être mis sur les objectifs d'apprentissage : qu'est-ce que je veux apprendre lors de cette phase ? Ces briefings doivent donc être vus comme des points de départ de réflexion, sur lesquels greffer vos propres objectifs d'apprentissage.
 
 Les projets sont découpés en phases, dans un processus itératif (chaque phase profite des acquis de la phase précédente). À chaque phase, le projet change de main, et de classe. Il faut donc que l'équipe menant le projet se discipline à mettre à jour les outils de gestion du projet (outils associés au repo github : le repos, le wiki, les issues, le kanban ("github project"). L'outil central étant le "readme.md" du repos du projet, qui pointera vers les différentes ressources et incluera un planning constamment mis à jour. Le repository passera donc de main en main au fur et à mesure de la réalisation de ses phases de développement.
 
