@@ -8,7 +8,7 @@ Pour le C et le U, on a besoin de proposer au client (le navigateur, donc au "fr
 
 ![](./assets/form.png)
 
-Ce petit parcours vous propose d'apprendre à proposer le cycle complet d'une conversation entre un humain et un ordinateur, autrement dit: une interaction client-serveur.
+Ce petit parcours vous propose d'apprendre à mettre en place une première interaction client-serveur minimale mais complète.
 
 Au fond, on pourrait voir cela comme une **conversation** entre un humain et une machine. L'humain dit à la machine *"ajoute ce contenu dans la base de données"*, ou  *"modifie ce contenu puis remets-le à sa place dans la base de données"*, *"efface ce contenu de la base de données"*. 
 
