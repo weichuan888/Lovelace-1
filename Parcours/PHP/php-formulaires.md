@@ -1,8 +1,8 @@
 # Parcours backend : traitement d'un formulaire
 
-Un "backend" est un outil de gestion de contenus tournant sur un serveur. Il existe une infinité de types de projets backend: CMS, CRM, Bug trackers... 
+Le "backend" désigne la famille d'outils de gestion de contenus tournant sur un serveur. Il existe une infinité de types de projets backend: CMS, CRM, Bug trackers... 
 
-Dans cette diversité, il y a une récurrence : ce contenu doit pouvoir être créé, modifié, effacé, et bien sûr, lu par les différents utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
+Dans cette diversité, il y a une récurrence : ces contenus doivent pouvoir être créés, modifiés, effacés, et bien sûr, lus par les utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
 
 Pour le C et le U, on a besoin de proposer au client (le navigateur, donc au "frontend") une interface d'ajout ou d'édition.  Sur le web, qui dit interface, dit html. Bienvenue dans le petit monde joyeux des Formulaires et de la balise `<form>`. 
 
