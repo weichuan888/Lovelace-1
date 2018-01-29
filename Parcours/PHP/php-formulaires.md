@@ -24,7 +24,7 @@ On a donc besoin d'une couche intermédiaire qui puisse dialoguer à la fois ent
 
 Voilà, maintenant que vous avez la _big picture_ d'une transaction client-serveur, passons à la pratique.
 
-## Création du formulaire
+## Frontend : création du formulaire
 
 Quand on fait un formulaire, on pose des questions. Un peu comme une interview. Alors imagine que tu interviewes une star. Prenons par exemple [Jeanne Maes](https://www.youtube.com/watch?v=RvYAnsH0gEA). Nous pourrions lui poser ces questions: "comment t'appelles-tu ?", "Quel âge as-tu ?", Préfères-tu Plastic Bertrand ou Charles Aznavour ? Racontez-nous votre vie.
 
@@ -80,7 +80,7 @@ Array
 
 Bien. C'est tout ce que tu dois comprendre pour ce qui concerne le frontend. Le reste de ton travail du côté client consiste à améliorer le look et l'ergonomie de ton formulaire via du CSS et du Javascript.
 
-## Traitement du formulaire
+## Backend : traitement du formulaire
 
 Du côté serveur, par contre, il faut faire attention de ne pas exposer le système aux erreurs et aux tentatives de hacking.
 
@@ -124,6 +124,8 @@ $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 // 2. Validation
 if (true === filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "Cette adresse email nettoyée est considérée comme valide.";
+} else {
+	echo "Cette adresse email nettoyée n'est pas valide. Désolé. xoxo";
 }
 ```
 
@@ -159,6 +161,8 @@ if (count($errors)> 0){
 // Si on arrive ici, c'est que tout va bien, on peut enregistrer
 $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '');
 //...
+
+// 4. Afficher l'interface de réponse.
 ```
 
 
