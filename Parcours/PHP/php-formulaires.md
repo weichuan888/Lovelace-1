@@ -77,6 +77,9 @@ Array
     [age] => 18
 )
 ```
+Donc, si la methode utilisée est "post", les données sont disponibles dans la variable superglobale `$_POST`. 
+
+Du coup, peux-tu deviner comment s'appelle la superglobale contenant les données si la méthode utilisée est "get" ?
 
 Bien. C'est tout ce que tu dois comprendre pour ce qui concerne le frontend. Le reste de ton travail du côté client consiste à améliorer le look et l'ergonomie de ton formulaire via du CSS et du Javascript.
 
