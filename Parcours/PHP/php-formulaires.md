@@ -1,8 +1,8 @@
 # Parcours backend : traitement d'un formulaire
 
-Le "backend" désigne la famille d'outils de gestion de contenus tournant sur un serveur. Il existe une infinité de types de projets backend: CMS, CRM, Bug trackers... 
+Un "backend" est un outil de gestion de contenus tournant sur un serveur. Il existe une infinité de types de projets backend: CMS, CRM, Bug trackers... 
 
-Dans cette diversité, il y a une récurrence : ces contenus doivent pouvoir être créés, modifiés, effacés, et bien sûr, lus par les utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
+Dans cette diversité, il y a une récurrence : ce contenu doit pouvoir être créé, modifié, effacé, et bien sûr, lu par les différents utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
 
 Pour le C et le U, on a besoin de proposer au client (le navigateur, donc au "frontend") une interface d'ajout ou d'édition.  Sur le web, qui dit interface, dit html. Bienvenue dans le petit monde joyeux des Formulaires et de la balise `<form>`. 
 
@@ -47,7 +47,7 @@ Ici, on s'attend à recevoir un texte potentiellement très long.
 Quel(s) input correspond(ent) à cela ?
 
 ### Choisir les bons noms de variables
-Quelque soit l' input choisi, l'attribut permettant de fixer le nom de la variable qui sera envoyée au serveur est l'attribut `name`.
+Quelque soit l' input choisi, l'attribut permettant de fixer le nom de la variable qui sera envoyée au serveur est l'attribut `name`, et la valeur sera spécifiée dans l'attribut `value` (sauf pour le `textarea`).
 
 ```html
 <textarea name="biography">Je suis née en ...</textarea>
@@ -58,11 +58,11 @@ Quelque soit l' input choisi, l'attribut permettant de fixer le nom de la variab
 Lorsque le formulaire est soumis par l'utilisateur, les données du formulaire sont envoyées au script indiqué dans l'attribut `action`:
 
 ```php
-<form method="post" action="form.php">
+<form method="post" action="formulaire.php">
 ```
-(La requête est en fait envoyée à http://nomdedomaine.tld/form.php.)
+(Note que la requête est en fait envoyée par le navigateur à http://nomdedomaine.tld/chemin/vers/le/formulaire.php.)
 
-Ces données sont accessibles au script php via une variable globale correspondant à la methode (attribut `method`) du formulaire.
+Ces données sont accessibles au script `formulaire.php` via une variable globale correspondant à l'attribut `method` du formulaire: soit `GET` soit `POST`.
 
 ```php
 // En PHP, la commande
@@ -78,13 +78,13 @@ Array
 )
 ```
 
-Bien. C'est tout ce que tu dois comprendre pour ce qui concerne le backend. Le reste de ton travail du côté client consiste à améliorer le look et l'ergonomie de ton formulaire, via du CSS et du Javascript.
+Bien. C'est tout ce que tu dois comprendre pour ce qui concerne le frontend. Le reste de ton travail du côté client consiste à améliorer le look et l'ergonomie de ton formulaire via du CSS et du Javascript.
 
 ## Traitement du formulaire
 
-Du côté serveur, par contre, il va falloir faire attention de ne pas exposer le système aux erreurs et aux tentatives de hacking.
+Du côté serveur, par contre, il faut faire attention de ne pas exposer le système aux erreurs et aux tentatives de hacking.
 
-C'est pour cela que le traitement d'un input externe (par exemple via un formulaire html) doit TOUJOURS passer par ces étapes, et dans cet ordre.
+C'est pour cela que le traitement d'un input externe (par exemple via un formulaire html) doit **toujours** passer par ces étapes, et dans cet ordre :
 
 1. Sanitiser
 2. Valider
@@ -102,7 +102,9 @@ Exemple de sanitisation en PHP :
 // 1. Sanitisation
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 ```
-Ici, `$email` contient une version nettoyée de ce qui a été envoyé dans le formulaire. Donc si par exemple, dans l'input, l'utilisateur a mis `>>>jeanne@maes.fr%dùf` (genre que son chat a marché sur le clavier à ce moment-là),
+Ici, `$email` contient une version nettoyée de ce qui a été envoyé dans le formulaire. Donc si par exemple, dans l'input, l'utilisateur a mis `>>>jeanne@maes.fr%dùf` (genre que son chat a marché sur le clavier à ce moment-là), la fonction retournera `jeanne@maes.fr%df`. 
+
+Nettoyée... de codes dangereux, ce qui ne veut pas dire que cela soit une adresse email valide ;-). 
 
 (Voir la doc: [filter_var](http://php.net/manual/fr/filter.filters.sanitize.php))
 
@@ -168,3 +170,6 @@ Par exemple: retourner du html affichant message de confirmation ou message d'er
 
 
 Voilà, j'espère que ce petit parcours vous aide à comprendre comment réaliser une interaction client-serveur via php et les concepts de sanitisation et de validation des données.
+
+## Questions? 
+--> Alexandre.
