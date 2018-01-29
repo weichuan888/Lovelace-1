@@ -145,7 +145,7 @@ ______________
 **À livrer**
 
 * un prototype interactif (en html/css/js) d'un site multipages, conçu selon l’approche "mobile first" et utilisant un framework css au choix.
-* le contenu est statique ( = ne vient pas d'une base de données)
+* le contenu est statique ( = ne vient pas d'une base de données) et contient au minimum 3 pages + 1 page avec un formulaire (par exemple un formulaire de contact)
 * Si MVC, réalisation de ce site statique à l'aide de HTML, CSS, JS + PHP include() et architecture MVC (sans le M).
 * Si SPA, penser à la sémantique (lire sur les [Fragments](https://blog.jmes.tech/react-fragment-and-semantic-html/)), bien séparer les components (1 composant  = 1 molécule en Atomic Design ([lire ceci](http://bradfrost.com/blog/post/atomic-web-design/)) )
 * chaque page du site doit obtenir le meilleur score possible au lighthouse test (si React, lire [ceci](https://medium.com/a-man-with-no-server/create-a-progressive-web-app-with-react-792ed8c69bc7) et pour l’accessibilité, lire [ceci](https://reactjs.org/docs/accessibility.html) )
