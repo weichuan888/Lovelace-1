@@ -3,6 +3,10 @@
 Ce repo est pour tout ce qui concerne ton activité à BeCode : briefings, parcours, etc.
 Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises à jour.
 
+## Pipeline des projets
+Pour connaitre les deadlines et Events à venir.
+https://github.com/becodeorg/Lovelace-promo-2/projects/1
+Pour le day-to-day, utilise plutôt l'agenda ([html](https://calendar.google.com/calendar/embed?src=becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com&ctz=Europe/Brussels) ou  [iCal](https://calendar.google.com/calendar/ical/becode.org_polsjrmae5rtbr6u4i2jvgih90%40group.calendar.google.com/public/basic.ics))
 ## Tes sources d'information pour respecter les règles de BeCode
 
 1. Lis le [contrat pédagogique](../../../BeCode/blob/master/contratpedagogique.md). 
@@ -21,8 +25,8 @@ Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises 
 |---|---|
 | Educational Break (Swartz/Hamilton) | Friday 8/12/2017 | 
 | Christmas Holidays | From Monday 25/12/2017 to Friday 05/01/2018 | 
-| Eastern | Monday 02/04/2018 | 
-| Internship (Lovelace/Cycorp) | End of April 2018 | 
+| Easter | Monday 02/04/2018 | 
+| Internship (Lovelace/Cycorp) | 23 April 2018 | 
 | Labour Day | Tuesday 01/05/2018 | 
 | Ascension | Thursday 10/05/2018 | 
 | Pentecost Monday | Monday 21/05/2018 | 
@@ -44,11 +48,8 @@ Voici les liens vers les briefings, dans l'ordre chronologique par lequel ils te
 5. POO en PHP [parcours](./Parcours/PHP-POO)
 6. NodeJs [nodejs](./Parcours/NodeJs)
 7. React [React](./Parcours/ReactJs)
-
-Coming soon...
-
 6. fullstack JS : meteor, redux, react native
-7. Learn what you want.
+7. LWYW (Learn what you want).
 
 ## Ressources 
 - [Grafikart](https://www.youtube.com/user/grafikarttv)
