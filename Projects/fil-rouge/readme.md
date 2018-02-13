@@ -178,17 +178,18 @@ ______________
 
 **Objectifs d'apprentissage**
 
-* réaliser un CMS de A à Z via MVC framework (pour voir le CRUD)
+* réaliser un CMS basique via MVC framework (minimum: un CRUD et l'authentification)
 * base de données
 * ajax
 
 **À livrer** 
 
-Permettre au client de mettre à jour lui-même son site par l'ajout d'un CMS "custom", développé sur mesure.
-
-* Prototype (low-fi) de l'interface d'administration du CMS
-* interface HTML/CSS/JS de l'administration du CMS, utilisant de l'ajax pour fluidifier l'expérience
-* Le CMS est codé via un framework MVC
+- Permettre au client de mettre à jour lui-même son site par l'ajout d'un CMS "custom", développé sur mesure.
+  - pouvoir se connecter et se déconnecter
+  - pouvoir ajouter, modifier et effacer du contenu du site "public"
+- Prototype (low-fi) de l'interface d'administration du CMS
+- interface HTML/CSS/JS de l'administration du CMS, si possible utilisant de l'ajax pour fluidifier l'expérience
+- Le CMS peut être codé via un framework MVC
 
 **Badges**
 
