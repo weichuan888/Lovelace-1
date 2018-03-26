@@ -1,28 +1,32 @@
 # Parcours backend : traitement d'un formulaire
 
-Un "backend" est un outil de gestion de contenus tournant sur un serveur. Il existe une infinité de types de projets backend: CMS, CRM, Bug trackers... 
+Le terme "backend" désigne la partie d'une application tournant sur un serveur. Cela sous-entend qu'il y a une autre partie,  "frontend", qui, elle, tourne sur l'autre ordinateur, le client.  Là où le frontend rencontre des objectifs d'affichage et d'expérience utilisateur, le backend va se préoccuper des données en elles-même et de servir le frontend ce dont il a besoin.  
 
-Dans cette diversité, il y a une récurrence : ce contenu doit pouvoir être créé, modifié, effacé, et bien sûr, lu par les différents utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
+## CRUD
+Il existe une infinité de types de projets possédant un backend: CMS, CRM, Bug trackers...  Dans cette diversité, il y a une récurrence : ce contenu doit pouvoir être créé, modifié, effacé, et bien sûr, lu par les différents utilisateurs du système. C'est ce qu'on appelle le **CRUD** : **C**reate, **R**ead, **U**pdate, **D**elete. 
 
 Pour le C et le U, on a besoin de proposer au client (le navigateur, donc au "frontend") une interface d'ajout ou d'édition.  Sur le web, qui dit interface, dit html. Bienvenue dans le petit monde joyeux des Formulaires et de la balise `<form>`. 
 
+Cet article explique ce qu'il vous faut pour mettre en place une interaction client-serveur minimale mais complète au niveau du "backend".
+
 ![](./assets/form.png)
 
-Ce petit parcours vous propose d'apprendre à mettre en place une première interaction client-serveur minimale mais complète.
+## Transaction client-serveur
 
-Au fond, on pourrait voir cela comme une **conversation** entre un humain et une machine. L'humain dit à la machine *"ajoute ce contenu dans la base de données"*, ou  *"modifie ce contenu puis remets-le à sa place dans la base de données"*, *"efface ce contenu de la base de données"*. 
+On pourrait voir ces échanges comme une **conversation** entre un client et un serveur. Dans la vraie vie, le client dit au serveur *"donne moi un jus d'orange"* et le serveur lui apporte.  
+En informatique, il va plus souvent s'agir de *"ajoute ce contenu dans le frigo (la base de données)"*, ou  *"modifie ce contenu puis remets-le à sa place dans le frigo"*, *"retire ce contenu de la base de données"*.  
 
 ![](./assets/step2-wrong.png)
 
-Sauf que... le frontend ne peut pas directement interagir avec le serveur mysql (c'est juste pas possible, c'est comme cela). 
+Sauf que... le frontend ne peut pas directement interagir avec un serveur mysql (c'est juste pas possible, c'est comme cela). 
 
 ![](./assets/step2.png)
 
-On a donc besoin d'une couche intermédiaire qui puisse dialoguer à la fois entre le code "frontend" (html) et le serveur de base de données, (en anglais: un *middleware*) :  tel que PHP, RubyOnRails, Java, ou même javascript (via nodejs).
+On a donc besoin d'une couche intermédiaire  (un *middleware*) qui puisse dialoguer à la fois avec le code "frontend" (html) et le serveur de base de données. Par exemples, PHP, RubyOnRails, Java, ou même javascript (via nodejs) peuvent tout à fait remplir ce rôle de *middleware*.  De par ce rôle d'intermédiaire, on comprend qu'il doive protéger les sacro-saintes données de votre application.
 
 ![](./assets/step3.png)
 
-Voilà, maintenant que vous avez la _big picture_ d'une transaction client-serveur, passons à la pratique.
+Maintenant que vous avez la _big picture_ d'une transaction client-serveur, passons à la pratique.
 
 ## Frontend : création du formulaire
 
