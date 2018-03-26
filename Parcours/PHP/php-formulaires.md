@@ -1,4 +1,4 @@
-# Parcours backend : traitement d'un formulaire
+# Backend : traitement d'un formulaire
 
 Le terme "backend" désigne la partie d'une application tournant sur un serveur. Cela sous-entend qu'il y a une autre partie,  "frontend", qui, elle, tourne sur l'autre ordinateur, le client.  Là où le frontend rencontre des objectifs d'affichage et d'expérience utilisateur, le backend va se préoccuper des données en elles-même et de servir le frontend ce dont il a besoin.  
 
