@@ -10,6 +10,7 @@
 6. [Tableaux (array)](php-array.md)
 7. [Boucles](php-boucles.md)
 8. [Fonctions](php-fonctions.md)
+9. [Traitement d'un formulaire en PHP](php-formulaires.md)
 
 ## Exercices complémentaires
 
