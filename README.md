@@ -1,4 +1,4 @@
-# startup Ada Lovelace 2
+# startup Ada Lovelace 1
 
 Ce repo est pour tout ce qui concerne ton activité à BeCode : briefings, parcours, etc.
 Clone-le sur ton ordi et `git pull` régulièrement afin de rapatrier les mises à jour.
